@@ -13,6 +13,4 @@ staff_role: "Associate Director"
 sort_name: johnston
 ---
 
-Jesse A. Johnston, Ph.D., is Secretary of the Board of Directors and serves as the NRPF's Executive Director. 
-
-As the Executive Director, Johnston is responsible for managing the NRPF programs and day-to-day operations. 
+Jesse A. Johnston, Ph.D., is Associate Director of the NRPF. Johnston is responsible for managing the NRPF programs and day-to-day operations. 
