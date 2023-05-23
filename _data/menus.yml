@@ -1,0 +1,24 @@
+main:
+#  - name: "Resources"
+#    url: "/resources/"
+#    weight: 4
+  - name: "Our Work"
+    url: "/our-work/"
+    weight: 4
+  - name: "Board"
+    url: "/board/"
+    weight: 3
+  - name: "About"
+    url: "/about/"
+    weight: 2
+  - name: "News"
+    url: "/news/"
+    weight: 5
+
+footer:
+  - name: "Home"
+    url: "/"
+    weight: 1
+  - name: "Contact"
+    url: "/contact/"
+    weight: 2

@@ -1,0 +1,104 @@
+.intro {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  overflow: hidden;
+  @include media-breakpoint-up(md) {
+    padding-top: 140px;
+    padding-bottom: 40px;
+  }
+  h1 {
+    color: $black;
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 1.2;
+    @include media-breakpoint-up(md) {
+      width: 80%;
+      font-size: 48px;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 50px;
+    }
+  }
+  h2 {
+    width: 80%;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin-bottom: 30px;
+    color: $black;
+    font-family: $font-family-base;
+  }
+  p {
+    font-size: 1.2rem;
+    font-weight: light;
+    line-height: 1.5;
+    color: $steel;
+    @include media-breakpoint-up(md) {
+      width: 80%;
+    }
+  }
+}
+
+.intro-hero {
+  padding-top: none;
+  padding-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: flex;
+  .container {
+    max-width: 100%;
+    padding: 0;
+  }
+  .hero-overlay {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin: 0;
+    padding: 60px 0 120px 0;
+    clear: both;
+    .wrapper {
+      @media (min-width: 576px) {
+        max-width: 566px;
+      }
+      @media (min-width: 768px) {
+        max-width: 740px;
+      }
+      @media (min-width: 992px) {
+        max-width: 960px;
+      }
+      @media (min-width: 1300px) {
+        max-width: 1140px;
+      }
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      padding-left: 15px;
+      padding-right: 15px;
+      h1#page-title {
+        color: $white;
+        text-shadow: 1px 1px 4px rbba(0,0,0,0.5);
+        font-weight: bold;
+        font-size: 42px;
+      }
+      p.page-teaser {
+        color: $white;
+      }
+      p {
+        color: $white;
+        a {
+          color: $white;
+        }
+      }
+    }
+  }  
+}
+
+.intro-small {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Audio History",
+    "description": "Amplifying our diverse and multi-faceted national history through audio heritage.",
+    "image": {
+      "url": "images/features/noun_branding_1885335.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Digitization Resources",
+    "description": "Information and planning resources for audio digitization projects.",
+    "image": {
+      "url": "images/features/noun_The Process_1885341.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Community Catalyst",
+    "description": "We aim to connect and share information across the audio preservation community.",
+    "image": {
+      "url": "images/features/noun_3d modeling_1885342.svg",
+      "width": 80,
+      "height": 80
+    }
+  }
+]

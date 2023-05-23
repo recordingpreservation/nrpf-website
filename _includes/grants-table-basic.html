@@ -1,0 +1,23 @@
+<!-- basic grants table -->
+<div class="table">
+  <table>
+    <thead>
+      <tr>
+        <th>Year</th>
+        <th>Recipient</th>
+        <th>Amount</th>
+        <th>Location</th>
+        <th>Title</th>
+      </tr>
+    </thead>
+    {% for grant in grants %}
+    <tr>
+      <td>{{ grant.Award_Year }}</td>
+      <td>{{ grant.Recipient }}</td>
+      <td>{{ grant.Amount }}</td>
+      <td>{{ grant.City}}, {{ grant.State }}</td>
+      <td>{% if grant.Description %}{{ grant.Description }}{% endif %}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</div>

@@ -1,0 +1,189 @@
+[
+  {
+    "Award_Year": "2016",
+    "Amount": "$25,000.00",
+    "Recipient": "Library of Congress",
+    "Description": "Preserving the history of US public broadcasting",
+    "City": "Washington",
+    "State": "DC",
+    "Type": "grant",
+    "Activity": "networking and coordination",
+    "Output": "conference"
+  },
+  {
+    "Award_Year": "2016",
+    "Amount": "$25,000.00",
+    "Recipient": "University of North Carolina",
+    "Description": "Preserving the field recordings of Mike Seeger",
+    "City": "Chapel Hill",
+    "State": "NC",
+    "Type": "grant",
+    "Activity": "preserve - digitize",
+    "Output": null
+  },
+  {
+    "Award_Year": "2016",
+    "Amount": "$25,000.00",
+    "Recipient": "Indiana University ",
+    "Description": "Preserving <em>Orson Welles on the Air</em>",
+    "City": "Bloomington",
+    "State": "IN",
+    "Type": "grant",
+    "Activity": "preserve - digitize",
+    "Output": null
+  },
+  {
+    "Award_Year": "2018",
+    "Amount": "$15,000.00",
+    "Recipient": "WYSO Radio",
+    "Description": "Survey of recording archives at Historically Black Colleges and Universities",
+    "City": "Yellow Springs",
+    "State": "OH",
+    "Type": "grant",
+    "Activity": "report",
+    "Output": "report"
+  },
+  {
+    "Award_Year": "2018",
+    "Amount": "$15,000.00",
+    "Recipient": "Arhoolie Foundation",
+    "Description": "Digitizing the Harry Oster Collection field recordings",
+    "City": "El Cerrito",
+    "State": "CA",
+    "Type": "grant",
+    "Activity": "preserve - digitize",
+    "Output": null
+  },
+  {
+    "Award_Year": "2018",
+    "Amount": "$10,000.00",
+    "Recipient": "New York Public Radio",
+    "Description": "Digitizing WNYC's <em>On the Media</em>",
+    "City": "New York",
+    "State": "NY",
+    "Type": "grant",
+    "Activity": "preserve - digitize",
+    "Output": null
+  },
+  {
+    "Award_Year": "2018",
+    "Amount": "$10,000.00",
+    "Recipient": "Other Minds",
+    "Description": "Digitizing the <em>Composer to Composer</em> recordings",
+    "City": "San Francisco",
+    "State": "CA",
+    "Type": "grant",
+    "Activity": "preserve - digitize",
+    "Output": null
+  },
+  {
+    "Award_Year": "2019",
+    "Amount": "$10,000.00",
+    "Recipient": "University of Texas at Austin - KUT Radio",
+    "Description": "Digitizing KUT Radio collections",
+    "City": "Austin",
+    "State": "TX",
+    "Type": "grant",
+    "Activity": "preserve - digitize",
+    "Output": null
+  },
+  {
+    "Award_Year": "2019",
+    "Amount": "$15,000.00",
+    "Recipient": "World Music Productions (Brooklyn NY)",
+    "Description": "Digitzing recordings of <em>Afropop</em>",
+    "City": "Brooklyn",
+    "State": "NY",
+    "Type": "grant",
+    "Activity": "preserve - digitize",
+    "Output": null
+  },
+  {
+    "Award_Year": "2019",
+    "Amount": "$10,000.00",
+    "Recipient": "National Public Radio",
+    "Description": "Digitizing ??? at NPR",
+    "City": "Washington",
+    "State": "DC",
+    "Type": "grant",
+    "Activity": "preserve - digitize",
+    "Output": null
+  },
+  {
+    "Award_Year": "2019",
+    "Amount": "$5,000.00",
+    "Recipient": "Atlanta Historical Society",
+    "Description": null,
+    "City": "Atlanta",
+    "State": "GA",
+    "Type": "grant",
+    "Activity": "preserve - digitize",
+    "Output": null
+  },
+  {
+    "Award_Year": "2019",
+    "Amount": "$10,000.00",
+    "Recipient": "East Tennesee State University Foundation",
+    "Description": null,
+    "City": "Johnson City",
+    "State": "TN",
+    "Type": "grant",
+    "Activity": "preserve - digitize",
+    "Output": null
+  },
+  {
+    "Award_Year": "2020",
+    "Amount": "$14,830.00",
+    "Recipient": "American Folk Art Museum",
+    "Description": null,
+    "City": "New York",
+    "State": "NY",
+    "Type": "grant",
+    "Activity": "preserve - digitize",
+    "Output": null
+  },
+  {
+    "Award_Year": "2020",
+    "Amount": "$14,999.00",
+    "Recipient": "Iowa State University Foundation",
+    "Description": null,
+    "City": "Ames",
+    "State": "IA",
+    "Type": "grant",
+    "Activity": "preserve - digitize",
+    "Output": null
+  },
+  {
+    "Award_Year": "2020",
+    "Amount": "$8,050.00",
+    "Recipient": "University of Alaska Fairbanks",
+    "Description": null,
+    "City": "Fairbanks",
+    "State": "AK",
+    "Type": "grant",
+    "Activity": "preserve - digitize",
+    "Output": null
+  },
+  {
+    "Award_Year": "2020",
+    "Amount": "$3,500.00",
+    "Recipient": "Museum of Russian Culture",
+    "Description": null,
+    "City": "San Francisco",
+    "State": "CA",
+    "Type": "grant",
+    "Activity": "preserve - digitize",
+    "Output": null
+  },
+  {
+    "Award_Year": "2021",
+    "Amount": "$8,653.00",
+    "Recipient": "Friends of Thomas Edison National Historical Park",
+    "Description": null,
+    "City": "West Orange",
+    "State": "NJ",
+    "Type": "grant",
+    "Activity": "preserve - analysis?",
+    "Output": null
+  }
+]

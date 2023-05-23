@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Edison Sound Recordings",
+    "description": "Listen to a selection of Edison recordings from the Thomas Edison National Historical Park archive in MP3 format, arranged by genre. The content of the recordings is mostly music, covering many different genres popular in the United States during Edison’s era.",
+    "link_url": "http://www.nps.gov/edis/photosmultimedia/the-recording-archives.htm/",
+    "image": {
+      "url": "",
+      "width": 80,
+      "height": 80
+    },
+    "posted_by": "William Levay",
+    "posted_date": "2013-11-13"
+  },
+  {
+    "title": "The Poetry Archive",
+    "description": "With the aim of making poetry accessible, relevant and enjoyable to a wide audience, the Poetry Archive preserves and restores historical recordings of English-language poets reading their work, and commissions new recordings of contemporary poets. Recordings in this digital collection can be browsed by author, title, theme, form and region.",
+    "link_url": "http://www.poetryarchive.org/",
+    "image": {
+      "url": "",
+      "width": 80,
+      "height": 80
+    },
+    "posted_by": "William Levay",
+    "posted_date": "2013-10-21"
+  },
+  {
+    "title": "The 78 Project",
+    "description": "The 78 Project is a documentary and recording journey inspired by Alan Lomax and his quest to capture music where it lived throughout the early 20th century. The project brings the spirit of his work into the present as breakthrough musicians are paired with the songs and the fascinating recording technology of the past. With just one microphone, one authentic 1930′s Presto direct-to-acetate disk recorder, and one blank lacquer disc, musicians are given one take to cut a record anywhere they choose.",
+    "link_url": "http://the78project.com/music/",
+    "image": {
+      "url": "",
+      "width": 80,
+      "height": 80
+    },
+    "posted_by": "William Levay",
+    "posted_date": "2013-10-14"
+  }
+]

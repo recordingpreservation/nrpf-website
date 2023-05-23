@@ -1,0 +1,27 @@
+---
+layout: default
+bodyClass: "page-press-release"
+---
+
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-start">
+        <div class="col-12 col-md-8">
+            <div class="service service-single">
+                <h1 class="title">{{page.title}}</h1>
+                <div class="item-summary item-summary-large">
+                  <div class="item-meta">
+                    <p>For immediate release</p>
+                    <p class="item-name">{{ page.date | date: "%B %e, %Y" }}</p>
+                    <p class="item-description">By {{ page.author }} | <a href="/contact/">Press Contact</a></p>
+                  </div>
+                </div>
+                <p>&nbsp;</p>
+                <div class="content">{{content}}</div>
+                <p>###</p>
+                {% include nrpf_press_boilerplate.html %}
+                <p>### End press release ###</p>
+                <h2 class="link"><a href="/news/">Return to NRPF News</a></h2>
+            </div>
+        </div>
+    </div>
+</div>

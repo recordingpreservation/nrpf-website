@@ -1,0 +1,43 @@
+---
+layout: default
+bodyClass: "page-teams"
+---
+
+<!--
+<div class="intro">
+    <div class="container">
+        <div class="row justify-content-start">
+            <div class="col-12 order-2 order-md-1">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<div class="container pt-6 pb-6">
+  <!-- General members -->
+  <h2><a name="staff"></a>{{ page.title }}</h2>
+  <p>{{ content }}</p>
+    <div class="row pt-6 pb-6">
+        {% assign teams = site.team | sort: "sort_name" %}
+        {% for team in teams %}
+        <div class="col-12">
+            <div class="team team-summary pb-6">
+                {% if team.image %}
+                <div class="team-image">
+                    <img width="60" height="60" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                </div>
+                {% endif %}
+                <div class="team-meta">
+                    <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
+                    {% if team.staff_role %}
+                    <p class="team-description">{{ team.staff_role }}</p>
+                    {% else %}
+                    <p class="team-description">{{ team.jobtitle }}</p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

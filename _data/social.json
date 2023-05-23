@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Twitter",
+    "link": "https://twitter.com/NRPFoundation",
+    "image": "images/social/twitter.svg"
+  },
+  {
+    "name": "Facebook",
+    "link": "https://www.facebook.com/nrpfoundation/",
+    "image": "images/social/facebook.svg"
+  }
+]

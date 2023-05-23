@@ -1,0 +1,108 @@
+---
+layout: default
+bodyClass: "page-services"
+---
+
+{% if page.intro_image %}
+<div class="intro">
+  <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+      </div>
+      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+        <img alt={{ page.intro_image_caption }} class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image_path | relative_url }}" />
+      </div>
+    </div>
+  </div>
+</div>
+{% elsif page.hero_image %}
+<div class="intro-hero">
+  <div class="container">
+    <div class="hero-overlay" style="background-image: linear-gradient(rgba(0, 0, 0, {{ page.hero_gradient }}), rgba(0, 0, 0, {{ page.hero_gradient }})), url('{{ page.hero_image_path | relative_url }}');">
+      <div class="wrapper justify-content-start">
+        <h1 id="page-title" class="page__title" itemprop="headline">{{ page.title }}</h1>
+        <p class="page-teaser">{{ page.hero_teaser }}</p>
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</div>
+{% else %}
+<div class="col-12">
+  <h1>{{ page.title }}</h1>
+  {{ content }}
+</div>
+{% endif %}
+
+<!-- blog section -->
+{% assign posts = site.posts | sort "date" | reverse | limit: 4 %}
+{% if posts %}
+<div class="container pt-6 pb-6">
+  <h2><a name="blog"></a>Recent Posts</h2>
+  <div class="row">
+    {% for post in posts %}
+    <div class="col-12 col-md-6 mb-3">
+      <div class="service service-summary">
+        <div class="service-content">
+          <h2 class="service-title">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h2>
+          <p>Posted {{ post.date | date: "%B %e, %Y" }} | By {{ post.author }}</p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <hr style="border: none; border-bottom: 1px solid #e9f7ff;" />
+</div>
+{% endif %}
+
+<!-- news type: "blog" section -->
+{% assign blogs = site.news | where: "type", "blog" | sort "date" | reverse | limit: 4 %}
+{% if blogs %}
+<div class="container pt-6 pb-6">
+  <h2><a name="features"></a>Recent Features</h2>
+  <div class="row">
+    {% for blog in blogs %}
+    <div class="col-12 col-md-6 mb-3">
+      <div class="service service-summary">
+        <div class="service-content">
+          <h2 class="service-title">
+            <a href="{{ blog.url | relative_url }}">{{ blog.title }}</a>
+          </h2>
+          <p>Posted {{ blog.date | date: "%B %e, %Y" }} | By {{ blog.author }}</p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <hr style="border: none; border-bottom: 1px solid #e9f7ff;" />
+</div>
+{% endif %}
+
+<!-- press release section -->
+{% assign news = site.news | where: "type", "press release" | sort "date" | reverse %}
+{% if news %}
+<div class="container">
+  <h2><a name="press-releases"></a>Press Releases</h2>
+  <div class="row">
+    {% for item in news %}
+    <div class="col-12">
+      <div class="service service-summary">
+        <div class="service-content">
+          <h2 class="service-title">
+            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          </h2>
+          <p>Published {{ item.date | date: "%B %e, %Y" }} | <a href="/contact/">Press contact</a></p>
+        </div>
+        <p>&nbsp;</p>
+      </div>
+      <hr style="border: none; border-bottom: 1px solid #e9f7ff;" />
+    </div>
+    {% endfor %}
+  </div>
+  <p>&nbsp;</p>
+</div>
+{% endif %}

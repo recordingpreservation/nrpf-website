@@ -1,0 +1,25 @@
+---
+layout: default
+bodyClass: "page-basic"
+---
+
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-start">
+        <div class="col-12 col-md-8">
+            <div class="post post-single">
+                <h1 class="title">{{ page.title }}</h1>
+                <div class="meta">
+                    <p>Posted {{ page.date | date: "%B %e, %Y"}} by {{ page.author }}</p>
+                    {% if page.categories %}
+                      {% if page.categories.length == 1 %}
+                      <p>Category: {% for category in page.categories %}{{ category }}&nbsp {% endfor %}</p>
+                      {% else %}
+                      <p class="FIXME">Categories: {% for category in page.categories %}{%- if forloop.length > 0 -%}{{ category }},&nbsp;{% unless forloop.last %}{{category}}.{% endunless -%}{%- endif -%}{% endfor %}</p>
+                      {% endif %}                    
+                    {% endif %}
+                </div>
+                <div class="content">{{ content }}</div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Thomas A. Sample",
+    "last_name": "Sample",
+    "abstract": "To connect the public to an enhanced understanding of history through sound and coordinate resources to ensure the preservation of audio heritage.",
+    "headshot": "/images/team/joseph-gonzalez-399972-unsplash.jpg",
+    "url": "https://google.com/",
+    "year": 2023,
+    "title": "The Importance of Preserving Audio Recordings",
+    "status": "current",
+    "lecture_id": "sample-2023"
+  },
+  {
+    "name": "Jean Robles",
+    "last_name": "Robles",
+    "abstract": "To accept, gather, and steward resources, financial and otherwise, to advance the preservation of recorded audio and to ensure access to the audio heritage of the United States.",
+    "headshot": "/images/team/sung-wang-g4DgCF90EM4-unsplash.jpg",
+    "year": 2021,
+    "title": "We Have So Much to Do!",
+    "status": "past",
+    "lecture_id": "robles-2021"
+  }
+]
