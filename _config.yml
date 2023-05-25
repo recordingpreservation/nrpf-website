@@ -29,6 +29,8 @@ collections:
   posts:
     output: true
     permalink: /posts/:year/:title
+  grants:
+    output: true
 
 defaults:
   - scope:
@@ -55,6 +57,11 @@ defaults:
       type: "news"
     values:
       layout: "news-item"
+  - scope:
+      path: ""
+      type: "grants"
+    values:
+      layout: "grant"
 
 sass:
   style: compressed # possible values: nested expanded compact compressed
