@@ -1,9 +1,9 @@
 ---
 title: "NRPF Grants"
 date: 2023-05-01
-weight: 3
+weight: 2
 teaser: "The NRPF has awarded over a quarter of a million dollars to support the digitization and stewardship of at-risk audio collections."
-permalink: /grants/
+permalink: /grants-test/
 layout: page
 bodyClass: page-about
 ---
@@ -15,6 +15,6 @@ the digital preservation of recorded sound history.
 
 ## Grants Awarded (since 2016)
 
-{% assign grants = site.data.nrpf_grants | sort: "Award_Year" %}
+{% assign grants = site.grants | sort: year | reverse %}
 
-{% include grants-table-basic.html %}
+{% include grants-table-fromcollex.html %}
