@@ -1,0 +1,23 @@
+<!-- basic grants table -->
+<div class="table">
+  <table>
+    <thead>
+      <tr>
+        <th>Year</th>
+        <th>Recipient</th>
+        <th>Amount</th>
+        <th>Location</th>
+        <th>Title</th>
+      </tr>
+    </thead>
+    {% for grant in grants %}
+    <tr>
+      <td>{{ grant.year }}</td>
+      <td><a href="/grants/{{ grant.slug }}/">{{ grant.recipient }}</a></td>
+      <td style="text-align: right;">{{ grant.amount }}</td>
+      <td>{{ grant.location }}</td>
+      <td>{% if grant.title %}{{ grant.title }}{% endif %}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</div>
