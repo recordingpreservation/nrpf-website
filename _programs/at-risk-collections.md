@@ -1,8 +1,8 @@
 ---
 title: "At Risk Audio Collections"
 date: 2023-05-01
-weight: 2
-published: true
+weight: 3
+published: false # change to true when grant RFPs are active
 teaser: "We provide grants to facilitate the digitization of small- and medium-sized at-risk audio collections."
 ---
 
