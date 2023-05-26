@@ -1,13 +1,11 @@
 ---
-title: "John I. Stockphoto"
+title: "Bill McDonald"
 date: 2018-11-19T10:47:58+10:00
-image: "images/team/peter-van-eijk-711986-unsplash.jpg"
-jobtitle: "Chair of the Board"
-linkedinurl: "https://www.linkedin.com/"
-promoted: true
-weight: 1
-role: board
-sort_name: stockphoto
+image: "images/team/nonsap-visuals-kMJp7620W6U-unsplash.jpg"
+jobtitle: "Graphic Designer"
+linkedinurl: ""
+weight: 7
+sort_name: "mcdonald"
 published: false
 ---
 
