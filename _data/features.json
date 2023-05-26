@@ -9,13 +9,14 @@
     }
   },
   {
-    "title": "Digitization Resources",
+    "title": "Preservation Resources",
     "description": "Information and planning resources for audio digitization projects.",
     "image": {
       "url": "images/features/noun_The Process_1885341.svg",
       "width": 80,
       "height": 80
-    }
+    },
+    "page_url": "resources"
   },
   {
     "title": "Community Catalyst",
