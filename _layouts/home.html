@@ -53,17 +53,17 @@ bodyClass: "page-home"
       </div>
       
       {% assign limit = site.home.limit_services | default: 6 %}
-      {% for service in site.programs limit: limit %}
+      {% for program in site.programs | limit: limit | sort: "weight" %}
       <div class="col-12 col-md-4 mb-1">
         <div class="service service-summary">
           <div class="service-content">
             <h2 class="service-title">
-              <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
+              <a href="{{ program.url | relative_url }}">{{ program.title }}</a>
             </h2>
-            {% if service.teaser %}
-            <p>{{ service.teaser }}</p>
+            {% if program.teaser %}
+            <p>{{ program.teaser }}</p>
             {% else %}
-            <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
+            <p>{{ program.content | markdownify | strip_html | truncate: 100 }}</p>
             {% endif %}
           </div>
         </div>
