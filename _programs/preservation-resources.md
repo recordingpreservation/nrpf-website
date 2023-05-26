@@ -1,7 +1,7 @@
 ---
 title: "Preservation Resources"
 date: 2023-05-01
-weight: 5
+weight: 8
 teaser: "Audiovisual media require special care and handling. NRPF does not directly preserve collections, but we can connect you to information that will help."
 permalink: "resources"
 ---
