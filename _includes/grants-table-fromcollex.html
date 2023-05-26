@@ -13,7 +13,7 @@
     {% for grant in grants %}
     <tr>
       <td>{{ grant.year }}</td>
-      <td><a href="/grants/{{ grant.slug }}/">{{ grant.recipient }}</a></td>
+      <td><a href="{{ grant.url }}">{{ grant.recipient }}</a></td>
       <td style="text-align: right;">{{ grant.amount }}</td>
       <td>{{ grant.location }}</td>
       <td>{% if grant.title %}{{ grant.title }}{% endif %}</td>
