@@ -33,7 +33,8 @@ bodyClass: "page-home"
           {% if feature.image %}
           <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
           {% endif %}
-          <h2 class="feature-title">{{ feature.title }}</h2>
+          {% if feature.page_url %}<h2 class="feature-title"><a href="{{ feature.page_url | relative_url }}">{{ feature.title }}</a></h2>
+          {% else %}<h2 class="feature-title">{{ feature.title }}</h2>{% endif %}
           <div class="feature-content">{{ feature.description }}</div>
         </div>
       </div>
