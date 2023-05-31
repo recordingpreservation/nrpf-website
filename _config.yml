@@ -28,7 +28,7 @@ collections:
     permalink: /news/:title
   posts:
     output: true
-    permalink: /posts/:year/:title
+    permalink: /features/:year/:title
   grants:
     output: true
 
