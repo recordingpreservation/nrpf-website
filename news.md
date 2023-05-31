@@ -13,4 +13,4 @@ hero_gradient: 0.2
 hero_teaser: #"Find out about our most recent activites"
 ---
 
-**Categories:**  [Recent Posts](#blog) - [Features](#features) - [Press Releases](#press-releases)
+**Categories:**  [Features](#features) - [Press Releases](#press-releases)

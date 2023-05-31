@@ -40,7 +40,7 @@ bodyClass: "page-services"
 {% assign posts = site.posts | sort "date" | reverse | limit: 4 %}
 {% if posts %}
 <div class="container pt-6 pb-6">
-  <h2><a name="blog"></a>Recent Posts</h2>
+  <h2><a name="features"></a>Recent Features</h2>
   <div class="row">
     {% for post in posts %}
     <div class="col-12 col-md-6 mb-3">
@@ -62,8 +62,9 @@ bodyClass: "page-services"
 <!-- news type: "blog" section -->
 {% assign blogs = site.news | where: "type", "blog" | sort "date" | reverse | limit: 4 %}
 {% if blogs %}
+<!-- don't display non-press-release news content
 <div class="container pt-6 pb-6">
-  <h2><a name="features"></a>Recent Features</h2>
+  <h2><a name="news"></a>Recent News</h2>
   <div class="row">
     {% for blog in blogs %}
     <div class="col-12 col-md-6 mb-3">
@@ -80,6 +81,7 @@ bodyClass: "page-services"
   </div>
   <hr style="border: none; border-bottom: 1px solid #e9f7ff;" />
 </div>
+-->
 {% endif %}
 
 <!-- press release section -->
