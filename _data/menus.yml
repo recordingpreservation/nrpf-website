@@ -5,8 +5,8 @@ main:
   - name: "Our Work"
     url: "/our-work/"
     weight: 4
-  - name: "Board"
-    url: "/board/"
+  - name: "People"
+    url: "/board-and-staff/"
     weight: 3
   - name: "About"
     url: "/about/"

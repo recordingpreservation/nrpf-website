@@ -2,7 +2,7 @@
 title: Board Members and Staff
 layout: board-staff
 description: NRPF Board and Staff
-permalink: "/board/"
+permalink: "/board-and-staff/"
 intro_image: false
 intro_image_absolute: true
 intro_image_hide_on_mobile: false
