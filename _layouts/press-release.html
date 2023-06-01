@@ -16,11 +16,13 @@ bodyClass: "page-press-release"
                   </div>
                 </div>
                 <p>&nbsp;</p>
-                <div class="content">{{content}}</div>
-                <p>###</p>
-                <h2>About the NRPF</h2>
-                {% include nrpf_press_boilerplate.html %}
-                <p>### End press release ###</p>
+                <div class="content">
+                  {{content}}
+                  <p>###</p>
+                  <h2>About the NRPF</h2>
+                  {% include nrpf_press_boilerplate.html %}
+                  <p>### End press release ###</p>
+                </div>
                 <h2 class="link"><a href="{{ "news" | relative_url }}">Return to NRPF News</a></h2>
             </div>
         </div>
