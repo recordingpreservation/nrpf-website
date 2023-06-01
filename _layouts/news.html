@@ -60,31 +60,6 @@ bodyClass: "page-services"
 </div>
 {% endif %}
 
-<!-- news type: "blog" section -->
-{% assign blogs = site.news | where: "type", "blog" | sort "date" | reverse | limit: 4 %}
-{% if blogs %}
-<!-- don't display non-press-release news content
-<div class="container pt-6 pb-6">
-  <h2><a name="news"></a>Recent News</h2>
-  <div class="row">
-    {% for blog in blogs %}
-    <div class="col-12 col-md-6 mb-3">
-      <div class="service service-summary">
-        <div class="service-content">
-          <h2 class="service-title">
-            <a href="{{ blog.url | relative_url }}">{{ blog.title }}</a>
-          </h2>
-          <p>Posted {{ blog.date | date: "%B %e, %Y" }} | By {{ blog.author }}</p>
-        </div>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-  <hr style="border: none; border-bottom: 1px solid #e9f7ff;" />
-</div>
--->
-{% endif %}
-
 <!-- press release section -->
 {% assign news = site.news | where: "type", "press release" | sort "date" | reverse %}
 {% if news %}
