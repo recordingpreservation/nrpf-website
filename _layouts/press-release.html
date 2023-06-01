@@ -12,15 +12,16 @@ bodyClass: "page-press-release"
                   <div class="item-meta">
                     <p>For immediate release</p>
                     <p class="item-name">{{ page.date | date: "%B %e, %Y" }}</p>
-                    <p class="item-description">By {{ page.author }} | <a href="/contact/">Press Contact</a></p>
+                    <p class="item-description">By {{ page.author }} | <a href="{{ "contact" | relative_url }}">Press Contact</a></p>
                   </div>
                 </div>
                 <p>&nbsp;</p>
                 <div class="content">{{content}}</div>
                 <p>###</p>
+                <h2>About the NRPF</h2>
                 {% include nrpf_press_boilerplate.html %}
                 <p>### End press release ###</p>
-                <h2 class="link"><a href="/news/">Return to NRPF News</a></h2>
+                <h2 class="link"><a href="{{ "news" | relative_url }}">Return to NRPF News</a></h2>
             </div>
         </div>
     </div>
