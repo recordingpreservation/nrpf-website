@@ -1,9 +1,9 @@
 ---
-title: NRPF Blog
+title: NRPF Features
 layout: posts
-description: NRPF Blog
+description: NRPF Features
 ---
 
-# NRPF Blog
+# NRPF Features
 
-News and views from the NRPF.
+Views from the NRPF, a blog
