@@ -7,6 +7,7 @@ weight: 2
 role: board
 staff: true
 staff_role: "Executive Director"
+short_bio: "Executive Director"
 sort_name: seligman
 ---
 
