@@ -1,12 +1,13 @@
 [
   {
-    "title": "Audio History",
-    "description": "Amplifying our diverse and multi-faceted national history through audio heritage.",
+    "title": "Audio Heritage",
+    "description": "Did you know analog audio media is endangered? NRPF works to preserve our audio history and amplify diverse stories.",
     "image": {
       "url": "images/features/noun_branding_1885335.svg",
       "width": 80,
       "height": 80
-    }
+    },
+    "page_url": "{{ "programs/reports-data-gathering" | relative_url }}"
   },
   {
     "title": "Preservation Resources",
@@ -20,7 +21,7 @@
   },
   {
     "title": "Community Catalyst",
-    "description": "We aim to connect and share information across the audio preservation community.",
+    "description": "We connect and share information between funders, policymakers, and the audio preservation community.",
     "image": {
       "url": "images/features/noun_The Process_1885341.svg",
       "width": 80,
