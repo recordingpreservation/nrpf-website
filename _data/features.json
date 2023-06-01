@@ -7,7 +7,7 @@
       "width": 80,
       "height": 80
     },
-    "page_url": "{{ "programs/reports-data-gathering" | relative_url }}"
+    "page_url": "reports-and-data"
   },
   {
     "title": "Preservation Resources",
