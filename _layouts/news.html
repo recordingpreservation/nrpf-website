@@ -37,7 +37,7 @@ bodyClass: "page-services"
 {% endif %}
 
 <!-- blog section -->
-{% assign posts = site.posts | sort "date" | reverse | limit: 4 %}
+{% assign posts = site.posts | sort "date" | reverse %}
 {% if posts %}
 <div class="container pt-6 pb-6">
   <h2><a name="features"></a>Recent Features</h2>
@@ -55,6 +55,7 @@ bodyClass: "page-services"
     </div>
     {% endfor %}
   </div>
+  <h3><a href="{{ "posts" | relative_url }}">View All Features</a></h3>
   <hr style="border: none; border-bottom: 1px solid #e9f7ff;" />
 </div>
 {% endif %}
