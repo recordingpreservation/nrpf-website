@@ -22,7 +22,7 @@ bodyClass: "page-services"
           <h2 class="service-title">
             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
           </h2>
-          <p>{{ post.date | date: "%B %e, %Y" }} | posted by <a href="/people/{{ post.author | slugify }}">{{ post.author }}</a></p>
+          <p>{{ post.date | date: "%B %e, %Y" }} | posted by {% if post.author_link == true %}<a href="/people/{{ post.author | slugify }}">{{ post.author }}</a>{% else %}{{ post.author }}{% endif %}</p>
             {% if post.teaser %}
             <p>{{ post.teaser }}</p>
             {% else %}
