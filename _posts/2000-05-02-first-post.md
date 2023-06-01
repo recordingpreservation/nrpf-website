@@ -5,6 +5,7 @@ author: "Jesse Johnston"
 author_link: true
 categories:
   - preservation resources
+published: false
 ---
 
 This is a test blog post.
