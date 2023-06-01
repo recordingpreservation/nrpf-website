@@ -3,7 +3,7 @@ title: "What Is at Stake?"
 date: 2023-05-01
 permalink: /reports-and-data/
 weight: 1
-teaser: "Without action and dedicated resources, unique and irreplaceable audio heritage may be lost. We gather data and reports to inform audio preservation."
+teaser: "Without action and dedicated resources, unique and irreplaceable audio heritage may be lost. We gather data and reports to inform audio preservation policy."
 ---
 
 We aim to create data and provide background information to inform decision makers and collection stewards. 
