@@ -1,6 +1,6 @@
 ---
 layout: default
-bodyClass: "page-team"
+bodyClass: "page-teams"
 ---
 
 <div class="container pb-6 pt-6 pt-md-10 pb-md-10">
@@ -8,16 +8,23 @@ bodyClass: "page-team"
     <div class="col-12 col-md-8">
       <div class="team team-single">
         <h1 class="title">{{page.title}}</h1>
-        <div class="team-meta">
-          <p class="team-description">{{ page.jobtitle }}</p>
-        </div>
-        {% if page.image %}
-        <div class="page-teams team-summary-large team-image">
-            <img width="150" height="150" alt="{{ page.title }}" class="img-fluid mb-2" src="{{ page.image | relative_url }}" />
-        </div>
-        {% endif %}
 
-        <div class="content">{{content}}</div>
+        <div class="page-teams team-summary-large">
+          {% if page.image %}
+          <div class="team-image">
+            <img alt="{{ page.title }} image" class="img-fluid mb-2" style="float:left;" src="{{ page.image | relative_url }}" />
+          </div>
+          {% endif %}
+
+          <div class="team-meta">
+            <p class="team-description">{{ page.jobtitle }}</p>
+          </div>
+        </div>
+        <p>&nbsp;</p>
+
+        <div class="content">  
+          {{content}}
+        </div>
       </div>
     </div>
   </div>
