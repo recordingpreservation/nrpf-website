@@ -2,6 +2,7 @@
 title: "First blog post"
 date: 2000-05-02
 author: "Jesse Johnston"
+author_link: true
 categories:
   - preservation resources
 ---
