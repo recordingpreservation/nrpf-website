@@ -1,6 +1,9 @@
 baseurl: '/'
 permalink: pretty
 title: 'National Recording Preservation Foundation'
+url: 'https://www.recordingpreservation.org'
+repository: 'recordingpreservation/nrpf-website'
+
 
 logo:
   mobile: "images/logo/logo-mobile.png"
