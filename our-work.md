@@ -2,7 +2,7 @@
 title: Our Work
 layout: programs
 permalink: "/our-work/"
-description: Our Work
+description: The National Recording Preservation Foudnation works to support the preserevation of reocrded sound collections and raise awareness about the importance of preserving audio history.
 intro_image: false
 intro_image_path: "images/illustrations/afc-cylinder-storage-2017658687.jpeg"
 intro_image_absolute: true
