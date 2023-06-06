@@ -1,8 +1,8 @@
-baseurl: "/"
-permalink: pretty
 title: National Recording Preservation Foundation
-url: "https://www.recordingpreservation.org"
-repository: "recordingpreservation/nrpf-website"
+url: 'https://www.recordingpreservation.org'
+baseurl: '/'
+repository: 'recordingpreservation/nrpf-website'
+permalink: pretty
 
 
 logo:
