@@ -1,5 +1,5 @@
 ---
-title: "Digitizing KUT Radio collections"
+title: "Digitizing KUT Radio Collections"
 collection: grants
 amount: "$10,000.00"
 year: 2019
