@@ -28,7 +28,7 @@ collections:
     sort_by: weight
   news:
     output: true
-    permalink: /news/:title
+    permalink: /news/:year/:title
   posts:
     output: true
     permalink: /features/:year/:title
