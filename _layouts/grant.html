@@ -4,11 +4,13 @@ bodyClass: "page-basic"
 ---
 
 <div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+
+    <h1 class="title">&ldquo;{{ page.title }}&rdquo;</h1>
+    <h2 class="recipient">{{ page.recipient }} ({{ page.year }})</h2>
+
     <div class="row justify-content-start">
         <div class="col-12 col-md-8">
             <div class="service service-single">
-                <h1 class="title">&ldquo;{{ page.title }}&rdquo;</h1>
-                <h2 class="recipient">{{ page.recipient }} ({{ page.year }})</h2>
                 <div class="content">
                     <h2>Summary</h2>
                     <p class="award-statement">An award in the amount of <strong>{{ page.amount }} to {{ page.recipient }} in {{ page.year }}</strong>.</p>
@@ -23,5 +25,6 @@ bodyClass: "page-basic"
                 </div>
             </div>
         </div>
+
     </div>
 </div>
