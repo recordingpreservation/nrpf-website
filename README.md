@@ -33,4 +33,5 @@ For example the site https://zerostaticthemes.github.io/jekyll-serif-theme would
 - Beautiful royalty free Illustrations by Icons8 - https://icons8.com/illustrations/style--pixeltrue
 - Stock images by Unsplash - https://unsplash.com/
 - Feature icons by Noun Project - https://thenounproject.com/
+- Audio by Flatart from <a href="https://thenounproject.com/browse/icons/term/audio/" target="_blank" title="Audio Icons">Noun Project</a>
 - Zerostatic Themes - https://zerostatic.io/themes
