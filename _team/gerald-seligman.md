@@ -9,6 +9,7 @@ staff: true
 staff_role: "Executive Director"
 short_bio: "Executive Director"
 sort_name: seligman
+updated: 2023-05-15
 ---
 
 Gerald Seligman is Secretary of the Board of Directors and serves as the NRPF's Executive Director. As the Executive Director, Seligman is responsible for managing the NRPF programs and day-to-day operations. 
