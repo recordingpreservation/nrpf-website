@@ -23,7 +23,11 @@ bodyClass: "page-teams"
         <p>&nbsp;</p>
 
         <div class="content">  
-          {{content}}
+          {{ content }}
+
+          {% if page.linkedinurl %}
+          <p>LinkedIn Profile: <a href="{{ page.linkedinurl }}" name="{{ page.title }} profile on LinkedIn">{{ page.linkedinurl }}</a></p>
+          {% endif %}
         </div>
       </div>
     </div>
