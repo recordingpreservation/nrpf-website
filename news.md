@@ -10,7 +10,6 @@ intro_image_caption: "Detail of an 1894 postcard depicting an early, hand-cranke
 hero_image: true
 hero_image_path: "images/illustrations/gramophone-detail-12040507v.jpeg"
 hero_gradient: 0.2
-hero_teaser: #"Find out about our most recent activites"
+hero_teaser: "**Categories:**  [Features](#features) - [Press Releases](#press-releases)"
 ---
 
-**Categories:**  [Features](#features) - [Press Releases](#press-releases)
