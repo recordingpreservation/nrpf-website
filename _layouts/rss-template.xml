@@ -1,13 +1,10 @@
----
-layout: none
----
-
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ site.title }}</title>
     <link>{{ site.url }}</link>
     <description>Information and updates about the National Recording Preservation Foundation.</description>
     <language>en-us</language>
+    <atom:link href="{{ site.url }}{{ page.url }}" rel="self" type="application/rss+xml" />
 
     <!-- items -->
     {% for post in site.posts | limit: 10 %}
