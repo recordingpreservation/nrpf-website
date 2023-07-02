@@ -1,0 +1,23 @@
+---
+layout: none
+---
+
+<rss version="2.0">
+  <channel>
+    <title>{{ site.title }}</title>
+    <link>{{ site.url }}</link>
+    <description>Information and updates about the National Recording Preservation Foundation.</description>
+    <language>en-us</language>
+
+    <!-- items -->
+    {% for post in site.posts | limit: 10 %}
+    <item>
+      <title>{{ post.title }}</title>
+      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+      <link>{{ site.url }}{{ post.url }}</link>{% if post.description %}
+      <description>{{ post.description }}</description>{% endif %}
+      <author>{{ site.data.contact.email }}</author>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>
