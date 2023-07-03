@@ -11,5 +11,6 @@ hero_image: true
 hero_image_path: "images/illustrations/gramophone-detail-12040507v.jpeg"
 hero_gradient: 0.2
 hero_teaser: "**Categories:**  [Features](#features) - [Press Releases](#press-releases)"
+image: "images/illustrations/gramophone-detail-12040507v.jpeg"
 ---
 
