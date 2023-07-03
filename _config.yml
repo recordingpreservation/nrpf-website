@@ -4,6 +4,8 @@ baseurl: '/'
 repository: 'recordingpreservation/nrpf-website'
 permalink: pretty
 
+analytics:
+  google-gtag: 'G-MJB1L77T8N'
 
 logo:
   mobile: "images/logo/logo-mobile.png"
