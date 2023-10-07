@@ -21,7 +21,7 @@ Czeslaw Milosz, Barbara Ehrenreich, Arthur Miller – and so many more.”
 timely lectures from the Iowa State Lecture Series. Established in 1958 many of the original
 ISU Lectures speak to the issues our country is grappling with today, namely politics, science,
 race, gender, and sexuality,” says Rosie Rowe, AV and Film Preservation Specialist at the
-University. 
+University.
 
 Adds Daniel Hartwig, Head of Iowa State's Special Collections & University Archives, “Our goal
 for the project is stimulate awareness and discourse, as well as center and magnify these
