@@ -10,8 +10,8 @@ bodyClass: page-about
 
 The Foundation awards grants to digitally preserve at-risk audio collections
 in order to advance our mandate to preserve recorded sound heritage. Since 2016,
-the Foundation has distributed over a quarter of a million dollars to support
-the digital preservation of recorded sound history.
+the Foundation has distributed over a quarter of a million dollars to promote and preserve
+recorded sound history.
 
 ## Grants Awarded (since 2016)
 
