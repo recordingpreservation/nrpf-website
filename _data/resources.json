@@ -1,0 +1,33 @@
+[
+  // list of links and resources from the old wordpress site (c 2013/14?), gathered from internet archive
+ {
+    "category": "blogs-podcasts",
+    "title": "ARSC Blog",
+    "url": "http://arsc-audio.org/blog/",
+    "description": false,
+    "host_org": "ARSC",
+    "updated": "2016-05-29"
+  },
+  {
+    "category": "blogs-podcasts",
+    "title": "Echoes of History podcast",
+    "url": "http://www.arsc-audio.org/resources/echoes-of-history.html",
+    "description": "ritten and hosted by Anthony Wellman—a longtime student of the history of recorded sound and member of ARSC—each episode of &ldquo;Echoes of History&rdquo; uses authentic, period recordings that help us witness times past like nothing else can.",
+    "updated": "2016-05-29"
+  },
+  {
+    "category": "blogs-podcasts",
+    "title": "Inside the National Recording Registry",
+    "url": "http://www.studio360.org/series/inside-national-recording-registry/",
+    "description": "Each year, the National Recording Registry at the Library of Congress chooses 25 recordings to be preserved for all time. Inside the National Recording Registry, produced by Ben Manilla Productions, highlights some of those selections.",
+    "host_org": "Studio 360",
+    "updated": "2016-05-29"
+  },
+  {
+    "category": "tools", 
+    "title": "Pop Up Archive",
+    "description": "Pop Up Archive is a lightweight web-based system that makes audio searchable. Journalists, oral history collections, and media organizations from around the world can use this platform to organize sound otherwise trapped on servers and hard drives so that it can be found and reused.",
+    "updated": "2016-05-29",
+    "publish": false,
+  }
+]  
