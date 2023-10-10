@@ -1,5 +1,5 @@
 [
-  // list of links and resources from the old wordpress site (c 2013/14?), gathered from internet archive
+ {"comment": "list of links and resources from the old wordpress site (c 2013/14?), gathered from internet archive"},
  {
     "category": "blogs-podcasts",
     "title": "ARSC Blog",
@@ -28,6 +28,6 @@
     "title": "Pop Up Archive",
     "description": "Pop Up Archive is a lightweight web-based system that makes audio searchable. Journalists, oral history collections, and media organizations from around the world can use this platform to organize sound otherwise trapped on servers and hard drives so that it can be found and reused.",
     "updated": "2016-05-29",
-    "publish": false,
+    "publish": false
   }
 ]  
