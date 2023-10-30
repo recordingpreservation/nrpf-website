@@ -12,7 +12,7 @@ layout: "press-release"
 
 The Recording Industry Association of America (RIAA) has made a generous contribution to the National Recording Preservation Foundation (NRPF), a project dedicated to helping to preserve recorded sound.
 
-“RIAA is pleased to contribute to the important work of the NRPF to protect and preserve sound recordings for future generations of music fans,” said David Hughes. RIAA’s Chief Technology Officer. “These recordings are etched in our history and have shaped our culture in profound ways. We are grateful to the NRPF and look forward to our continued partnership.”
+“RIAA is pleased to contribute to the important work of the NRPF to protect and preserve sound recordings for future generations of music fans,” said David Hughes, RIAA’s Chief Technology Officer. “These recordings are etched in our history and have shaped our culture in profound ways. We are grateful to the NRPF and look forward to our continued partnership.”
 
 The National Recording Preservation Foundation mission is to help find, preserve and make accessible the recorded history of the United States and help recuperate collections housed within the United States. These include international assets. Music, broadcast, speeches, spoken word – saved for all time. It does this by offering grants to not-for-profit archives in libraries, universities, foundations and elsewhere.
 
