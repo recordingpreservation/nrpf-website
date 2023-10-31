@@ -15,6 +15,7 @@ tags:
   - audio preservation
   - grants
   - press release 
+published: false
 ---
 
 Washington, D.C. — The National Recording Preservation Foundation (NRPF) is proud to announce the distribution of awards totaling $28,350 to support vital audio preservation projects. These grants further NRPF's ongoing commitment to safeguard and preserve the vibrant history of recorded sound. The 2023 grants have been awarded to three notable projects: the HBCU Radio Preservation Project; the University of California, Santa Barbara; and Appalshop. Each will undertake essential work dedicated to preserving audio treasures of high cultural and historical significance for future generations.
