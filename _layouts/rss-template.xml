@@ -7,7 +7,8 @@
     <atom:link href="{{ site.url }}{{ page.url }}" rel="self" type="application/rss+xml" />
 
     <!-- items -->
-    {% for post in site.posts | limit: 10 %}
+    {% assign rss_posts = site.posts | concat: site.news | sort: 'date' | reverse %}
+    {% for post in rss_posts | limit: 10 %}
     <item>
       <title>{{ post.title }}</title>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
