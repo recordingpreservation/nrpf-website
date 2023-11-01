@@ -4,6 +4,4 @@ layout: posts
 description: NRPF Features
 ---
 
-# NRPF Features
-
-Views from the NRPF:
+# NRPF Features: Views from the NRPF
