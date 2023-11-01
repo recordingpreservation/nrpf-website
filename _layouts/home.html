@@ -55,7 +55,7 @@ bodyClass: "page-home"
       
       {% assign limit = site.home.limit_services | default: 6 %}
       {% assign programs = site.programs | sort: "weight" %}
-      {% for program in programs | limit: limit %}
+      {% for program in programs limit: limit %}
       <div class="col-12 col-md-4 mb-1">
         <div class="service service-summary">
           <div class="service-content">

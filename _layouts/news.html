@@ -50,7 +50,7 @@ bodyClass: "page-services"
 <div class="container pt-6 pb-6">
   <h2><a name="features"></a>Recent Features</h2>
   <div class="row">
-    {% for post in posts | limit: 4 %}
+    {% for post in posts limit: 6 %}
     <div class="col-12 col-md-4 mb-1"> 
       <div class="service service-summary">
         <div class="service-content">
@@ -63,7 +63,7 @@ bodyClass: "page-services"
     </div>
     {% endfor %}
   </div>
-  <h3><a href="{{ "posts" | relative_url }}">View All Features</a></h3>
+  <h3><a href="{{ "features" | relative_url }}">View All Features</a></h3>
   <hr style="border: none; border-bottom: 1px solid #e9f7ff;" />
 </div>
 {% endif %}
