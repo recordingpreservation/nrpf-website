@@ -2,6 +2,7 @@
 title: "NRPF Sound Files Podcast"
 date: 2023-10-10
 weight: 6
+teaser: "The NRPF podcast is currently in production and will become available in December 2023."
 ---
 
 Check out our podcast, _NRPF Sound Files_, which shares and celebrates archival audio.
