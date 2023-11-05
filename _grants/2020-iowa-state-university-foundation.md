@@ -23,6 +23,4 @@ ISU Lectures speak to the issues our country is grappling with today, namely pol
 race, gender, and sexuality,” says Rosie Rowe, AV and Film Preservation Specialist at the
 University.
 
-Adds Daniel Hartwig, Head of Iowa State's Special Collections & University Archives, “Our goal
-for the project is stimulate awareness and discourse, as well as center and magnify these
-voices and movements.”
+Adds Daniel Hartwig, Head of Iowa State's Special Collections & University Archives, “Our goal for the project is stimulate awareness and discourse, as well as center and magnify these voices and movements.”
