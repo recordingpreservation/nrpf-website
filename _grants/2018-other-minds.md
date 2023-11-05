@@ -1,5 +1,5 @@
 ---
-title: "Digitizing the <em>Composer to Composer</em> recordings"
+title: "Digitizing the <em>Composer to Composer</em> Recordings"
 collection: grants
 amount: "$10,000.00"
 year: 2018
