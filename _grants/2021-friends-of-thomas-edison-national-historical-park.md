@@ -1,5 +1,5 @@
 ---
-title: "Extracting High-quality Sound from Sealed Master Molds"
+title: "Extracting High-Quality Sound from Sealed Master Molds"
 collection: grants
 amount: "$8,653.00"
 year: 2021
