@@ -56,6 +56,6 @@ The Museum of Russian Culture holds a rare and vulnerable collection of early re
 
 “The ‘Cuttlefish Project’ recordings are of immense Unangax̂ (Alaska Aleut) cultural importance due to not only the topics covered by Elders but because many of them were the last fluent speakers of the Unangam Tunuu language,” says Leslie McCartney, Associate Professor and Curator of Oral History at the Elmer E. Rasmuson Library. “They are of the utmost importance to the Unangax̂ people themselves, for educators around the world who study the diversity of Indigenous people in the United States, and for worldwide linguists and historians.”
 
-59 “Cuttlefish Project’ magnetic audio reels will be digitized and made accessible to researchers and the public. Each of the recordings will be cataloged in the UAF Library Catalog via WordCat. URLs will be placed directly into the library catalog record so, worldwide, anyone with an internet connection can listen to the recording directly from the library catalog record.
+Fifty-nine (59) “Cuttlefish Project’ magnetic audio reels will be digitized and made accessible to researchers and the public. Each of the recordings will be cataloged in the UAF Library Catalog via WordCat. URLs will be placed directly into the library catalog record so, worldwide, anyone with an internet connection can listen to the recording directly from the library catalog record.
 
-“We are especially proud to be associated with the Cuttlefish Project and its treasury of recordings,” says Gerald Seligman.
+“We are especially proud to be associated with the Cuttlefish Project and its treasury of recordings,” said Gerald Seligman.
