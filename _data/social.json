@@ -1,12 +1,17 @@
 [
   {
-    "name": "Twitter",
-    "link": "https://twitter.com/NRPFoundation",
-    "image": "images/social/twitter.svg"
-  },
-  {
     "name": "Facebook",
     "link": "https://www.facebook.com/nrpfoundation/",
     "image": "images/social/facebook.svg"
+  },
+  {
+    "name": "Instagram",
+    "link": "https://www.instagram.com/recordingpreservation/",
+    "image": "images/social/instagram.svg"
+  },
+  {
+    "name": "YouTube",
+    "link": "https://www.youtube.com/@nationalrecordingpreservat4117",
+    "image": "images/social/youtube.svg"
   }
 ]
