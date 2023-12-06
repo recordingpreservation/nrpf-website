@@ -1,11 +1,11 @@
 ---
 title: "Jonathan Poneman"
 date: 2016-05-01
-jobtitle: "Director"
+jobtitle: "Director Emeritus"
 short_bio: "Co-Founder, Sub Pop Records"
-promoted: true
+promoted: false
 weight: 6
-role: board
+role: emeritus
 sort_name: poneman
 ---
 
