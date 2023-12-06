@@ -10,6 +10,11 @@
     "image": "images/social/instagram.svg"
   },
   {
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/company/national-recording-preservation-foundation",
+    "image": "images/social/linkedin.svg"
+  },
+  {
     "name": "YouTube",
     "link": "https://www.youtube.com/@nationalrecordingpreservat4117",
     "image": "images/social/youtube.svg"
