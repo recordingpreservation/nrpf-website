@@ -5,7 +5,7 @@ image: "images/team/jesse-johnston-200.jpg"
 jobtitle: "Secretary"
 linkedinurl: "https://www.linkedin.com/in/jesseajohnston"
 short_bio: "Jesse A. Johnston, Ph.D., is the Secretary ."
-promoted: false
+promoted: true
 weight: 2
 role: board
 staff: true
