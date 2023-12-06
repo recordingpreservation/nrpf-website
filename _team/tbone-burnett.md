@@ -1,11 +1,11 @@
 ---
 title: "T-Bone Burnett"
 date: 2016-05-01
-jobtitle: "Director"
+jobtitle: "Director Emeritus"
 short_bio: "Musician, Producer" 
-promoted: true
+promoted: false
 weight: 3
-role: board
+role: emeritus
 sort_name: burnett
 ---
 
