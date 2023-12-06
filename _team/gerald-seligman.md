@@ -1,18 +1,18 @@
 ---
 title: "Gerald Seligman"
 date: 2013-05-01
-jobtitle: "Secretary"
+jobtitle: "Secretary and Executive Director Emeritus"
 promoted: true
 weight: 2
-role: board
-staff: true
+role: emeritus
+staff: false
 staff_role: "Executive Director"
 short_bio: "Executive Director"
 sort_name: seligman
-updated: 2023-05-15
+updated: 2023-12-06
 ---
 
-Gerald Seligman is Secretary of the Board of Directors and serves as the NRPF's Executive Director. As the Executive Director, Seligman is responsible for managing the NRPF programs and day-to-day operations. 
+Gerald Seligman was Secretary of the Board of Directors and NRPF's Executive Director from 2012 until 2023. 
 
 [Bio from The Alliance for Media Arts + Culture](http://www.thealliance.media/profile/gerald-seligman/):
 
