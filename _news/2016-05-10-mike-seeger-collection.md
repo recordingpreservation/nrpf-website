@@ -1,5 +1,5 @@
 ---
-title: National Recording Preservation Awards Grant to Preserve Mike Seeger Collection
+title: "National Recording Preservation Foundation Awards Grant to Preserve Mike Seeger Collection"
 date: 2016-05-10
 author: "Gerald Seligman"
 permalink: /national-recording-preservation-awards-grant-to-preserve-mike-seeger-collection/
