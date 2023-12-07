@@ -4,7 +4,7 @@ date: 2023-12-06
 image: ""
 jobtitle: "Director"
 linkedinurl: ""
-short_bio: ""
+short_bio: "Mitchell Silberberg & Knupp LLP"
 promoted: true
 role: board
 staff: false
