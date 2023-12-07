@@ -8,7 +8,7 @@ short_bio: "Mitchell Silberberg & Knupp LLP"
 promoted: true
 role: board
 staff: false
-staff_role: "Director"
+staff_role: ""
 sort_name: schwartz
 updated: 2023-12-06
 ---
