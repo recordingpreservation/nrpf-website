@@ -10,7 +10,15 @@
       </a>
     </div>
     {% endif %}
+    {% if site.data.contact.address %}
+    <br />
+    <div class="call-address">
+      To send donations via check, please use the following address:<br /><br />
+      {{ site.data.contact.address }}
+    </div>
+    {% endif %}
   </div>
+
     {% if include.show_button %}
       <div class="call-box-bottom">
         <a href="{{ site.data.contact.contact_button_link }}" class="button">Contact</a>
