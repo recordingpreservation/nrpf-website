@@ -1,12 +1,13 @@
 ---
 title: "Eric Schwartz"
 date: 2023-12-06
-image: ""
+image: "images/team/eric-schwartz-sqr.jpg"
 jobtitle: "Director"
-linkedinurl: ""
+linkedinurl: "https://www.linkedin.com/in/eric-j-schwartz-740b9811"
 short_bio: "Mitchell Silberberg & Knupp LLP"
 promoted: true
 role: board
+weight: 7
 staff: false
 staff_role: ""
 sort_name: schwartz
