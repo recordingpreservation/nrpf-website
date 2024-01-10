@@ -14,4 +14,4 @@ December 2023!** Episodes will feature sounds from the collections
 we have supported, interviews with archivists and other voices from the
 audio preservation community, and updates on our activities and programs.
 
-![NRPF Sound Files podcast cover image with the text Sound Files superimposed over the image of an LP record](/images/podcast/sound-files-simple-cover.png) 
+![NRPF Sound Files podcast cover image with the text Sound Files superimposed over the image of a record player](/images/podcast/sound-files-lparm-cover.png) 
