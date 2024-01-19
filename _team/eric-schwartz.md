@@ -11,7 +11,9 @@ weight: 7
 staff: false
 staff_role:
 sort_name: schwartz
-updated: 2023-12-06
+current_term_start: 2024
+current_term_end: 2028
+updated: 2024-01-19
 ---
 
 Eric Schwartz is a partner, through his Professional Corporation, at

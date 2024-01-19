@@ -13,7 +13,7 @@ staff_role: "Executive Director"
 sort_name: johnston
 current_term_start: 2024
 current_term_end: 2028
-updated: 2023-12-06
+updated: 2024-01-19
 ---
 
 Jesse A. Johnston, M.S.I., Ph.D., joined NRPF in 2023 and serves as Executive Director as well as the Secretary of the NRPF Board of Directors. Johnston brings a wealth of experience in grantmaking and the federal sector. Johnston is responsible for NRPF programs, fundraising, and day-to-day operations.

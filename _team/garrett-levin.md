@@ -11,9 +11,9 @@ role: board
 staff: false
 staff_role: 
 sort_name: levin
-current_term_start: 2023
-current_term_end: 2027
-updated: 2023-12-06
+current_term_start: 2024
+current_term_end: 2028
+updated: 2024-01-19
 ---
 
 Garrett Levin is the immediate past CEO of the Digital Media Association (DiMA).

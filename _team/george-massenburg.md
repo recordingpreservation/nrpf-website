@@ -8,6 +8,9 @@ promoted: true
 weight: 5
 role: board
 sort_name: massenburg
+current_term_start: 2024
+current_term_end: 2028
+updated: 2024-01-19
 ---
 
 Producer, Engineer, Educator
