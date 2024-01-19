@@ -9,7 +9,7 @@ promoted: true
 role: board
 weight: 8
 staff: false
-staff_role: ""
+staff_role:
 current_term_start: 2023
 current_term_end: 2027
 sort_name: tsou

@@ -9,7 +9,7 @@ promoted: true
 role: board
 weight: 7
 staff: false
-staff_role: ""
+staff_role:
 sort_name: schwartz
 updated: 2023-12-06
 ---
