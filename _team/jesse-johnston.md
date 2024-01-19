@@ -4,13 +4,15 @@ date: 2023-05-01
 image: "images/team/jesse-johnston-200.jpg"
 jobtitle: "Secretary"
 linkedinurl: "https://www.linkedin.com/in/jesseajohnston"
-short_bio: "Jesse A. Johnston, Ph.D., is the Secretary and Executive Director of the NRPF."
+short_bio: "University of Michigan School of Information"
 promoted: true
 weight: 2
 role: board
 staff: true
 staff_role: "Executive Director"
 sort_name: johnston
+current_term_start: 2024
+current_term_end: 2028
 updated: 2023-12-06
 ---
 
