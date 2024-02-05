@@ -11,10 +11,9 @@ intro_image_hide_on_mobile: false
 # NRPF Board and Staff
 
 Our board of directors provides oversight for NRPF activities.
-Board members oversee NRPF programs, strategy, budget, and governance.
-
 Directors are appointed by the Librarian of Congress and represent diverse points of view from the sound recording community.
 Board members are selected for their
 knowledge of philanthropy and grantmaking, as well
 as experience in sound recording production,
 distribution, preservation, or restoration.
+Board members oversee NRPF programs, strategy, budget, and governance.
