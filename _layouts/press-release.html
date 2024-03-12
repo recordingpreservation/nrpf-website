@@ -12,7 +12,7 @@ bodyClass: "page-press-release"
                   <div class="item-meta">
                     <p class="release">{% if page.release %}{{ page.release }}{% else %}For immediate release{% endif %}</p>
                     <p class="item-name">{{ page.date | date: "%B %e, %Y" }}</p>
-                    <p class="item-description"><a href="{{ "contact" | relative_url }}">Press Contact</a>{% if page.author %}: {{ page.author }} ({{ site.data.contact.email }}){% endif %}</p>
+                    <p class="item-description"><a href="{{ "contact" | relative_url }}">Press Contact</a>{% if page.author %}: {{ page.author }} ({% if page.email %}{{ page.email }}{% else %}{{ site.data.contact.email }}{% endif %}){% endif %}</p>
                   </div>
                 </div>
                 <p>&nbsp;</p>
