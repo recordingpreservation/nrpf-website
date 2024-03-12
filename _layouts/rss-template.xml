@@ -14,7 +14,7 @@
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
       <link>{{ site.url }}{{ post.url }}</link>{% if post.description %}
       <description>{{ post.description }}</description>{% endif %}
-      <author>{{ site.data.contact.email }}</author>
+      <author>{{ site.data.contact.email }} {% if post.author %}({{ post.author }}){% endif %}</author>
     </item>
     {% endfor %}
   </channel>
