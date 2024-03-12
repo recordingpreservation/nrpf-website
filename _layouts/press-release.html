@@ -10,9 +10,9 @@ bodyClass: "page-press-release"
                 <h1 class="title">{{page.title}}</h1>
                 <div class="item-summary item-summary-large">
                   <div class="item-meta">
-                    <p>For immediate release</p>
+                    <p class="release">{% if page.release %}{{ page.release }}{% else %}For immediate release{% endif %}</p>
                     <p class="item-name">{{ page.date | date: "%B %e, %Y" }}</p>
-                    <p class="item-description">By {{ page.author }} | <a href="{{ "contact" | relative_url }}">Press Contact</a></p>
+                    <p class="item-description"><a href="{{ "contact" | relative_url }}">Press Contact</a>{% if page.author %}: {{ page.author }} ({{ site.data.contact.email }}){% endif %}</p>
                   </div>
                 </div>
                 <p>&nbsp;</p>
