@@ -15,7 +15,7 @@ tags:
   - Librarian of Congress
   - audio preservation
   - press release 
-image: images/social/NRPF-socialcover-vision-logo-mic.jpeg
+image: images/social/NRPF-mandala-title-white-blue.png
 description: "Dr. Carla Hayden, the 14th Librarian of Congress, has appointed seven new directors to the National Recording Preservation Foundation's Board of Directors. These Board appointments establish a new slate of Directors for the Foundation, one of the most significant developments for the Foundation since it was established over a decade ago. Directors serve four-year terms and oversee the programs and resources of the Foundation."
 ---
 
