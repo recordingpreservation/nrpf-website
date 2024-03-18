@@ -5,7 +5,7 @@ description: Donate to the National Recording Preservation Foundation
 bodyClass: page-about
 ---
 
-Consider donating to the National Recording Preservation Foundation! Support at every level allows us to preserve at-risk audio collections, preserve their content, and share their stories with new listeners.
+Consider donating to the National Recording Preservation Foundation! Support at any level allows us to increase our work to preserve at-risk audio collections, share and interpret historic recordings, and promote these histories with new audiences.
 
 You can give directly today using the donation form below. Note that the form may require you to complete a captcha. The form and payment processing are powered by our non-profit partner, GiveLively:
 
@@ -31,4 +31,3 @@ Bank transfers may use the following information:
 **Routing number:** {{ site.data.contact.bank_routing }}
 
 {% endif %}
-
