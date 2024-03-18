@@ -18,7 +18,10 @@ Payments via GiveLively are processed via **Stripe** and subject to their non-pr
 
 # Other ways to give
 
-For larger donations, or to avoid processing fees, please consider bank transfer or check. 
+For larger donations, or to avoid processing fees, please consider bank transfer or check.
+To facilitate proper acknowledgement for our records and tax purposes,
+please ensure that you share contact information to NRPF. 
+
 Checks can be sent by mail to:
 
 {{ site.data.contact.address }}
@@ -26,8 +29,11 @@ Checks can be sent by mail to:
 {% if site.data.contact.bank_account %}
 Bank transfers may use the following information:
 
-**Account number:** {{ site.data.contact.bank_account }}
-
-**Routing number:** {{ site.data.contact.bank_routing }}
+|| ACH Transfer Information |
+| :-- | ----------- |
+| **Organization:** | {{ site.data.contact.org }} |
+| **Contact:** | {{ site.data.contact.press_contact }} (email: {{ site.data.contact.email }} / phone: {{ site.data.contact.phone }}) |
+| **Account number:** | {{ site.data.contact.bank_account }} |
+| **Routing number:** | {{ site.data.contact.bank_routing }} |
 
 {% endif %}
