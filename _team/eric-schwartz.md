@@ -1,5 +1,5 @@
 ---
-title: "Eric Schwartz"
+title: "Eric J. Schwartz"
 date: 2023-12-06
 image: "images/team/eric-schwartz-sqr.jpg"
 jobtitle: "Director"
