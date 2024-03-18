@@ -1,0 +1,3 @@
+<!-- Begin Give Lively Fundraising Widget --><!-- updated February 2024 -->
+<script>gl=document.createElement('script');gl.src='https://secure.givelively.org/widgets/branded_donation/national-recording-preservation-foundation.js';document.getElementsByTagName('head')[0].appendChild(gl);</script><div data-widget-src='https://secure.givelively.org/donate/national-recording-preservation-foundation?ref=sd_widget' id="give-lively-widget" class="gl-branded-donation-widget"></div>
+<!-- End Give Lively Fundraising Widget -->
