@@ -38,3 +38,9 @@ Bank transfers may use the following information:
 | **Account number:** | {{ site.data.contact.bank_account }} |
 
 {% endif %}
+
+## Transparency
+
+We have achieved the Silver Transparency seal from Guidestar at Candid.org. Click below to review our documents. 
+
+{% include candid-seal.html %}
