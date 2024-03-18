@@ -20,7 +20,7 @@ Payments via GiveLively are processed via **Stripe** and subject to their non-pr
 
 For larger donations, or to avoid processing fees, please consider bank transfer or check.
 To facilitate proper acknowledgement for our records and tax purposes,
-please ensure that you share contact information to NRPF. 
+please ensure that you share contact information to NRPF.
 
 Checks can be sent by mail to:
 
@@ -29,11 +29,12 @@ Checks can be sent by mail to:
 {% if site.data.contact.bank_account %}
 Bank transfers may use the following information:
 
-|| ACH Transfer Information |
+|| Bank Transfer Information |
 | :-- | ----------- |
 | **Organization:** | {{ site.data.contact.org }} |
 | **Contact:** | {{ site.data.contact.press_contact }} (email: {{ site.data.contact.email }} / phone: {{ site.data.contact.phone }}) |
-| **Account number:** | {{ site.data.contact.bank_account }} |
+| **Bank:** | PNC Bank |
 | **Routing number:** | {{ site.data.contact.bank_routing }} |
+| **Account number:** | {{ site.data.contact.bank_account }} |
 
 {% endif %}
