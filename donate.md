@@ -41,6 +41,6 @@ Bank transfers may use the following information:
 
 ## Transparency
 
-We have achieved the Silver Transparency seal from Guidestar at Candid.org. Click below to review our documents. 
+We have achieved the Silver Transparency seal from Guidestar at Candid.org. Click below to review our reports.
 
 {% include candid-seal.html %}
