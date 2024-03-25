@@ -29,7 +29,7 @@ Checks can be sent by mail to:
 {% if site.data.contact.bank_account %}
 Bank transfers may use the following information:
 
-|| Bank Transfer Information |
+|| Bank Transfer Information (UPIC) |
 | :-- | ----------- |
 | **Organization:** | {{ site.data.contact.org }} |
 | **Contact:** | {{ site.data.contact.press_contact }} (email: {{ site.data.contact.email }} / phone: {{ site.data.contact.phone }}) |
