@@ -8,7 +8,7 @@ categories:
   - press releases
 type: press release
 layout: "press-release"
-release: "Effective immediately"
+release:
 tags:
   - National Recording Preservation Foundation
   - Board of Directors
@@ -19,7 +19,7 @@ image: images/social/NRPF-mandala-title-white-blue.png
 description: "Dr. Carla Hayden, the 14th Librarian of Congress, has appointed seven new directors to the National Recording Preservation Foundation's Board of Directors. These Board appointments establish a new slate of NRPF Directors, one of the most significant developments for the Foundation since it was established over a decade ago. Directors serve four-year terms and oversee the programs and resources of the Foundation."
 ---
 
-Dr. Carla Hayden, the 14th Librarian of Congress, has appointed seven new directors to the National Recording Preservation Foundation's Board of Directors. These Board appointments establish a new slate of Directors for the Foundation, one of the most significant developments for the Foundation since it was established over a decade ago.
+Dr. Carla Hayden, the 14th Librarian of Congress, has appointed seven new directors to the National Recording Preservation Foundation's Board of Directors, effective immediately. These Board appointments establish a new slate of Directors for the Foundation, one of the most significant developments for the Foundation since it was established over a decade ago.
 
 The National Recording Preservation Foundation (NRPF) is a registered 501(c)(3) organization created to promote and preserve recorded sound throughout the United States. The NRPF pursues this mission by raising monies for grants to archives, historical societies, museums, and other non-profit cultural heritage organizations, so that they may preserve and make publicly available America's recorded sound heritage. The NRPF was established in a similar manner to its kindred preservation foundation, the National Film Preservation Foundation (NFPF). The NFPF, established in 1997, has raised over $29 million and made grants to over 320 organizations. The NRPF, which commenced operations a decade after the film foundation, hopes to replicate the NFPF's successes.
 
