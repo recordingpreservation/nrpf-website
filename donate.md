@@ -32,7 +32,7 @@ Bank transfers may use the following information:
 || Bank Transfer Information (UPIC) |
 | :-- | ----------- |
 | **Organization:** | {{ site.data.contact.org }} |
-| **Contact:** | {{ site.data.contact.press_contact }} (email: {{ site.data.contact.email }} / phone: {{ site.data.contact.phone }}) |
+| **Contact:** | {{ site.data.contact.press_contact }}{% if site.data.contact.press_contact_title %}, {{ site.data.contact.press_contact_title }}{% endif %} (email: {{ site.data.contact.email }} / phone: {{ site.data.contact.phone }}) |
 | **Bank:** | PNC Bank |
 | **Routing number:** | {{ site.data.contact.bank_routing }} |
 | **Account number:** | {{ site.data.contact.bank_account }} |
@@ -44,3 +44,26 @@ Bank transfers may use the following information:
 We have achieved the Silver Transparency seal from Guidestar at Candid.org. Click below to review our reports.
 
 {% include candid-seal.html %}
+
+# What will your donation support?
+
+Your support allows us to support the preservation of more at-risk audio collections!
+Here are just a few examples of audio heritage that was preserved
+through support from the National Recording Preservation Foundation:
+
+* See grants list
+
+# Ways to Give
+
+* Annual giving
+* Gifts/Bequests
+* In-kind services
+* Montly giving: Monthly donors of $50 or more will be recognized as members of the Long Playing Society! 
+
+## Examples/Inspirations
+
+* [transom.org](https://transom.org/about/donate/)
+* [Library of Congress: Ways to Give](https://www.loc.gov/programs/support-the-library-of-congress/ways-to-give/)
+* [Tenement Museum - via GiveLively](https://secure.givelively.org/donate/lower-east-side-tenement-museum)
+* [NFPF Giving Page](https://www.filmpreservation.org/support/making-a-contribution)
+* [UMSI Giving Page](https://www.si.umich.edu/giving)
