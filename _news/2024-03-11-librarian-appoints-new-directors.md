@@ -2,7 +2,7 @@
 title: "Librarian of Congress Appoints New Directors to the National Recording Preservation Foundation"
 date: 2024-03-11
 location: "Washington, D.C."
-author: "National Recording Preservation Foundation"
+author: "Jesse Johnston"
 categories: 
   - news
   - press releases
