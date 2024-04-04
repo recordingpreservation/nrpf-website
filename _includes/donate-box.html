@@ -1,0 +1,32 @@
+<div class="call">
+  <!--
+    <div class="call-box-top">
+    {% if site.data.contact.phone %}
+        <div class="call-phone"><strong>Phone: </strong> {{ site.data.contact.phone }} </div>
+    {% endif %}
+    {% if site.data.contact.email %}
+    <div class="call-email"><strong>Email: </strong>
+      <a href="mailto:{{ .site.data.contact.email }}">
+        {{ site.data.contact.email }}
+      </a>
+    </div>
+    {% endif %}
+    {% if site.data.contact.address %}
+    <br />
+    <div class="call-address">
+      To send donations via check, please use the following address:<br /><br />
+      {{ site.data.contact.address }}
+    </div>
+    {% endif %}
+  </div> -->
+  {% if site.data.donate.donate_call_to_action %}
+    <div class="call-box-top">
+        <p>{% if page.donate_call_to_action %}{{ page.donate_call_to_action }}{% else %}{{ site.data.donate.donate_call_to_action }}{% endif %}</p>
+    </div>
+  {% endif %}
+  {% if include.show_button %}
+      <div class="call-box-bottom">
+        <a href="{% if page.donate_button_link %}{{ page.donate_button_link }}{% else %}{{ site.data.donate.donate_button_link }}{% endif %}" class="button">{% if page.donate_button_text %}{{ page.donate_button_text }}{% else %}{{ site.data.donate.donate_button_text }}{% endif %}</a>
+      </div>
+    {% endif %}
+</div>
