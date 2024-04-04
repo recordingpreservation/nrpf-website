@@ -1,7 +1,7 @@
 ---
 title: "NRPF Sound Files Podcast"
 date: 2023-10-10
-weight: 6
+weight: 3
 teaser: "The NRPF podcast will be available in early 2024."
 ---
 
