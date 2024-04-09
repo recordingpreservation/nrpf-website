@@ -15,9 +15,9 @@ awareness of recorded sound history and its preservation, we aim to provide
 data that informs policies, decisions, and priorities 
 for the work of preserving and creating access to audio recordings. 
 
-In 2018, we supported critical work to survey the extent of recordings and preservation
+For example, in [2018]({% link _grants/2018-wyso-radio.md %}) and again in [2023]({% link _grants/2023-wyso-radio.md %}), we supported critical work to survey the extent of recordings and preservation
 needs in the broadcast archives of Historically Black Colleges and University
-radio stations. 
+radio stations.
 As project director Jocelyn Robinson stated, "we won’t know what needs preservation until we survey the content and conditions of the radio archives on HBCU campuses. What we discover could have enormous potential for podcasts, radio and film documentaries, and museum exhibitions, allowing students, researchers, media producers, and communities to remember, honor and be inspired by the voices of this important legacy."
 
 > "We won’t know what needs preservation until we survey the content and conditions" 
