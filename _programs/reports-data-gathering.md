@@ -17,7 +17,6 @@ This guidance touches on many aspects of recorded sound preservation,
 from work with vintage format types to
 the stories and communities whose perspectives are recorded in these sounds.
 
-
 For example, in [2018]({% link _grants/2018-wyso-radio.md %}) and again in [2023]({% link _grants/2023-wyso-radio.md %}), we supported critical work to survey the extent of recordings and preservation
 needs in the broadcast archives of Historically Black Colleges and University
 radio stations.
