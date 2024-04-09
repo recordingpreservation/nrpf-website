@@ -3,6 +3,7 @@ title: Support the NRPF
 layout: page
 description: Donate to the National Recording Preservation Foundation
 bodyClass: page-about
+image: images/illustrations/gramophone-left-cropped-12040507v.jpg
 ---
 
 Consider donating to the National Recording Preservation Foundation! Support at any level allows us to increase our work to preserve at-risk audio collections, share and interpret historic recordings, and promote these histories with new audiences.
