@@ -6,6 +6,10 @@ weight: 1
 teaser: "Without action and dedicated resources, unique and irreplaceable audio heritage may be lost."
 ---
 
+As an organization dedicated to the coordination of resources that support
+awareness of recorded sound history and its preservation, we aim to provide
+data that informs policies, decisions, and priorities
+for the work of preserving and creating access to audio recordings.
 We aim to create data and provide background information to inform decision makers and funders
 regarding responsive, best-practice approaches to challenges that confront
 the audio preservation community.
@@ -13,10 +17,6 @@ This guidance touches on many aspects of recorded sound preservation,
 from work with vintage format types to
 the stories and communities whose perspectives are recorded in these sounds.
 
-As an organization dedicated to the coordination of resources that support 
-awareness of recorded sound history and its preservation, we aim to provide
-data that informs policies, decisions, and priorities 
-for the work of preserving and creating access to audio recordings. 
 
 For example, in [2018]({% link _grants/2018-wyso-radio.md %}) and again in [2023]({% link _grants/2023-wyso-radio.md %}), we supported critical work to survey the extent of recordings and preservation
 needs in the broadcast archives of Historically Black Colleges and University
