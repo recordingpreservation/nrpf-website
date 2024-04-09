@@ -6,9 +6,12 @@ weight: 1
 teaser: "Without action and dedicated resources, unique and irreplaceable audio heritage may be lost."
 ---
 
-We aim to create data and provide background information to inform decision makers and collection stewards. 
-This information touches on all aspects of recorded sound preservation, from work with vintage format types 
-to the stories and communities whose perspectives are recorded in these sounds.
+We aim to create data and provide background information to inform decision makers and funders
+regarding responsive, best-practice approaches to challenges that confront
+the audio preservation community.
+This guidance touches on many aspects of recorded sound preservation,
+from work with vintage format types to
+the stories and communities whose perspectives are recorded in these sounds.
 
 As an organization dedicated to the coordination of resources that support 
 awareness of recorded sound history and its preservation, we aim to provide
