@@ -10,8 +10,9 @@ As an organization dedicated to the coordination of resources that support
 awareness of recorded sound history and its preservation, we aim to provide
 data that informs policies, decisions, and priorities
 for the work of preserving and creating access to audio recordings.
-We aim to create data and provide background information to inform decision makers and funders
-regarding responsive, best-practice approaches to challenges that confront
+
+We aim to provide, summarize, and create useful background information to inform decision makers and funders
+regarding responsive, best-practice approaches to preservation challenges that confront
 the audio preservation community.
 This guidance touches on many aspects of recorded sound preservation,
 from work with vintage format types to
@@ -29,7 +30,7 @@ As project director Jocelyn Robinson stated, "we won’t know what needs preserv
 
 ## Audio Preservation Reports
 
-The following reports were created by related efforts, 
+The following reports were created by related efforts,
 in collaboration with or with the support of the NRPF,
 or issued by affiliated organizations.
 
