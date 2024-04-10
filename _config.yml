@@ -38,6 +38,10 @@ collections:
     output: true
 
 defaults:
+  - scope: 
+      path: ""
+    values:
+      image: "images/logo/nrpf-seal-624x596.jpeg"
   - scope:
       type: "posts"
     values:
