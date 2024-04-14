@@ -29,7 +29,7 @@ The podcast is hosted by [Jesse Johnston]({% link _team/jesse-johnston.md %}), N
 Clinical Assistant Professor at the [University of Michigan School of Information](https://si.umich.edu/),
 and [Evan Haywood]({% link _team/evan-haywood.md %}), audio preservationist and podcast producer for NRPF. 
 In addition, we are thrilled that each episode will feature original music
-by Evan Haywood and cover art by [umbertino](https://99designs.com/profiles/774966).
+by Evan and cover art by [umbertino](https://99designs.com/profiles/774966).
 
 We look forward to bringing you on this journey with us!
 Our trailer episode is now live, and you can listen from this site or on
