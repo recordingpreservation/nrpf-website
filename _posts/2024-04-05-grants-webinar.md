@@ -1,5 +1,5 @@
 ---
-title: "Audio Preservation Projects and Ways to Fund Them: A Webinar on Current Grant Opportunities for Organizations"
+title: "Webinar for Grant Seekers: Funding Audio Preservation Projects"
 date: 2024-04-05
 author: "Jesse Johnston"
 categories: 
