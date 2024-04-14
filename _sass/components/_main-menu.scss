@@ -30,6 +30,12 @@
           }
         }
       }
+      &.donate {
+        background: $white-offset;
+        > a {
+          color: $black;
+        }
+      }
     }
   }
 }

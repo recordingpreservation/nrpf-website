@@ -6,28 +6,31 @@ weight: 1
 teaser: "Without action and dedicated resources, unique and irreplaceable audio heritage may be lost."
 ---
 
-We aim to create data and provide background information to inform decision makers and collection stewards. 
-This information touches on all aspects of recorded sound preservation, from work with vintage format types 
-to the stories and communities whose perspectives are recorded in these sounds.
-
-As an organization dedicated to the coordination of resources that support 
+As an organization dedicated to the coordination of resources that support
 awareness of recorded sound history and its preservation, we aim to provide
-data that informs policies, decisions, and priorities 
-for the work of preserving and creating access to audio recordings. 
+data that informs policies, decisions, and priorities
+for the work of preserving and creating access to audio recordings.
 
-In 2018, we supported critical work to survey the extent of recordings and preservation
+We aim to provide, summarize, and create useful background information to inform decision makers and funders
+regarding responsive, best-practice approaches to preservation challenges that confront
+the audio preservation community.
+This guidance touches on many aspects of recorded sound preservation,
+from work with vintage format types to
+the stories and communities whose perspectives are recorded in these sounds.
+
+For example, in [2018]({% link _grants/2018-wyso-radio.md %}) and again in [2023]({% link _grants/2023-wyso-radio.md %}), we supported critical work to survey the extent of recordings and preservation
 needs in the broadcast archives of Historically Black Colleges and University
-radio stations. 
+radio stations.
 As project director Jocelyn Robinson stated, "we won’t know what needs preservation until we survey the content and conditions of the radio archives on HBCU campuses. What we discover could have enormous potential for podcasts, radio and film documentaries, and museum exhibitions, allowing students, researchers, media producers, and communities to remember, honor and be inspired by the voices of this important legacy."
 
-> "We won’t know what needs preservation until we survey the content and conditions" 
+> "We won’t know what needs preservation until we survey the content and conditions
 > of collections in need.
 >
 > &mdash;Jocelyn Robinson, project director for the _Survey of Broadcast Archives of Historically Black Colleges &amp; Universities_
 
 ## Audio Preservation Reports
 
-The following reports were created by related efforts, 
+The following reports were created by related efforts,
 in collaboration with or with the support of the NRPF,
 or issued by affiliated organizations.
 

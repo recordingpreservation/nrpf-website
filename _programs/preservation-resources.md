@@ -30,7 +30,7 @@ The following resources represent useful items that we have encountered through 
 or that have served as beneficial to our grantees. This list was originally compiled by [Gerald Seligman]({% link _team/gerald-seligman.md %}) in 2016, but we make frequent updates. If you would like to be included in this list,
 we are happy to include any resources that are openly available and rights-honoring. Please use our [contact link]({{ "contact" | relative_url }}).
 
-### Preservation Guides Resources
+### Preservation Guides and Resources
 
 * [ARSC Guide to Audio Preservation](https://www.clir.org/pubs/reports/pub164/) A comprehensive guide to Audio Preservation, co-edited by NRPF Director Sam Brylawski, was published by ARSC (Association for Recorded Sound Collections), CLIR (Council on Library and Information Resources) and the Library of Congress. The Guide was made possible through funding from the National Recording Preservation Board, along with contributions from CLIR and an anonymous donor. This 200+ page publication is a primer for the non-specialist (collectors, archivists at universities, libraries and historical societies) and provides a range of advice on preserving many kinds of audio recordings.
 * [Vintage Audio Format Identification](https://www.loc.gov/programs/national-recording-preservation-plan/tools-and-resources/vintage-audio-formats-and-equiment-information/guide-to-vintage-audio-formats/) A guide from the Library of Congress with visual examples to aid in identifying a range of legacy audio formats.
