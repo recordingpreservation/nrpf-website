@@ -19,7 +19,8 @@ Payments via GiveLively are processed via **Stripe** and subject to their non-pr
 
 # Other ways to give
 
-For larger donations, or to avoid processing fees, please consider bank transfer or check.
+For larger donations, or to avoid processing fees, please consider sending
+a check or bank transfer.
 To facilitate proper acknowledgement for our records and tax purposes,
 please ensure that you share contact information to NRPF.
 
