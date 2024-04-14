@@ -6,7 +6,7 @@ teaser: "The NRPF podcast will be available in early 2024."
 updated: 2024-04-14
 ---
 
-![NRPF Sound Files podcast cover image with the text Sound Files superimposed over the image of a record player](/images/podcast/sound-files-lparm-cover.png){:style="float: right; width: 50%; padding-left: 10px;"}
+![NRPF Sound Files podcast cover image](/images/podcast/soundfiles-2024-1000sq.jpg){:style="float: right; width: 50%; padding-left: 10px;"}
 
 Check out our podcast, _NRPF Sound Files_, which shares and celebrates archival audio.
 The podcast features conversations and stories
