@@ -16,7 +16,7 @@ main:
     weight: 5
   - name: "DONATE!"
     class: donate
-    url: "https://secure.givelively.org/donate/national-recording-preservation-foundation/national-recording-registry-2024"
+    url: "https://secure.givelively.org/donate/national-recording-preservation-foundation/"
     weight: 6
 
 footer:
