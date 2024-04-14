@@ -9,7 +9,7 @@ show_call_box: false
 donate_show_box: true
 donate_button_text: 'Donate Now!'
 donate_call_to_action: '<p>We fund grants to preserve at-risk audio collections.</p>'
-donate_button_link: 'https://secure.givelively.org/donate/national-recording-preservation-foundation/national-recording-registry-2024'
+donate_button_link: 'https://secure.givelively.org/donate/national-recording-preservation-foundation/'
 image: 'images/logo/nrpf-seal-624x596.jpeg'
 ---
 
