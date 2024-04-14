@@ -27,7 +27,7 @@ Blondie’s era-defining “Parallel Lines,” The Notorious B.I.G.’s
 landmark “Ready to Die,” Green Day’s “Dookie,” The Chicks’ “Wide Open Spaces” and
 Lily Tomlin’s comedy.
 The recordings selected for addition to the National Recording Registry in 2024
-bring the number of titles on the registry to 650, 
+bring the number of titles on the registry to 650,
 representing a small portion of the national library’s vast recorded
 sound collection of nearly 4 million items.
 
