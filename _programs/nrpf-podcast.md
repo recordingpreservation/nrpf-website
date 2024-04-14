@@ -5,7 +5,7 @@ date: 2023-10-10
 weight: 3
 teaser: "NRPF's first podcast episode is available now, and stay tuned for new episodes to post monthly in 2024!"
 layout: page
-description: "Check out Sound Files, a podcast from the National Recording Preservation Foundation (NRPF) about the preservation of recorded sounds and the people and organizations who preserve them."
+description: "Sound Files, a podcast from the National Recording Preservation Foundation (NRPF), celebrates and explains the preservation of recorded sounds and the people and organizations who preserve them."
 image: "/images/podcast/soundfiles-2024-1000sq.jpg"
 as_of: 2024-04-14
 ---
