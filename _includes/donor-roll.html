@@ -1,0 +1,106 @@
+<!-- donor appreciation page include -->
+{% if site.data.supporters %}
+<!-- benefactors -->
+<div class="container">
+    <a name="benefactors"></a><h2>Leadership Circle</h2>
+    {% assign benefactors = site.data.supporters.benefactors | sort: 'sort' %}
+
+    <p>
+        The leadership circle recognizes those individuals and organizations that provided foundational support for the National Recording Preservation Foundation.
+        We are especially grateful for these leading benefactors. 
+    </p>
+
+    <h3 class="donor-level">Gold Benefactors ($200,000 or more)</h3>
+
+    <div class="row">
+        <ul class="donor-list" style="margin-left: 25px; margin-bottom: 50px; padding-left: 25px; line-height: 26px;">
+            {% for benefactor in benefactors %}{% if benefactor.level == 'Gold' %}
+            <li class="donor-entry">{{ benefactor.display_name }}{% if benefactor.show_year %} ({{ benefactor.year }}){% endif %}</li>
+            {% endif %}{% endfor %}
+        </ul>
+    </div>
+
+<!--
+    {% for benefactor in benefactors %}{% if benefactor.level == 'Gold' %}
+    <p class="donor-entry"><strong>{{ benefactor.display_name }}{% if benefactor.show_year %} ({{ benefactor.year }}){% endif %}</strong></p>
+    {% endif %}{% endfor %}
+-->
+</div>
+
+<!-- annual donors -->
+<div class="container">
+    <a name="donors"></a><h2>Donors</h2>
+    {% assign donors = site.data.supporters.donors | sort: 'sort' %}
+
+    <p>Thank you to these donors who have made annual donations.</p>
+
+    <h3 class="donor-level">Librarian's Circle ($10,000 or more)</h3><a name="librarians-circle"></a>
+
+    <div class="row">
+        <ul class="donor-list" style="margin-left: 25px; margin-bottom: 50px; padding-left: 25px; line-height: 26px;">
+            {% for donor in donors %}{% if donor.level == 'Librarian' %}
+            <li class="donor-entry">{{ donor.display_name }}{% if donor.show_year %} ({{ donor.year }}){% endif %}</li>
+            {% endif %}{% endfor %}
+        </ul>
+    </div>
+
+        <!--
+        {% for donor in donors %}{% if donor.level == 'Librarian' %}
+        <p class="donor-entry">{{ donor.display_name }}{% if donor.show_year %} ({{ donor.year }}){% endif %}</p>
+        {% endif %}{% endfor %}
+        -->    
+    
+    <h3 class="donor-level">Director's Circle ($5,000 or more)</h3><a name="directors-circle"></a>
+
+    <div class="row">
+        <ul class="donor-list" style="margin-left: 25px; margin-bottom: 50px; padding-left: 25px; line-height: 26px;">
+            {% for donor in donors %}{% if donor.level == 'Director' %}
+            <li class="donor-entry">{{ donor.display_name }}{% if donor.show_year %} ({{ donor.year }}){% endif %}</li>
+            {% endif %}{% endfor %}
+        </ul>
+    </div>
+
+    <h3 class="donor-level">Sustainer's Circle ($1,000 or more)</h3><a name="sustainers"></a>
+
+    <div class="row">
+        <ul class="donor-list" style="margin-left: 25px; margin-bottom: 50px; padding-left: 25px; line-height: 26px;">
+            {% for donor in donors %}{% if donor.level == 'Sustainer' %}
+            <li class="donor-entry">{{ donor.display_name }}{% if donor.show_year %} ({{ donor.year }}){% endif %}</li>
+            {% endif %}{% endfor %}
+        </ul>
+    </div>
+
+    <h3 class="donor-level">Friends ($100 or more)</h3><a name="friends"></a>
+
+        <div class="row">
+            <ul class="donor-list" style="margin-left: 25px; margin-bottom: 50px; padding-left: 25px; line-height: 26px;">
+            {% for donor in donors %}{% if donor.level == 'Friends' %}
+            <li class="donor-entry"><strong>{{ donor.display_name }}</strong></li>
+            {% endif %}{% endfor %}
+            </ul>
+        </div> 
+</div>
+
+<!-- supporters donors -->
+<div class="container">
+    <a name="supporters"></a><h2>Supporters</h2>
+    {% assign supporters = site.data.supporters.supporters | sort: 'sort' %}
+
+    <p>Thank you to these organizations who have provided in-kind or other support. Thanks! </p>
+
+    <div class="row">
+        <ul class="donor-list" style="margin-left: 25px; margin-bottom: 50px; padding-left: 25px; line-height: 26px;">
+        {% for supporter in supporters %}
+        <li class="donor-entry">{% if supporter.url %}<a href="{{ supporter.url }}">{% endif %}{{ supporter.display_name }}{% if supporter.url %}</a>{% endif %}{% if supporter.service %} &ndash; {{ supporter.service }}{% endif %}</li>
+        {% endfor %}
+        </ul>
+    </div> 
+
+<!--    
+    {% for supporter in supporters %}
+    <p class="donor-entry">{% if supporter.url %}<a href="{{ supporter.url }}">{% endif %}{{ supporter.display_name }}{% if supporter.url %}</a>{% endif %}{% if supporter.service %} &ndash; {{ supporter.service }}{% endif %}</p>
+    {% endfor %}
+-->
+</div>
+
+{% endif %}
