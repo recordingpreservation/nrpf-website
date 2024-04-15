@@ -1,0 +1,31 @@
+--- 
+layout: default
+bodyClass: "page-services"
+---
+
+{% if page.hero_image %}
+<div class="intro-hero">
+  <div class="container">
+    <div class="hero-overlay" style="background-image: linear-gradient(rgba(0, 0, 0, {{ page.hero_gradient }}), rgba(0, 0, 0, {{ page.hero_gradient }})), url('{{ page.hero_image_path | relative_url }}');">
+      <div class="wrapper justify-content-start">
+        <h1 id="page-title" class="page__title" itemprop="headline">{{ page.title }}</h1>
+        <p class="page-teaser">{{ page.hero_teaser | markdownify }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+{% else %}
+<div class="col-12">
+  <h1>{{ page.title }}</h1>
+  {{ content }}
+</div>
+{% endif %}
+
+<!-- content section / introduction -->
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+    {{ content }}
+    </div>
+  </div>
+</div>
