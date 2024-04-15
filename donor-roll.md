@@ -1,6 +1,6 @@
 ---
 title: NRPF Supporters
-permalink: 'supporters'
+permalink: '/supporters/'
 layout: page-with-hero
 description: 'We acknowledge and celebrate the generosity of those who have supported the NRPF. Thank you!'
 bodyClass: page-donors
