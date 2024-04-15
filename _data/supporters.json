@@ -1,0 +1,132 @@
+{
+    "updated": "2024-04-15",
+    "levels": [
+        {
+            "name": "Platinum",
+            "type": "benefactors",
+            "sort": 01
+        },
+        {
+            "level": "Gold",
+            "type": "benefactors",
+            "sort": 02
+        },
+        {
+            "name": "Silver",
+            "type": "benefactors",
+            "sort": 03
+        },
+        {
+            "name": "Librarian's Circle",
+            "type": "donors",
+            "sort": 04
+        },
+        {
+            "name": "Director's Circle",
+            "type": "donors",
+            "sort": 05
+        },
+        {
+            "name": "Sponsors",
+            "type": "donors",
+            "sort": 06
+        },
+        {
+            "name": "Friends",
+            "type": "donors",
+            "sort": 07
+        },
+        {
+            "name": "Supporters",
+            "type": "supporters",
+            "sort": 08
+        }
+    ],
+    "benefactors": [
+        {
+            "display_name": "Jack White",
+            "level": "Gold",
+            "sort": "white",
+            "year": 2013,
+            "show_year": true
+        }
+    ],
+    "donors": [
+        {
+            "display_name": "Chervenak-Nunnallé Foundation",
+            "level": "Librarian",
+            "sort": "chervenak",
+            "year": 2013,
+            "show_year": true,
+            "url": ""
+        },
+        {
+            "display_name": "Recording Industry Association of America",
+            "level": "Librarian",
+            "sort": "rec",
+            "year": 2021,
+            "show_year": true,
+            "url": "https://riaa.com/"
+        },
+        {
+            "display_name": "Music Library Association",
+            "level": "Sustainer",
+            "sort": "music_lib",
+            "year": 2024,
+            "show_year": false,
+            "url": "https://www.musiclibraryassoc.org/"
+        },
+        {
+            "display_name": "Samuel Brylawski",
+            "level": "Director",
+            "sort": "brylawski",
+            "year": 2023
+        },
+        {
+            "display_name": "Anonymous in honor of Carolyn Hauer and Her Family",
+            "level": "Director",
+            "sort": "anonymous_h",
+            "year": 2023
+        },
+        {
+            "display_name": "Emily A. Newhouse",
+            "level": "Friends",
+            "sort": "newhouse",
+            "year": 2024
+        },
+        {
+            "display_name": "Jesse A. Johnston",
+            "level": "Friends",
+            "sort": "johnston",
+            "year": 2024
+        }
+    ],
+    "supporters": [
+        {
+            "display_name": "Black Ram Tree House",
+            "level": "supporters",
+            "sort": "black_ram",
+            "service": "expert podcast recording and editing",
+            "url": "https://evanhaywood.bandcamp.com/community"
+        },
+        {
+            "display_name": "University of Michigan School of Information",
+            "level": "supporters",
+            "sort": "univ_mi",
+            "url": "https://si.umich.edu/"
+        },
+        {
+            "display_name": "Radio Preservation Task Force",
+            "level": "supporters",
+            "sort": "radio",
+            "service": "webinar hosting and collaboration",
+            "url": "https://radiopreservation.org/"
+        },
+        {
+            "display_name": "The Library of Congress",
+            "level": "supporters",
+            "sort": "library_of",
+            "url": "https://www.loc.gov/"
+        }
+    ]
+}
