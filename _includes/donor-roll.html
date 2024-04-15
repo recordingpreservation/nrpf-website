@@ -75,7 +75,7 @@
         <div class="row">
             <ul class="donor-list" style="margin-left: 25px; margin-bottom: 50px; padding-left: 25px; line-height: 26px;">
             {% for donor in donors %}{% if donor.level == 'Friends' %}
-            <li class="donor-entry"><strong>{{ donor.display_name }}</strong></li>
+            <li class="donor-entry">{{ donor.display_name }}</li>
             {% endif %}{% endfor %}
             </ul>
         </div> 
