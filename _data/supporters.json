@@ -133,6 +133,16 @@
             "level": "supporters",
             "sort": "library_of",
             "url": "https://www.loc.gov/"
+        },
+        {
+            "display_name": "Eric J. Schwartz",
+            "level": "supporters",
+            "sort": "schwartz"
+        },
+        {
+            "display_name": "Kenneth Silverberg",
+            "level": "supporters",
+            "sort": "silverberg"
         }
     ]
 }
