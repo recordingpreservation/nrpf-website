@@ -31,6 +31,18 @@ bring the number of titles on the registry to 650,
 representing a small portion of the national library’s vast recorded
 sound collection of nearly 4 million items.
 
+## Donate
+
+The new inductees on the National Recording Registry remind us
+how important it is to extend preservation support for significant, at-risk
+audio recordings to many more collections that need support.
+A donation to the National Recording Preservation Foundation supports the work of non-profit audio archives, libraries, and other cultural organizations, to secure the longterm availability of at-risk audio heritage. Donations can be made directly at [https://secure.givelively.org/donate/national-recording-preservation-foundation/national-recording-registry-2024](https://secure.givelively.org/donate/national-recording-preservation-foundation/national-recording-registry-2024).
+
+> Since 2012, the NRPF has awarded over a quarter of a million in grants
+> to support unique, at-risk audio collections held by non-profit
+> audio archives, libraries, and other cultural heritage organizations.
+> Read more about our grants at [our grants page]({% link _programs/nrpf-grants.md %}).
+
 ## Listen
 
 Listen to many of the recordings on your favorite streaming service.
