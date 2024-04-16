@@ -17,29 +17,34 @@
             "sort": 03
         },
         {
-            "name": "Librarian's Circle",
-            "type": "donors",
+            "name": "Bronze",
+            "type": "benefactors",
             "sort": 04
         },
         {
-            "name": "Director's Circle",
-            "type": "donors",
-            "sort": 05
-        },
-        {
-            "name": "Sponsors",
+            "name": "Librarian's Circle",
             "type": "donors",
             "sort": 06
         },
         {
-            "name": "Friends",
+            "name": "Director's Circle",
             "type": "donors",
             "sort": 07
         },
         {
+            "name": "Sponsors",
+            "type": "donors",
+            "sort": 08
+        },
+        {
+            "name": "Friends",
+            "type": "donors",
+            "sort": 09
+        },
+        {
             "name": "Supporters",
             "type": "supporters",
-            "sort": 08
+            "sort": 10
         }
     ],
     "benefactors": [
@@ -49,12 +54,10 @@
             "sort": "white",
             "year": 2013,
             "show_year": true
-        }
-    ],
-    "donors": [
+        },
         {
             "display_name": "Chervenak-Nunnallé Foundation",
-            "level": "Librarian",
+            "level": "Bronze",
             "sort": "chervenak",
             "year": 2013,
             "show_year": true,
@@ -62,12 +65,14 @@
         },
         {
             "display_name": "Recording Industry Association of America",
-            "level": "Librarian",
+            "level": "Bronze",
             "sort": "rec",
             "year": 2021,
             "show_year": true,
             "url": "https://riaa.com/"
-        },
+        }
+    ],
+    "donors": [
         {
             "display_name": "Music Library Association",
             "level": "Sustainer",
@@ -84,7 +89,7 @@
         },
         {
             "display_name": "Anonymous in honor of Carolyn Hauer and Her Family",
-            "level": "Director",
+            "level": "Librarian",
             "sort": "anonymous_h",
             "year": 2023
         },
