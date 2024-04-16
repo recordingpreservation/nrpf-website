@@ -75,7 +75,7 @@
     "donors": [
         {
             "display_name": "Music Library Association",
-            "level": "Sustainer",
+            "level": "Patron",
             "sort": "music_lib",
             "year": 2024,
             "show_year": false,
@@ -101,9 +101,10 @@
         },
         {
             "display_name": "Jesse A. Johnston",
-            "level": "Friends",
+            "level": "Sustainer",
             "sort": "johnston",
-            "year": 2024
+            "year": 2024,
+            "sustaining_donor": false
         }
     ],
     "supporters": [
