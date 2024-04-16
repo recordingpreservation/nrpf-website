@@ -6,6 +6,7 @@ categories:
   - blog
   - community
 description: "NRPF celebrates 2024 inductees to the National Recording Registry. The Librarian of Congress, Carla Hayden, has announced the selection of 25 additions to the registry, chosen for their signifance to the cultural, historical, or aesthetic importance to the nation's recorded sound heritage."
+image: /images/blog/natrecregistry-2024-graphic.jpg
 layout: post
 fullWidth: false
 ---
@@ -17,6 +18,8 @@ Each year, the Librarian of Congress selects twenty-five sound recordings,
 chosen from a slate of public nominations, which represent audio treasures
 worthy of preservation in perpetuity based on their cultural, historical or aesthetic
 importance to the nation’s recorded sound heritage.
+
+![National Recording Registry 2024 Inductees Announced](/images/blog/natrecregistry-2024-graphic.jpg)
 
 The latest selections named to the registry span from 1919 to 1998. They range from
 the recordings of the all-Black 369th U.S. Infantry Band led by James Reese Europe
