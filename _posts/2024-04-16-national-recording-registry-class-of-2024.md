@@ -20,7 +20,7 @@ worthy of preservation in perpetuity based on their cultural, historical or aest
 importance to the nation’s recorded sound heritage.
 The 2024 inductees were [announced today](https://newsroom.loc.gov/news/national-recording-registry-inducts-sounds-of-abba--blondie--the-cars--the-chicks--juan-gabriel/s/29ee4224-3060-4247-a7a4-7deea2c2f816)!
 
-![National Recording Registry 2024 Inductees Announced](/images/blog/natrecregistry-2024-graphic.jpg)
+![National Recording Registry 2024 Inductees Announced. Press graphic by the Library of Congress.](/images/blog/natrecregistry-2024-graphic.jpg)
 
 The latest selections named to the registry span from 1919 to 1998. They range from
 the recordings of the all-Black 369th U.S. Infantry Band led by James Reese Europe
