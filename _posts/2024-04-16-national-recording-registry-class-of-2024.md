@@ -18,6 +18,7 @@ Each year, the Librarian of Congress selects twenty-five sound recordings,
 chosen from a slate of public nominations, which represent audio treasures
 worthy of preservation in perpetuity based on their cultural, historical or aesthetic
 importance to the nation’s recorded sound heritage.
+The 2024 inductees were [announced today](https://newsroom.loc.gov/news/national-recording-registry-inducts-sounds-of-abba--blondie--the-cars--the-chicks--juan-gabriel/s/29ee4224-3060-4247-a7a4-7deea2c2f816)!
 
 ![National Recording Registry 2024 Inductees Announced](/images/blog/natrecregistry-2024-graphic.jpg)
 
@@ -63,3 +64,7 @@ A record 2,899 nominations were made by the public in 2023 for recordings to con
 adding to the registry. The public can submit nominations throughout the year on the
 Library's web site. Nominations for next year will be accepted until Oct. 1, 2024. The
 public may nominate recordings for the Registry at [{{ site.data.nrpf_data.natrecregistry_nominate_link }}]({{ site.data.nrpf_data.natrecregistry_nominate_link }}).
+
+## Learn More
+
+See the full list of inductees at the press release from the Library of Congress: [https://newsroom.loc.gov/news/national-recording-registry-inducts-sounds-of-abba--blondie--the-cars--the-chicks--juan-gabriel/s/29ee4224-3060-4247-a7a4-7deea2c2f816](https://newsroom.loc.gov/news/national-recording-registry-inducts-sounds-of-abba--blondie--the-cars--the-chicks--juan-gabriel/s/29ee4224-3060-4247-a7a4-7deea2c2f816). NPR’s “1A” will feature selections in the series, “[The Sounds of America](https://the1a.org/series/the-sounds-of-america/),” about this year’s National Recording Registry, including interviews with Hayden and several featured artists in the weeks ahead. Follow the conversation about the registry on [Instagram](https://www.instagram.com/librarycongress), [Threads](https://www.threads.net/@librarycongress?hl=en) and [@librarycongress](https://twitter.com/librarycongress) and **#NatRecRegistry**.
