@@ -31,12 +31,6 @@
             {% endif %}{% endfor %}
         </ul>
     </div>
-
-<!--
-    {% for benefactor in benefactors %}{% if benefactor.level == 'Gold' %}
-    <p class="donor-entry"><strong>{{ benefactor.display_name }}{% if benefactor.show_year %} ({{ benefactor.year }}){% endif %}</strong></p>
-    {% endif %}{% endfor %}
--->
 </div>
 
 <!-- annual donors -->
@@ -44,7 +38,7 @@
     <a name="donors"></a><h2>Donors</h2>
     {% assign donors = site.data.supporters.donors | sort: 'sort' %}
 
-    <p>Thank you to these donors who have made donations in 2023 and 2024.</p>
+    <p>Thank you to these individuals and organizations who have made donations in 2023 and 2024.</p>
 
 
     <h3 class="donor-level">Librarian's Circle ($7,500+)</h3><a name="librarians-circle"></a>
@@ -68,12 +62,23 @@
         </ul>
     </div>
 
-    <h3 class="donor-level">Sustainer's Circle ($1,000+)</h3><a name="sustainers"></a>
+
+    <h3 class="donor-level">Patron's Circle ($1,000+)</h3><a name="patrons"></a>
+
+    <div class="row">
+        <ul class="donor-list" style="margin-left: 25px; margin-bottom: 50px; padding-left: 25px; line-height: 26px;">
+            {% for donor in donors %}{% if donor.level == 'Patron' %}
+            <li class="donor-entry">{{ donor.display_name }}{% if donor.show_year %} ({{ donor.year }}){% endif %}</li>
+            {% endif %}{% endfor %}
+        </ul>
+    </div>
+
+    <h3 class="donor-level">Sustainer's Circle ($500+)</h3><a name="sustainers"></a>
 
     <div class="row">
         <ul class="donor-list" style="margin-left: 25px; margin-bottom: 50px; padding-left: 25px; line-height: 26px;">
             {% for donor in donors %}{% if donor.level == 'Sustainer' %}
-            <li class="donor-entry">{{ donor.display_name }}{% if donor.show_year %} ({{ donor.year }}){% endif %}</li>
+            <li class="donor-entry">{{ donor.display_name }}{% if donor.sustaining_donor %}<sup>&star;</sup>{% endif %}{% if donor.show_year %} ({{ donor.year }}){% endif %}</li>
             {% endif %}{% endfor %}
         </ul>
     </div>
@@ -89,6 +94,20 @@
         </div> 
 </div>
 
+<!-- sustaining donors -->
+<!--
+<div class="container">
+    <a name="sustaining-donors"></a><h2>Sustaining Donors: The Long Playing Society</h2>
+
+    <p>
+        The <em>Long Playing Society</em> (LPS) recognizes donors who have pledged a monthly gift of $50 or more. 
+        LPS members are denoted above with a&nbsp;&star;&nbsp;mark.
+        Members of the LPS provide consistent, monthly gifts that help to defray recurring costs of running the Foundation,
+        as well as support for <a href="{% link _programs/nrpf-grants.md %}">NRPF grants</a> and other programs. 
+    </p>
+
+</div>
+-->
 <!-- supporters donors -->
 <div class="container">
     <a name="supporters"></a><h2>Supporters</h2>
