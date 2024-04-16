@@ -21,9 +21,8 @@ These supporters have played key roles in advancing our mission to promote and
 preserve sound recordings, and in achieving our vision of
 sharing the sounds and stories of American audio heritage.
 
-To our supporters: we acknowledge your steadfast and ongoing commitment
-toward preserving unique, at-risk audio collections and making this
-work possible.
-
+To our supporters: we acknowledge your ongoing commitment
+to the preservation of unique, at-risk audio collections which 
+makes the work of the NRPF possible.
 
 {% include donor-roll.html %}
