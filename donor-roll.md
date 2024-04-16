@@ -22,7 +22,8 @@ preserve sound recordings, and in achieving our vision of
 sharing the sounds and stories of American audio heritage.
 
 To our supporters: we acknowledge your ongoing commitment
-to the preservation of unique, at-risk audio collections which 
-makes the work of the NRPF possible.
+to the preservation of unique, at-risk audio collections.
+Your gifts, large and small, make the work of the NRPF possible.
+Thank you!
 
 {% include donor-roll.html %}
