@@ -6,15 +6,26 @@
     {% assign benefactors = site.data.supporters.benefactors | sort: 'sort' %}
 
     <p>
-        The leadership circle recognizes those individuals and organizations that provided foundational support for the National Recording Preservation Foundation.
+        The leadership circle recognizes those individuals and organizations that have provided
+        exceptional support for the work of the National Recording Preservation Foundation.
         We are especially grateful for these leading contributors. 
     </p>
 
-    <h3 class="donor-level">Gold Benefactors ($200,000 or more)</h3>
+    <h3 class="donor-level">Gold Benefactors ($200,000+)</h3>
 
     <div class="row">
         <ul class="donor-list" style="margin-left: 25px; margin-bottom: 50px; padding-left: 25px; line-height: 26px;">
             {% for benefactor in benefactors %}{% if benefactor.level == 'Gold' %}
+            <li class="donor-entry">{{ benefactor.display_name }}{% if benefactor.show_year %} ({{ benefactor.year }}){% endif %}</li>
+            {% endif %}{% endfor %}
+        </ul>
+    </div>
+
+    <h3 class="donor-level">Bronze Benefactors ($10,000+)</h3>
+
+    <div class="row">
+        <ul class="donor-list" style="margin-left: 25px; margin-bottom: 50px; padding-left: 25px; line-height: 26px;">
+            {% for benefactor in benefactors %}{% if benefactor.level == 'Bronze' %}
             <li class="donor-entry">{{ benefactor.display_name }}{% if benefactor.show_year %} ({{ benefactor.year }}){% endif %}</li>
             {% endif %}{% endfor %}
         </ul>
@@ -32,9 +43,10 @@
     <a name="donors"></a><h2>Donors</h2>
     {% assign donors = site.data.supporters.donors | sort: 'sort' %}
 
-    <p>Thank you to these donors who have made annual donations.</p>
+    <p>Thank you to these donors who have made donations in 2023 and 2024.</p>
 
-    <h3 class="donor-level">Librarian's Circle ($10,000 or more)</h3><a name="librarians-circle"></a>
+
+    <h3 class="donor-level">Librarian's Circle ($7,500+)</h3><a name="librarians-circle"></a>
 
     <div class="row">
         <ul class="donor-list" style="margin-left: 25px; margin-bottom: 50px; padding-left: 25px; line-height: 26px;">
@@ -44,13 +56,8 @@
         </ul>
     </div>
 
-        <!--
-        {% for donor in donors %}{% if donor.level == 'Librarian' %}
-        <p class="donor-entry">{{ donor.display_name }}{% if donor.show_year %} ({{ donor.year }}){% endif %}</p>
-        {% endif %}{% endfor %}
-        -->    
     
-    <h3 class="donor-level">Director's Circle ($5,000 or more)</h3><a name="directors-circle"></a>
+    <h3 class="donor-level">Director's Circle ($5,000+)</h3><a name="directors-circle"></a>
 
     <div class="row">
         <ul class="donor-list" style="margin-left: 25px; margin-bottom: 50px; padding-left: 25px; line-height: 26px;">
@@ -60,7 +67,7 @@
         </ul>
     </div>
 
-    <h3 class="donor-level">Sustainer's Circle ($1,000 or more)</h3><a name="sustainers"></a>
+    <h3 class="donor-level">Sustainer's Circle ($1,000+)</h3><a name="sustainers"></a>
 
     <div class="row">
         <ul class="donor-list" style="margin-left: 25px; margin-bottom: 50px; padding-left: 25px; line-height: 26px;">
@@ -70,7 +77,7 @@
         </ul>
     </div>
 
-    <h3 class="donor-level">Friends ($100 or more)</h3><a name="friends"></a>
+    <h3 class="donor-level">Friends ($100+)</h3><a name="friends"></a>
 
         <div class="row">
             <ul class="donor-list" style="margin-left: 25px; margin-bottom: 50px; padding-left: 25px; line-height: 26px;">
@@ -86,7 +93,7 @@
     <a name="supporters"></a><h2>Supporters</h2>
     {% assign supporters = site.data.supporters.supporters | sort: 'sort' %}
 
-    <p>Thank you to these organizations who have provided in-kind or other support. Thanks! </p>
+    <p>Thank you to these organizations who have provided in-kind or other support!</p>
 
     <div class="row">
         <ul class="donor-list" style="margin-left: 25px; margin-bottom: 50px; padding-left: 25px; line-height: 26px;">
