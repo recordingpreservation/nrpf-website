@@ -1,3 +1,6 @@
 nrpp_link: 'https://www.loc.gov/programs/national-recording-preservation-plan/'
 nrpp_cover_image: '/images/illustrations/nrpp.png'
 nrpb_link: 'https://www.loc.gov/programs/national-recording-preservation-board/'
+natrecregistry_link: 'https://www.loc.gov/programs/national-recording-preservation-board/recording-registry/'
+natrecregistry_listen_link: 'https://www.loc.gov/programs/national-recording-preservation-board/recording-registry/listen-to-registry-titles/'
+natrecregistry_nominate_link: 'https://www.loc.gov/programs/national-recording-preservation-board/recording-registry/nominate/'
