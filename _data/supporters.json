@@ -105,6 +105,12 @@
             "sort": "johnston",
             "year": 2024,
             "sustaining_donor": false
+        },
+        {
+            "display_name": "Ricardo Punzalan",
+            "level": "Friends",
+            "sort": "punzalan",
+            "year": 2024
         }
     ],
     "supporters": [
