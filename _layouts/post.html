@@ -24,20 +24,24 @@ bodyClass: "page-basic"
                     {{ content }}
                 </div>
 
-                <div class="previous-posts">
+                <div class="previous-posts" style="padding-top: 25px;">
                 <!-- other posts-->
                 <hr />
                 <h2>Other NRPF News</h2>
                   {% if page.next %}
-                  <h3>Next Feature Post</h3>
+                  <h3>Next</h3>
                   <p><a href="{{ page.next.url }}">{{ page.next.title }}</a> | {{ page.next.date | date: "%B %e, %Y" }}</p>
-                  {% endif %}{% if page.previous %}
-                  <h3>Previous Feature Post</h3>
+                  {% endif %}
+                  {% if page.previous %}
+                  <h3>Previous</h3>
                   <p><a href="{{ page.previous.url }}">{{ page.previous.title }}</a> | {{ page.previous.date | date: "%B %e, %Y" }}</p>
                   {% endif %}
 
-                <h3 class="link"><a href="{{ "/news/" | relative_url }}">All NRPF News</a></h3>
-                </div>
+                  <h3 class="link"><a href="{{ '/features/' | relative_url }}">All NRPF Features</a></h3>
+
+                  <h3 class="link"><a href="{{ '/news/' | relative_url }}">All NRPF News</a></h3>
+
+            </div>
             </div>
         </div>
     </div>
