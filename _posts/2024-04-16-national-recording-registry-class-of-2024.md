@@ -8,7 +8,6 @@ categories:
 description: "NRPF celebrates 2024 inductees to the National Recording Registry. The Librarian of Congress, Carla Hayden, has announced the selection of 25 additions to the registry, chosen for their signifance to the cultural, historical, or aesthetic importance to the nation's recorded sound heritage."
 image: /images/blog/natrecregistry-2024-graphic.jpg
 layout: post
-fullWidth: false
 ---
 
 The National Recording Preservation Foundation congratulates
