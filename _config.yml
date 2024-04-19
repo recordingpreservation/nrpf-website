@@ -47,6 +47,7 @@ defaults:
     values:
       layout: "post"
       image: "/images/social/NRPF-mandala-title-white-blue.png"
+      fullWidth: "true"
   - scope:
       path: ""
       type: "services"
