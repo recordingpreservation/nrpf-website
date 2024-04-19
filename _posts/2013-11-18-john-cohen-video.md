@@ -7,6 +7,7 @@ categories:
   - news
   - blog
   - video
+fullWidth: false
 ---
 
 John Cohen, musicologist, photographer, filmmaker, and founding member of the New Lost City Ramblers, speaks about the importance of preserving our recorded heritage.

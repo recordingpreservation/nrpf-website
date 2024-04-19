@@ -7,6 +7,7 @@ categories:
   - news
   - blog
   - video
+fullWidth: false
 ---
 
 Chris Strachwitz, president of Arhoolie Records and the Arhoolie Foundation, speaks about the importance of preserving audio recordings for future generations.
