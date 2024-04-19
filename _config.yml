@@ -41,12 +41,12 @@ defaults:
   - scope: 
       path: ""
     values:
-      image: "images/logo/nrpf-seal-624x596.jpeg"
+      image: "/images/logo/nrpf-seal-624x596.jpeg"
   - scope:
       type: "posts"
     values:
       layout: "post"
-      image: "images/logo/nrpf-seal-624x596.jpeg"
+      image: "/images/social/NRPF-mandala-title-white-blue.png"
   - scope:
       path: ""
       type: "services"
@@ -62,7 +62,7 @@ defaults:
       type: "programs"
     values:
       layout: "program"
-      image: "images/logo/nrpf-seal-624x596.jpeg"
+      image: "/images/social/NRPF-mandala-title-white-blue.png"
   - scope:
       path: ""
       type: "news"
