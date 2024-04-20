@@ -9,8 +9,8 @@ analytics:
 
 logo:
   mobile: "images/logo/NRPF_mandala_nobg_white.png"
-  mobile_height: "64px"
-  mobile_width: "64px"
+  mobile_height: "100px"
+  mobile_width: "100px"
   desktop: "images/logo/NRPF_mandala_nobg_white.png"
   desktop_height: "128px"
   desktop_width: ""
