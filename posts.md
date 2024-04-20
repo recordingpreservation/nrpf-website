@@ -1,6 +1,6 @@
 ---
 title: NRPF Features
-layout: posts
+layout: posts-redux
 description: NRPF Features
 permalink: "/features/"
 ---
