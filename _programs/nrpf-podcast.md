@@ -24,10 +24,25 @@ sounds from the collections we have supported, and interviews with voices from t
 audio preservation community.
 We will also offer occasional updates on our activities and programs.
 
-Help us spread the word! If you like the pod, click on the "subscribe"
-tab from any of the players below, and subscribe via your podcast service of choice.
-Leave a review, and share to your network.
+## Subscribe
+
+Help us spread the word! 
 New episodes will be distributed here and via major podcast platforms.
-Episodes will be posted about once a month for the 2024 season, so be sure to check back!
+If you like the pod,
+use any of the players below to via your podcast service of choice.
+Then you will be notified any time that a new episode drops!
+You can also leave a review, rate the podcast, and share to your networks.
+Episodes will be posted about once a month for the 2024 season, so be sure to check below for our most recent episodes!
+
+## Hosts
+
+_Sound Files_ is hosted by two new members of the NRPF community! We are happy to welcome:
+
+* **[Jesse Johnston]({% link _team/jesse-johnston.md %})**, a clinical faculty member at the [University of Michigan School of Information](https://www.si.umich.edu/people/jesse-johnston) and Executive Director of NRPF.
+* **[Evan Haywood]({% link _team/evan-haywood.md %})**, audio archivist and sound engineer at the Black Ram Treehouse in Ann Arbor, Michigan.
+
+## Episodes
 
 {% include podcast-soundfiles.html %}
+
+{% include subscribe-donate-row.html %}
