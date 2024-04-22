@@ -1,7 +1,8 @@
 <!-- subscribe and donate row -->
   <div class="row calltoaction" style="background-color: #e9f7ff; margin-top: 25px; border-radius: 10px;">
 
-    <!-- subscribe --><!--
+    {% if site.data.contact.newsletter_link %}
+    <!-- subscribe -->
       <div class="col-12 col-md-6 mb-3">
         <div class="calltoaction-summary subscribe" style="text-align: center;">
             <h2 class="calltoaction-title">
@@ -11,11 +12,12 @@
             <p class="calltoaction-description">To receive updates on our latest news</p>
 
             <div class="calltoaction-button-wrapper">
-                    <a class="calltoaction-button" href="TBD" class="button" style="text-decoration: none;"><span class="calltoaction-button-text">Subscribe</span></a>
+                    <a class="calltoaction-button" href="{{ site.data.contact.newsletter_link }}" class="button" style="text-decoration: none;"><span class="calltoaction-button-text">Subscribe</span></a>
             </div>
 
         </div>
-      </div>-->
+      </div>
+      {% endif %}
 
       <!-- donate! -->
       <div class="col-12 col-md-6 mb-3">
