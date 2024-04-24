@@ -19,6 +19,10 @@ to promote and preserve recorded sound history.
 At present, the Foundation does not have an open call for proposals.
 Please watch our press releases for annnouncements of any pending NRPF grant opportunities.
 
+## Impact
+
+How have our grants advanced audio preservation? Take a look at the numbers: 
+
 {% include grants-impact.html %}
 
 ## Grants Awarded (since 2016)
