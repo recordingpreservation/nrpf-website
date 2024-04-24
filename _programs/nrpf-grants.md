@@ -16,14 +16,16 @@ that are stored on at-risk or obsolete physical media.
 Since 2016, the Foundation has distributed over a quarter of a million dollars
 to promote and preserve recorded sound history.
 
-At present, the Foundation does not have an open call for proposals.
-Please watch our press releases for annnouncements of any pending NRPF grant opportunities.
-
 ## Impact
 
 How have our grants advanced audio preservation? Take a look at the numbers: 
 
 {% include grants-impact.html %}
+
+## Opportunities
+
+At present, the Foundation does not have an open call for proposals.
+Please watch our press releases for annnouncements of any pending NRPF grant opportunities.
 
 ## Grants Awarded (since 2016)
 
