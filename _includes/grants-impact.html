@@ -1,0 +1,88 @@
+<!-- NOTE: grants impact block uses jquery.countTo -->
+
+<h2>NRPF Impact</h2>
+
+<div class="row grants-impact" style="background-color: #005687; color: white; margin-top: 25px; border-radius: 10px; text-align: center;">
+
+    <div class="col-12 {% if site.data.nrpf_data.grantsHoursPreserved %}col-md-4{% else %}col-md-6{% endif %} mb-3">
+        <h3 class="display-1">
+            Grants Awarded <br />
+        <span class="timer" style="font-size: xx-large;"></span>
+
+        <script type="text/javascript">
+        $('.timer').countTo({
+            from: 0,
+            to: {{ site.data.nrpf_data.grantsNumber }},
+            speed: 2500,
+            decimals: 0,
+            refreshInterval: 50,
+            formatter: function (value, options) {
+                return value.toFixed(options.decimals);
+            },
+            onUpdate: function (value) {
+                console.debug(this);
+            },
+            onComplete: function (value) {
+                console.debug(this);
+            }
+        });
+        </script>
+        </h3>
+    </div>
+
+    <div class="col-12 {% if site.data.nrpf_data.grantsHoursPreserved %}col-md-4{% else %}col-md-6{% endif %} mb-3">
+        <h3>
+            Dollars toward Audio Preservation <br />
+        <span class="timer2" style="font-size: xx-large;"></span>
+
+        <script type="text/javascript">
+        $('.timer2').countTo({
+            from: 0,
+            to: {{ site.data.nrpf_data.grantsTotalAmount }},
+            speed: 5000,
+            decimals: 0,
+            refreshInterval: 50,
+            formatter: function (value, options) {
+                return value.toLocaleString('en-US', {style:'currency',currency:'USD'});
+            },
+            onUpdate: function (value) {
+                console.debug(this);
+            },
+            onComplete: function (value) {
+                console.debug(this);
+            }
+        });
+        </script>
+        </h3>
+    </div>
+
+    {% if site.data.nrpf_data.grantsHoursPreserved %}
+    <div class="col-12 col-md-4 mb-3">
+        <h3>
+            Hours of Audio Preserved <br />
+
+        <span class="timer3" style="font-size: xx-large;"></span>
+
+        <script type="text/javascript">
+        $('.timer3').countTo({
+            from: 0,
+            to: {{ site.data.nrpf_data.grantsHoursPreserved }},
+            speed: 2500,
+            decimals: 0,
+            refreshInterval: 50,
+            formatter: function (value, options) {
+                return value.toLocaleString('en-US', {style:'decimal'});
+            },
+                onUpdate: function (value) {
+                console.debug(this);
+            },
+                onComplete: function (value) {
+                console.debug(this);
+            }
+        });
+        </script>
+        </h3>
+    </div>
+    {% endif %}
+
+</div>
