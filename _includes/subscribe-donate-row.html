@@ -29,7 +29,7 @@
             <p class="calltoaction-description">Help support the work of the NRPF!</p>
 
             <div class="calltoaction-button-wrapper">
-                <a class="calltoaction-button" href="/donate" class="button" style="text-decoration: none;"><span class="calltoaction-button-text">Donate Now</span></a>
+                <a class="calltoaction-button" href="{% if page.campaign_donate_link %}{{ page.campaign_donate_link }}{% else %}/donate/{% endif %}" class="button" style="text-decoration: none;"><span class="calltoaction-button-text">Donate Now</span></a>
             </div>
 
         </div>
