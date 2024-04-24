@@ -6,6 +6,8 @@ teaser: "The NRPF has awarded over a quarter of a million dollars to support the
 permalink: /grants/
 layout: page
 bodyClass: page-about
+jquery: true
+countUp: true
 ---
 
 In pursuing its mandate to preserve recorded sound heritage, the Foundation
@@ -16,6 +18,8 @@ to promote and preserve recorded sound history.
 
 At present, the Foundation does not have an open call for proposals.
 Please watch our press releases for annnouncements of any pending NRPF grant opportunities.
+
+{% include grants-impact.html %}
 
 ## Grants Awarded (since 2016)
 
