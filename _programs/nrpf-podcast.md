@@ -8,6 +8,7 @@ layout: page
 description: "Sound Files, a podcast from the National Recording Preservation Foundation (NRPF), celebrates and explains the preservation of recorded sounds and the people and organizations who preserve them."
 image: "/images/podcast/soundfiles-2024-1000sq.jpg"
 as_of: 2024-04-14
+campaign_donate_link: 'https://secure.givelively.org/donate/national-recording-preservation-foundation/sound-files-podcast'
 ---
 
 ![NRPF Sound Files podcast cover image]({% link images/podcast/soundfiles-2024-1000sq.jpg %}){:style="float: right; width: 40%; padding-left: 10px; margin-top: 0;"}
