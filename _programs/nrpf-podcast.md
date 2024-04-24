@@ -47,3 +47,10 @@ _Sound Files_ is hosted by two new members of the NRPF community! We are happy t
 {% include podcast-soundfiles.html %}
 
 {% include subscribe-donate-row.html %}
+
+Donations large or small are always appreciated and gratefully acknowledged!
+If you enjoy the podcast, please consider giving &ndash; any donation advances
+our services by supporting the costs of creating, distributing, and sharing the
+podcast. Beyond that, you will be contributing to the overall work of preserving recorded sound history.
+
+To donate, click above, or <abbr title="To donate, text 'soundfiles' to 44-321">text "soundfiles" to 44-321</abbr>.
