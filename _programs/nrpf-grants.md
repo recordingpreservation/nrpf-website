@@ -5,7 +5,7 @@ weight: 4
 teaser: "The NRPF has awarded over a quarter of a million dollars to support the digitization and stewardship of at-risk audio collections."
 permalink: /grants/
 layout: page
-bodyClass: page-about
+bodyClass: page-grants
 jquery: true
 countUp: true
 ---
