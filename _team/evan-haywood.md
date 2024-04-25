@@ -1,7 +1,7 @@
 ---
 title: "Evan Haywood"
 date: 2023-07-01
-image: 
+image: "images/team/evan-haywood.jpg"
 jobtitle: "Audio Preservationist and Podcast Producer"
 short_bio: 
 role: 
