@@ -9,7 +9,7 @@ weight: 3
 staff: true
 staff_role: Audio Preservationist and Podcast Producer
 sort_name: "haywood"
-updated: 2024-02-19
+updated: 2024-04-25
 ---
 
 Evan Haywood joined NRPF in 2023 as podcast producer and preservation advisor.
