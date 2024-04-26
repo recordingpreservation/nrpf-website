@@ -10,6 +10,7 @@ categories:
 description: "NRPF co-sponsors a webinar with the Radio Preservation Task Force to make organizations aware of currently available grant opportunities that may be used by organizations to support audio preservation projects."
 layout: post
 fullWidth: true
+updated: 2024-04-26
 ---
 
 We are happy to announce a webinar co-sponsored by the National Recording Preservation Foundation
@@ -17,6 +18,11 @@ and the [Radio Preservation Task Force](https://radiopreservation.org/).
 The webinar is free and available to the public and will be live on April 5, 2024.
 If you are accessing this page after that date, we will post an edited recording, transcript, and any
 additional resources from the event below.
+
+## Update: Resources Posted
+
+We have posted the recording, transcript, and slides from the webinar at
+the [RPTF website](https://radiopreservation.org/)! Please look for the materials at [https://radiopreservation.org/2024/04/22/audio-preservation-grants-webinar/](https://radiopreservation.org/2024/04/22/audio-preservation-grants-webinar/).
 
 ![Flyer advertising the NRPF/RPTF grants webinar schedule for 5 April 2024.]({% link images/blog/NRPF_RPTF_Grants_Webinar_April_2024.png %})
 
@@ -28,7 +34,7 @@ April 5, 2024
 
 ## Registration
 
-Register here: [https://bit.ly/495bCIE](https://bit.ly/495bCIE) [Please note this link will not be live after April 5, 2024.]
+Register here: [Link removed after April 5, 2024.]
 
 ## Panelists
 
