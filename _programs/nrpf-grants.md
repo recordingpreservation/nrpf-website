@@ -18,7 +18,7 @@ to promote and preserve recorded sound history.
 
 ## Impact
 
-How have our grants advanced audio preservation? Take a look at the numbers: 
+How have our grants supported audio preservation? Take a look at the numbers:
 
 {% include grants-impact.html %}
 
