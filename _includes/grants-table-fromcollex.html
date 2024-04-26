@@ -4,19 +4,17 @@
     <thead>
       <tr>
         <th>Year</th>
-        <th>Recipient</th>
         <th>Amount</th>
-        <th>Location</th>
         <th>Title</th>
+        <th>Recipient (Location)</th>
       </tr>
     </thead>
     {% for grant in grants %}
     <tr>
       <td>{{ grant.year }}</td>
-      <td><a href="{{ grant.url | relative_url }}">{{ grant.recipient }}</a></td>
       <td style="text-align: right;">{{ grant.amount }}</td>
-      <td>{{ grant.location }}</td>
-      <td>{% if grant.title %}{{ grant.title }}{% endif %}</td>
+      <td><a href="{{ grant.url | relative_url }}">{{ grant.title }}</a></td>
+      <td>{{ grant.recipient }} ({{ grant.location }})</td>
     </tr>
     {% endfor %}
   </table>
