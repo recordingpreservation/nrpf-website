@@ -1,5 +1,6 @@
 ---
 title: "Webinar for Grant Seekers: Funding Audio Preservation Projects"
+teaser: "Expert Panel to Share Grant-Writing Tips for Audio Preservation Projects in April 5 Webinar"
 date: 2024-04-05
 author: "Jesse Johnston"
 categories: 
