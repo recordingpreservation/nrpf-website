@@ -7,7 +7,7 @@ bodyClass: page-about
 
 We share information and updates about once per quarter in our email newsletter. If you are interested in learning more about the National Recording Preservation, please subscribe below:
 
-{% include mailchimp-subscribe-form %}
+{% include subscribe-form-mailchimp %}
 
 ## Follow Us
 
