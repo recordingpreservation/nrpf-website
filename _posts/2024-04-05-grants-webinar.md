@@ -7,7 +7,7 @@ categories:
   - blog
   - events
   - community
-description: "NRPF co-sponsors a webinar with the Radio Preservation Task Force to make organizations aware of currently available grant opportunities that may be used by organizations to support audio preservation projects."
+description: "Join our expert-led webinar on April 5, 2024, to learn about opportunities and grant-writing strategies for audio preservation projects. Discover funding opportunities with insights from the Council for Library and Information Resources, Institute of Museum and Library Services, National Endowment for the Humanities, the National Recording Preservation Foundation, and the Radio Preservation Task Force. Register now to secure your spot!"
 layout: post
 fullWidth: true
 updated: 2024-04-26
