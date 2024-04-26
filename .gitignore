@@ -6,3 +6,4 @@ _site/
 .bundle/
 vendor/bundle
 *.DS_Store
+.images/team/original/
