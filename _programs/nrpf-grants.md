@@ -3,7 +3,7 @@ title: "NRPF Grants"
 date: 2023-05-01
 weight: 4
 teaser: "The NRPF has awarded over a quarter of a million dollars to support the digitization and stewardship of at-risk audio collections."
-permalink: /grants/
+permalink: "/programs/grants/"
 layout: page
 bodyClass: page-grants
 jquery: true
