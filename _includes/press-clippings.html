@@ -1,0 +1,12 @@
+{% if site.data.press-clippings %}
+
+{% assign clippings = site.data.press-clippings | sort: "date_of_source" | reverse %}
+
+{% for clipping in clippings %}
+{% if clipping.publish != false %}
+<h2>&ldquo;{% if clipping.archive_url %}<a href="{{ clipping.archive_url }}">{% endif %}{{ clipping.display_title }}{% if clipping.archive_url %}</a>{% endif %},&rdquo; {% if clipping.byline %}by {{ clipping.byline }}, {% endif %}<em>{{ clipping.source }}</em> ({{ clipping.date_of_source | date: "%B %e, %Y" }})</h2>
+{% if clipping.quote %}<blockquote stlye="padding-left: 25px;">{{ clipping.quote }}</blockquote>{% else %}<p><em>{{ clipping.description }}</em></p>{% endif %}
+{% endif %}
+{% endfor %}
+
+{% endif %}
