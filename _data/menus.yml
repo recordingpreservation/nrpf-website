@@ -2,22 +2,63 @@ main:
 #  - name: "Resources"
 #    url: "/resources/"
 #    weight: 4
-  - name: "Our Work"
-    url: "/our-work/"
-    weight: 4
-  - name: "People"
-    url: "/board-and-staff/"
-    weight: 3
+#  - name: "People"
+#    url: "/board-and-staff/"
+#    weight: 3
   - name: "About"
     url: "/about/"
     weight: 2
+    subitems:
+      - name: "About Us"
+        url: "/about/"
+      - name: "People"
+        url: "/board-and-staff/"
+      - name: "Supporters"
+        url: "/supporters/"
+      - name: "Press"
+        url: "/about/press/"
+      - name: "Subscribe to Our Newsletter"
+        url: "/subscribe/"
+      - name: "divider"
+      - name: "Home"
+        url: "/"
+  - name: "Our Work"
+    url: "/programs/"
+    weight: 4
+    subitems:
+      - name: "What is at Stake?"
+        url: "/reports-and-data/"
+      - name: "Audio Preservation Resources"
+        url: "/resources/"
+      - name: "NRPF Grants"
+        url: "/programs/grants/"
+      - name: "Sound Files Podcast"
+        url: "/programs/podcast/"
+      - name: "divider"
+      - name: "All Programs"
+        url: "/programs/"
   - name: "News"
     url: "/news/"
-    weight: 5
-  - name: "&#9829; DONATE!"
-    class: donate
-    url: "https://secure.givelively.org/donate/national-recording-preservation-foundation/national-recording-registry-2024"
     weight: 6
+    subitems:
+      - name: "Press Releases"
+        url: "/news/#press-releases"
+      - name: "Features"
+        url: "/features/"
+      - name: "divider"
+      - name: "All News"
+        url: "/news/"
+  - name: "&#9829; Giving"
+    class: donate
+    url: "/donate/"
+    subitems:
+      - name: "Donate Now!"
+        url: "https://secure.givelively.org/donate/national-recording-preservation-foundation/national-recording-registry-2024"
+      - name: 'Other Ways to Give'
+        url: "/donate/#other-ways-to-give"
+      - name: "Our Supporters"
+        url: "/supporters/"
+    weight: 8
 
 footer:
   - name: "Home"
