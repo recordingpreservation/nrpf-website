@@ -5,7 +5,7 @@
 {% for clipping in clippings %}
 {% if clipping.publish != false %}
 <h2>&ldquo;{% if clipping.archive_url %}<a href="{{ clipping.archive_url }}">{% endif %}{{ clipping.display_title }}{% if clipping.archive_url %}</a>{% endif %},&rdquo; {% if clipping.byline %}by {{ clipping.byline }}, {% endif %}<em>{{ clipping.source }}</em> ({{ clipping.date_of_source | date: "%B %e, %Y" }})</h2>
-{% if clipping.quote %}<blockquote stlye="padding-left: 25px;">{{ clipping.quote }}</blockquote>{% else %}<p><em>{{ clipping.description }}</em></p>{% endif %}
+{% if clipping.quote %}<p><em>Quote:</em></p><blockquote stlye="padding-left: 25px;">{{ clipping.quote }}</blockquote>{% elsif clipping.description %}<p><em>Summary:</em> {{ clipping.description }}</p>{% else %}{% endif %}
 {% endif %}
 {% endfor %}
 
