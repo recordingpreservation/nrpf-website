@@ -1,12 +1,13 @@
 [
   {
+    "date_of_source": 2023-04-29,
     "publish": false,
     "content": "press clippings",
     "updated": "2013-05-10",
     "source": "",
   },
   {
-    "date_of_press": "2013-10-25",
+    "date_of_source": "2013-10-25",
     "source_url": "http://www.nytimes.com/2013/10/27/arts/music/jack-white-explores-history-of-paramount-records.html",
     "archive_url": "https://web.archive.org/web/20140112004109/http://www.nytimes.com/2013/10/27/arts/music/jack-white-explores-history-of-paramount-records.html?pagewanted=all",
     "display_title": "Jack White Explores History of Paramount Records",
@@ -20,7 +21,8 @@
     "archive_url": "https://web.archive.org/web/20140112004109/http://www.latimes.com/entertainment/music/posts/la-et-ms-inside-llewyn-davis-concert-nyc-town-hall-folk-music-20130930,0,3724503.story",
     "display_title": "'Inside Llewyn Davis' concert at NYC's Town Hall celebrates folk music",
     "source": "Los Angeles Times",
-    "description": "",
+    "byline": "Randall Roberts",
+    "description": "Though the evening was a celebration of folk music, it was also a benefit concert for the National Recording Preservation Foundation, a nonprofit whose mission is to \"preserve and make accessible the recorded history of the United States.\" It's a noble, incredibly important cultural cause, and though the proceeds of the show will go to the organization, the mission wasn't mentioned during the concert. That was a shame, because the argument of the music's importance was utterly convincing on Sunday.",
     "quote": "a noble, incredibly important cultural cause"
   },
   {
@@ -38,7 +40,7 @@
     "archive_url": "https://web.archive.org/web/20140112004109/http://www.theatlantic.com/entertainment/archive/2013/09/just-how-much-of-musical-history-has-been-lost-to-history/279948/",
     "display_title": "Just How Much of Musical History Has Been Lost to History?",
     "source": "The Atlantic",
-    "description": "",
+    "description": "“Less than 18 percent of commercial music archives are currently available” through iTunes, Spotify and other legal portals, Seligman says. “We’re concerned with the other 82 percent languishing out there somewhere.",
     "quote": "Untold tons of original recordings have fallen into the dumpster of history since Thomas Edison perfected the phonograph 125 years ago."
   },
   {
@@ -87,7 +89,7 @@
   {
     "date_of_source": "2013-08-16",
     "source_url": "https://www.wpr.org/new-effort-save-sounds-american-history",
-    "archive_url": "",
+    "archive_url": false,
     "display_title": "A New Effort to Save the Sounds of American History",
     "source": "Wisconsin Public Radio",
     "description": "A new public-private project is working to find and preserve audio recordings that tell the story of American culture and history."
@@ -95,9 +97,10 @@
   {
     "date_of_source": "2019-11-06",
     "source_url": "https://www.nytimes.com/2019/06/11/magazine/universal-fire-master-recordings.html",
-    "archive_url": "",
+    "archive_url": "https://www.nytimes.com/2019/06/11/magazine/universal-fire-master-recordings.html",
     "display_title": "The Day the Music Burned",
     "source": "The New York Times Magazine",
-    "description": "Some view digitization as a moral imperative. Archiving failures have left untold numbers of analog masters damaged and in states of decay. Gerald Seligman, the National Recording Preservation Foundation director, sees a ticking time-bomb scenario: Endangered masters need to be identified and transferred before they are no longer playable. \"The figure I hear is about 10 years,\" Seligman says. \"That's the window we have to digitize massive amounts of music on improperly-cared-for perishable media.\""
+    "byline": "Jody Rosen",
+    "quote": "Some view digitization as a moral imperative. Archiving failures have left untold numbers of analog masters damaged and in states of decay. Gerald Seligman, the National Recording Preservation Foundation director, sees a ticking time-bomb scenario: Endangered masters need to be identified and transferred before they are no longer playable. \"The figure I hear is about 10 years,\" Seligman says. \"That's the window we have to digitize massive amounts of music on improperly-cared-for perishable media.\""
   }
 ]
