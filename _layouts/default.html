@@ -16,7 +16,12 @@
     gtag('config', '{{ site.analytics.google-gtag }}');
   </script>
   {% endif %}
-  {% if page.jquery %}<script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>{% endif %}
+
+  <!-- formatting and layout - script helpers -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- {% if page.jquery %}<script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>{% endif %} -->
   {% if page.countUp %}<script type="text/javascript" src="{{ '/assets/js/jquery.countTo.js' | relative_url }}"></script>{% endif %}
   <!-- Google Fonts CDN -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,6 +30,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <!-- Self host font -->
   <!-- <link rel="preload" href="{{ '/assets/fonts/playfair-display.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin> -->
+  
   <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
   
   {% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
