@@ -1,6 +1,7 @@
 ---
 title: "Press Mentions"
 layout: page
+description: "The Foundation's work has received attention in various press outlets."
 permalink: "/about/press/"
 ---
 
