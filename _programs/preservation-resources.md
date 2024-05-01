@@ -3,7 +3,7 @@ title: "Audio Preservation Resources"
 date: 2023-05-01
 weight: 2
 teaser: "Audiovisual media require special care and handling. NRPF does not directly preserve collections, but we can connect you to information that will help."
-permalink: "resources"
+permalink: "/resources/"
 image: "images/illustrations/phonograph.jpg"
 intro_image: true
 intro_image_path: "images/illustrations/phonograph.jpg"
