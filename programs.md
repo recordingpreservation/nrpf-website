@@ -11,7 +11,7 @@ intro_image_caption: "This image is a detail from an image of storage for wax cy
 hero_image: true
 hero_image_path: "images/illustrations/afc-cylinder-storage-2017658687.jpeg"
 hero_gradient: 0.2
-hero_teaser: "Learn about our current initiatives"
+hero_teaser: "Learn about our current initiatives and programs"
 ---
 
 Charged to support the preservation of and access to

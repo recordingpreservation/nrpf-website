@@ -1,9 +1,17 @@
-<div id="main-menu" class="main-menu">
+<div id="main-menu" class="main-menu d-md-block flex-row dropdown">
   {% assign mainmenu = site.data.menus.main | sort: 'weight'  %}
-  <ul>
+
+  <ul class="nav me-auto">
     {% for item in mainmenu %}
-    <li class="{% if item.url == page.url %}active{% endif %}{% if item.class %}{{ item.class }}{% endif %}">
-      <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+    <li class="{% if item.subitems[0] %}dropdown{% endif %} {% if item.class %}{{ item.class }}{% endif %}">
+      <a href="{{ item.url }}"{% if item.subitems[0] %} class="dropdown-toggle" data-toggle="dropdown" role="button"{% endif %}>{{ item.name }}{% if item.subitems[0] %} <span class="caret"></span>{% endif %}</a>
+
+        {% if item.subitems[0] %}
+        <ul class="dropdown-menu">
+          {% for subitem in item.subitems %}{% if subitem.name == "divider" %}<div class="dropdown-divider"></div>{% else %}<li class="dropdown-item{% if subitem.url == page.url %} active{% endif %}"><a href="{{ subitem.url }}">{{ subitem.name }}</a></li>{% endif %}{% endfor %}
+        </ul>
+        {% endif %}
+
     </li>
     {% endfor %}
   </ul>

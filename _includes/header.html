@@ -1,7 +1,9 @@
-<div class='header'>
+<div class="header">
   <div class="container">
+
+  <nav class="navbar container-fluid">
     <div class="logo">
-      <a href="{{ site.url }}/">
+      <a class="navbar-brand" href="{{ site.url }}/">
         <img width="{{ site.logo.desktop_width }}" height="{{ site.logo.desktop_height }}" alt="{{ site.title }}" src="{{ site.logo.desktop | relative_url }}" />
         {% comment %}<h2 class="site-title">{{ site.title }}</h2>{% endcomment %}
       </a>
@@ -13,5 +15,7 @@
     </div>
     {% include main-menu.html %}
     {% include hamburger.html %}
+  </nav>
+
   </div>
 </div>
