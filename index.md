@@ -8,8 +8,8 @@ intro_image_hide_on_mobile: true
 show_call_box: false
 donate_show_box: true
 donate_button_text: 'Donate Now!'
-donate_call_to_action: '<p>We fund grants to preserve at-risk audio collections.</p><p>As the 2024 National Recording Registry<br />is announced, consider a gift!</p>'
-donate_button_link: 'https://secure.givelively.org/donate/national-recording-preservation-foundation/national-recording-registry-2024'
+donate_call_to_action: '<p>We fund grants to preserve at-risk audio collections.</p>'
+donate_button_link: '/donate/'
 image: 'images/logo/nrpf-seal-624x596.jpeg'
 ---
 
