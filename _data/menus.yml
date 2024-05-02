@@ -53,7 +53,7 @@ main:
     url: "/donate/"
     subitems:
       - name: "Donate Now!"
-        url: "https://secure.givelively.org/donate/national-recording-preservation-foundation/national-recording-registry-2024"
+        url: "/donate/"
       - name: 'Other Ways to Give'
         url: "/donate/#other-ways-to-give"
       - name: "Our Supporters"
