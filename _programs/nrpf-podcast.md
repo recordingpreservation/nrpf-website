@@ -27,7 +27,7 @@ We will also offer occasional updates on our activities and programs.
 
 ## Subscribe
 
-Help us spread the word! 
+Help us spread the word!
 New episodes will be distributed here and via major podcast platforms.
 If you like the pod,
 use any of the players below to via your podcast service of choice.
@@ -42,7 +42,7 @@ _Sound Files_ is hosted by two new members of the NRPF community! We are happy t
 * **[Jesse Johnston]({% link _team/jesse-johnston.md %})**, a clinical faculty member at the [University of Michigan School of Information](https://www.si.umich.edu/people/jesse-johnston) and Executive Director of NRPF.
 * **[Evan Haywood]({% link _team/evan-haywood.md %})**, audio archivist and sound engineer at the Black Ram Treehouse in Ann Arbor, Michigan.
 
-## Episodes
+## Recent Episodes
 
 {% include podcast-soundfiles.html %}
 
