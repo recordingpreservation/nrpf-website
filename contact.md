@@ -11,4 +11,4 @@ We do not directly commission engineers, studios, or vendors.
 
 ## Subscribe
 
-{% include subscribe-form-mailchimp %}
+{% include subscribe-form-substack %}
