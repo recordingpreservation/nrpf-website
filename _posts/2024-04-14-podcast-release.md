@@ -7,6 +7,7 @@ categories:
   - blog
   - events
   - community
+  - sound files
 description: "The trailer for the NRPF's _Sound Files_ podcast is now available!"
 image: "/images/podcast/soundfiles-2024-1000sq.jpg"
 layout: post
