@@ -44,7 +44,7 @@ _Sound Files_ is hosted by two new members of the NRPF community! We are happy t
 
 ## Recent Episodes
 
-{% include podcast-soundfiles.html %}
+{% include podcast-soundfiles-recent-episodes.html %}
 
 {% include subscribe-donate-row.html %}
 
