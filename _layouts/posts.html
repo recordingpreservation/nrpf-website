@@ -25,6 +25,8 @@ bodyClass: "page-services"
           <p>{{ post.date | date: "%B %e, %Y" }} | posted by {% if post.author_link == true %}<a href="/people/{{ post.author | slugify }}">{{ post.author }}</a>{% else %}{{ post.author }}{% endif %}</p>
             {% if post.teaser %}
             <p>{{ post.teaser }}</p>
+            {% elsif post.description %}
+            <p>{{ post.description | markdownify }}</p>
             {% else %}
             <p>{{ post.content | markdownify | strip_html | truncate: 200 }}</p>
             {% endif %}
