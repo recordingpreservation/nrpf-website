@@ -1,0 +1,39 @@
+{
+  "links": [
+    {
+      "label": "Apple Podcasts",
+      "link": "https://podcasts.apple.com/us/podcast/sound-files/id1741015288"
+    },
+    {
+      "label": "Spotify",
+      "link": "https://open.spotify.com/show/6GB4JgsdhJx1DBBc6yCdYS"
+    },
+    {
+      "label": "Amazon Music",
+      "link": "https://music.amazon.com/podcasts/392ebbbc-58f0-4010-92bb-5429a8df167f/sound-files"
+    },
+    {
+      "label": "YouTube",
+      "link": "https://www.youtube.com/channel/UCCulINx0PaIfaR4U6Y8MQOg"
+    }
+    {
+      "label": "RSS",
+      "link": "https://feeds.simplecast.com/qv7w_H2z"
+    }
+  ],
+  "episodes": [
+    {
+        "number": 000,
+        "title": "Introducing Sound Files",
+        "link": "https://podcast.recordingpreservation.org/episodes/introducing-sound-files",
+        "embed-code": "<iframe height=\"200px\" width=\"100%\" frameborder=\"no\" scrolling=\"no\" seamless src=\"https:\/\/player.simplecast.com\/a08a41c8-e44c-483c-a544-98457848e766?dark=false\"><\/iframe>",
+        "published": true
+    },
+    {
+        "number": 001,
+        "title": "Preserving HBCU Radio Archives ft Jocelyn Robinson",
+        "embed-code": "<iframe height=\"200px\" width=\"100%\" frameborder=\"no\" scrolling=\"no\" seamless src=\"https:\/\/player.simplecast.com\/ad2baa6e-4feb-48e4-af02-432fb012b45e?dark=false\"><\/iframe>",
+        "published": true
+    }
+  ]
+}
