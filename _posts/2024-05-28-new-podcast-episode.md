@@ -8,7 +8,7 @@ categories:
   - events
   - community
   - sound files
-description: "NRPF's _Sound Files_ podcast has released its first episodes and is now live! Listen to our interview with Jocelyn Robinson on preserving HBCU radio archives."
+description: "Sound Files is now live! Listen to our interview with Jocelyn Robinson on preserving HBCU radio archives."
 image: "/images/podcast/soundfiles-2024-1000sq.jpg"
 ---
 
