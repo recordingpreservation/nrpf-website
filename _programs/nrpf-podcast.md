@@ -35,12 +35,11 @@ Then you will be notified any time that a new episode drops!
 You can also leave a review, rate the podcast, and share to your networks.
 Episodes will be posted about once a month for the 2024 season, so be sure to check below for our most recent episodes!
 
-## Hosts
+## Meet the Hosts
 
 _Sound Files_ is hosted by two new members of the NRPF community! We are happy to welcome:
 
-* **[Jesse Johnston]({% link _team/jesse-johnston.md %})**, a clinical faculty member at the [University of Michigan School of Information](https://www.si.umich.edu/people/jesse-johnston) and Executive Director of NRPF.
-* **[Evan Haywood]({% link _team/evan-haywood.md %})**, audio archivist and sound engineer at the Black Ram Treehouse in Ann Arbor, Michigan.
+{% include soundfiles-host-block %}
 
 ## Recent Episodes
 
