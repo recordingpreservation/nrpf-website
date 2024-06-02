@@ -1,0 +1,13 @@
+<!-- host block -->
+{% assign hosts = site.team | where: "soundfiles_host", "true" %}
+<div class="row">
+    {% for host in hosts %}
+    <div class="col-md-6">
+    <h3 class="hosts"><a href="{% link _team/{{ host.name }} %}">{{ host.title }}</a></h3>
+
+    <img alt="Portrait photo of {{ host.title }}" class="img-thumbnail img-fluid rounded-circle" style="float:left;width:25%;margin: 0 10px 10px 0;" src="{{ host.image | relative_url }}" />
+    {{ host.podcast_bio | markdownify }}
+
+    </div>
+    {% endfor %}
+</div>
