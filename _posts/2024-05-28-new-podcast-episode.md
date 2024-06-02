@@ -41,5 +41,5 @@ by Evan and is recorded, edited, and mastered at the [Black Ram Tree House]({{ s
 
 We look forward to sharing our future episodes with you!
 The current episode can be streamed on this page,
-or on your favorite podcast platforms, including [Apple podcasts]({{ site.data.contact.soundfiles_applepodcasts }}) and [Spotify]({{ site.data.contact.soundfiles_spotify }}).
+or on your favorite podcast platforms, including [Apple podcasts]({{ site.data.podcast-soundfiles.links[0].link }}) and [Spotify]({{ site.data.podcast-soundfiles.links[1].link }}).
 Find out more about the podcast and other episodes on our main [podcast page]({% link _programs/nrpf-podcast.md %}).
