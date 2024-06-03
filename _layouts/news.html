@@ -45,30 +45,36 @@ bodyClass: "page-services"
 </div>
 
 <!-- blog section -->
-<!-- comment out for future revision -->
+
+<!-- bootstrap card posts, modeled on https://medium.com/geekculture/33-blog-card-css-for-web-design-726a037217b5 -->
 {% assign posts = site.posts | sort "date" | reverse %}
 {% if posts %}
-<div class="container pt-6 pb-6">
+<div class="container m-t-md pb-6">
   <h2><a name="features"></a>Recent Features</h2>
+  <!-- auto-generated rows -->
   <div class="row">
-    {% for post in posts limit: 3 %}
-    <div class="col-12 col-md-4 mb-1"> 
-      <div class="service service-summary">
-        <div class="service-content">
-          <h2 class="service-title">
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </h2>
-          <p>Posted {{ post.date | date: "%B %e, %Y" }}</p>
-        </div>
+      {% for post in posts limit: 6 %}
+      <div class="col-xs-12 col-md-4">
+        <!-- Card -->
+        <article class="card animated fadeInLeft">
+          <img class="card-img-top img-responsive" style="width: 100%;" src="{{ post.image }}" alt="{{ post.description }}" />
+          <div class="card-block">
+            <h2 class="card-title service-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+            <h5 class="text-muted byline">by {{ post.author }} on {{ post.date | date: "%B %e, %Y" }}</h5>
+            <p class="card-text">{% if post.description %}{{ post.description | smartify }}{% else %}{{ post.content | markdownify | strip_html | smartify | truncate: 200 }}{% endif %}</p>
+          </div>
+        </article><!-- .end Card -->
+
       </div>
-    </div>
-    {% endfor %}
+      {% endfor %}
   </div>
+
   <h3><a href="{{ "features" | relative_url }}">View All Features</a></h3>
   <hr style="border: none; border-bottom: 1px solid #e9f7ff;" />
-</div>
-{% endif %}
-<!-- end do not display for future revisions -->
+
+</div>{% endif %}<!-- end blog post card displays section -->
+
+
 <!-- press release section -->
 {% assign news = site.news | where: "type", "press release" | sort "date" | reverse %}
 {% if news %}
