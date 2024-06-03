@@ -13,28 +13,6 @@ bodyClass: "page-services"
   </div>
 </div>
 
-<div class="container pb-6">
-  <div class="row">
-    {% for post in site.posts %}
-    <div class="col-12 col-md-6 mb-3">
-      <div class="service service-summary">
-        <div class="service-content">
-          <h2 class="service-title">
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </h2>
-          <p>{{ post.date | date: "%B %e, %Y" }} | posted by {% if post.author_link == true %}<a href="/people/{{ post.author | slugify }}">{{ post.author }}</a>{% else %}{{ post.author }}{% endif %}</p>
-            {% if post.teaser %}
-            <p>{{ post.teaser }}</p>
-            {% else %}
-            <p>{{ post.content | markdownify | strip_html | truncate: 200 }}</p>
-            {% endif %}
-        </div>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-</div>
-
 <!-- bootstrap card posts, modeled on https://medium.com/geekculture/33-blog-card-css-for-web-design-726a037217b5 -->
 <div class="container m-t-md pb-6">
     <!-- auto-generated rows -->
