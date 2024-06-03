@@ -8,10 +8,10 @@ categories:
   - blog
   - events
   - community
-description: "Join our expert-led webinar on April 5, 2024, to learn about opportunities and grant-writing strategies for audio preservation projects. Discover funding opportunities with insights from the Council for Library and Information Resources, Institute of Museum and Library Services, National Endowment for the Humanities, the National Recording Preservation Foundation, and the Radio Preservation Task Force. Register now to secure your spot!"
+description: "Learn about opportunities and grant-writing strategies for audio preservation projects! The webinar features opportunities at the Council for Library and Information Resources, Institute of Museum and Library Services, and the National Endowment for the Humanities, with co-hosts from the National Recording Preservation Foundation and the Radio Preservation Task Force. A recording is available."
 layout: post
 fullWidth: true
-updated: 2024-04-26
+updated: 2024-06-03
 ---
 
 We are happy to announce a webinar co-sponsored by the National Recording Preservation Foundation
