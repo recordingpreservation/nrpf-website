@@ -1,13 +1,13 @@
 ---
-title: "Sound Files Podcast is Live"
+title: "Sound Files: Preserving HBCU Radio Archives"
 date: 2024-05-28
 author: "Jesse Johnston"
 categories: 
   - podcast
   - blog
-  - events
   - community
   - sound files
+  - radio
 description: "Sound Files is now live! Listen to our interview with Jocelyn Robinson on preserving HBCU radio archives."
 image: "/images/podcast/soundfiles-2024-1000sq.jpg"
 ---
