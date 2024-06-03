@@ -1,0 +1,35 @@
+---
+layout: default
+bodyClass: "page-services"
+---
+
+<div class="intro">
+  <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-12 order-2 order-md-1">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- bootstrap card posts, modeled on https://medium.com/geekculture/33-blog-card-css-for-web-design-726a037217b5 -->
+<div class="container m-t-md pb-6">
+    <!-- auto-generated rows -->
+    <div class="row">
+        {% for post in site.posts %}
+        <div class="col-xs-12 col-md-4">
+          <!-- Card -->
+          <article class="card animated fadeInLeft">
+            <img class="card-img-top img-responsive" style="width: 100%;" src="{{ post.image }}" alt="{{ post.description }}" />
+            <div class="card-block">
+              <h2 class="card-title service-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+              <h5 class="text-muted byline">by {{ post.author }} on {{ post.date | date: "%B %e, %Y" }}</h5>
+              <p class="card-text">{% if post.description %}{{ post.description | smartify }}{% else %}{{ post.content | markdownify | strip_html | smartify | truncate: 200 }}{% endif %}</p>
+            </div>
+          </article><!-- .end Card -->
+  
+        </div>
+        {% endfor %}
+    </div>
+</div>

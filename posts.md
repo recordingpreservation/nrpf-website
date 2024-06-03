@@ -1,6 +1,6 @@
 ---
 title: NRPF Features
-layout: posts
+layout: posts-graphical-cards
 description: NRPF Features
 permalink: "/features/"
 ---
