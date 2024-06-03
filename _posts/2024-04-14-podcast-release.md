@@ -21,14 +21,14 @@ NRPF's _Sound Files_ will feature conversations with audio archivists,
 highlight the audio preservation projects that NRPF has supported,
 and share insights on the current state of audio preservation.
 
-Episodes feature long-form conversations with audio archivists, 
+Episodes feature long-form conversations with audio archivists,
 sounds from the collections we have supported through [NRPF grants]({% link _programs/nrpf-grants.md %}),
 interviews with voices from the audio preservation community,
 and occasional updates on our activities and programs.
 
 The podcast is hosted by [Jesse Johnston]({% link _team/jesse-johnston.md %}), NRPF Executive Director and
 Clinical Assistant Professor at the [University of Michigan School of Information](https://si.umich.edu/),
-and [Evan Haywood]({% link _team/evan-haywood.md %}), audio preservationist and podcast producer for NRPF. 
+and [Evan Haywood]({% link _team/evan-haywood.md %}), audio preservationist and podcast producer for NRPF.
 In addition, we are thrilled that each episode will feature original music
 by Evan and cover art by [umbertino](https://99designs.com/profiles/774966).
 
