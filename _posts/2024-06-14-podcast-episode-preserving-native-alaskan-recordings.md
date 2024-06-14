@@ -17,7 +17,7 @@ image: "/images/podcast/soundfiles-2024-1000sq.jpg"
 The next episode of the _Sound Files_ podcast is ready for listening!
 This episode features a conversation with Leslie McCartney, curator of oral history at the University of Alaska Fairbanks (UAF), who tells us about oral history work, a special collection of history and Native Alaska languages recorded in the 1970s, and how these rare sound recordings capture a unique perspective on the past. McCartney was project director for an audio preservation project for these recordings
 of Unangax̂ (Alaska Aleut) peoples and languages,
-which has funded by the NRPF in [2020]({% link _grants/2020-university-of-alaska-fairbanks.md %}).
+which was funded by the NRPF in [2020]({% link _grants/2020-university-of-alaska-fairbanks.md %}).
 
 Show hosts [Jesse Johnston]({% link _team/jesse-johnston.md %}) and [Evan Haywood]({% link _team/evan-haywood.md %}) talk with [Leslie McCartney](https://www.uaf.edu/experts/leslie-mccartney.php) about the work of preserving these oral history recordings, now held at the UAF. During the conversation, Leslie tells us about the history of the tapes for the "Cuttlefish Project," undertaken in the 1970s by a class of high school students in Unalaska and their teacher [Ray Hudson](https://jukebox.uaf.edu/p/1910). We also discuss the significance of some of these recordings as documents of various Native Alaskan languages, the history of Native and Russian settlement in the remote Aleutian Islands, and the significance of recorded sound as a unique carrier of historical information.
 
