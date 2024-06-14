@@ -43,7 +43,7 @@ _Sound Files_ is hosted by two new members of the NRPF community! We are happy t
 
 ## Recent Episodes
 
-{% include podcast-soundfiles-recent-episodes.html %}
+{% include soundfiles-recent-episodes-block %}
 
 {% include subscribe-donate-row.html %}
 
