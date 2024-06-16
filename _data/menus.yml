@@ -14,7 +14,7 @@ main:
       - name: "People"
         url: "/board-and-staff/"
       - name: "Supporters"
-        url: "/supporters/"
+        url: "/sponsors/"
       - name: "Press"
         url: "/about/press/"
       - name: "Subscribe to Our Newsletter"
@@ -56,8 +56,8 @@ main:
         url: "/donate/"
       - name: 'Other Ways to Give'
         url: "/donate/#other-ways-to-give"
-      - name: "Our Supporters"
-        url: "/supporters/"
+      - name: "Our Sponsors"
+        url: "/sponsors/"
     weight: 8
 
 footer:
