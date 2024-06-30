@@ -25,6 +25,10 @@ bodyClass: "page-teams"
         <div class="content">  
           {{ content }}
 
+          {% if page.personal_url %}
+          <p>Personal website: <a href="{{ page.personal_url }}" name="{{ page.title }} personal website">{{ page.personal_url }}</a></p>
+          {% endif %}
+
           {% if page.linkedinurl %}
           <p>LinkedIn Profile: <a href="{{ page.linkedinurl }}" name="{{ page.title }} profile on LinkedIn">{{ page.linkedinurl }}</a></p>
           {% endif %}
