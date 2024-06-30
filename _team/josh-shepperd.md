@@ -1,6 +1,6 @@
 ---
 title: "Josh Shepperd"
-date: 2024-07-01
+date: 2024-06-30
 image: "images/team/josh-shepperd-sqr.jpg"
 jobtitle: "Senior Faculty Research Advisor"
 linkedinurl: "https://www.linkedin.com/in/josh-shepperd-a9561a133/"
