@@ -8,8 +8,7 @@ personal_url: "https://www.colorado.edu/cmci/people/media-studies/josh-shepperd"
 short_bio: "University of Colorado Boulder"
 promoted: false
 role: advisor
-staff:
-staff_role:
+staff: false
 sort_name: shepperd
 current_term_start: 2024-07-01
 current_term_end: 2025-06-30
