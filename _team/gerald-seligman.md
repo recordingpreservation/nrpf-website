@@ -10,7 +10,7 @@ sort_name: seligman
 updated: 2023-12-06
 ---
 
-Gerald Seligman was Secretary of the Board of Directors and NRPF's Executive Director from 2012 until 2023. 
+Gerald Seligman was Secretary of the Board of Directors and NRPF's Executive Director from 2012 until 2023.
 
 [Bio from The Alliance for Media Arts + Culture](http://www.thealliance.media/profile/gerald-seligman/):
 
