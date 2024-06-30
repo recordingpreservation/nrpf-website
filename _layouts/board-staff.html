@@ -14,7 +14,9 @@ bodyClass: "page-teams"
 </div>
 
 <div class="container pt-6 pb-6">
-<h2><a name="board"></a>Board of Directors</h2>
+
+    <!-- Board of Directors -->
+    <h2><a name="board"></a>Board of Directors</h2>
     <div class="row">
         {% assign promoted_teams = site.team | where: "promoted", true | sort: "weight" %}
         {% for team in promoted_teams %}
@@ -40,26 +42,55 @@ bodyClass: "page-teams"
         {% endfor %}
     </div>
     <p>&nbsp;</p>
-<!-- Ex Officio members -->
-<h2><a name="ex-officio"></a>Ex Officio Board Members</h2>
-<div class="row pt-6 pb-6">
-    {% assign exofficio = site.team | where: "role", "ex-officio" | sort: "weight" %}
-    {% for person in exofficio %}
-    <div class="col-12 col-md-4 mb-3">
-        <div class="team team-summary">
-            {% if person.image %}
-            <div class="team-image">
-                <img width="60" height="60" alt="{{ person.title }}" class="img-fluid mb-2" src="{{ person.image | relative_url }}" />
-            </div>
-            {% endif %}
-            <div class="team-meta">
-                <h2 class="team-name"><a href="{{ person.url | relative_url }}">{{ person.title }}</a></h2>
-                <p class="team-description">{{ person.jobtitle }}</p>
+
+    <!-- Ex Officio members -->
+    <h2><a name="ex-officio"></a>Ex Officio Board Members</h2>
+    <div class="row pt-6 pb-6">
+        {% assign exofficio = site.team | where: "role", "ex-officio" | sort: "weight" %}
+        {% for person in exofficio %}
+        <div class="col-12 col-md-4 mb-3">
+            <div class="team team-summary">
+                {% if person.image %}
+                <div class="team-image">
+                    <img width="60" height="60" alt="{{ person.title }}" class="img-fluid mb-2" src="{{ person.image | relative_url }}" />
+                </div>
+                {% endif %}
+                <div class="team-meta">
+                    <h2 class="team-name"><a href="{{ person.url | relative_url }}">{{ person.title }}</a></h2>
+                    <p class="team-description">{{ person.jobtitle }}</p>
+                </div>
             </div>
         </div>
+        {% endfor %}
     </div>
-    {% endfor %}
-</div>
+
+    <!-- Advisory Board -->
+    <h2><a name="advisors"></a>Advisory Board</h2>
+    <div class="row">
+        {% assign advisors = site.team | where: "role", "advisor" | sort: "sort_name" %}
+        {% for team in advisors %}
+        <div class="col-12 col-md-6 mb-2">
+            <div class="team team-summary team-summary-large">
+                {% if team.image %}
+                <div class="team-image">
+                    <img width="90" height="90" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                </div>
+                {% endif %}
+                <div class="team-meta">
+                    <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
+                    <p class="team-description">{{ team.jobtitle }}</p>
+                    {% if team.linkedinurl %}
+                    <a target="_blank" href="{{ team.linkedinurl }}" rel="noreferrer">LinkedIn</a>
+                    {% endif %}
+                </div>
+                    {% if team.short_bio %}
+                    <div class="team-content">{{ team.short_bio }}</div>
+                    {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <p>&nbsp;</p>
 
 <!-- General staff members -->
 <h2><a name="staff"></a>NRPF Staff Members</h2>
