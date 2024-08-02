@@ -95,13 +95,13 @@
         },
         {
             "display_name": "Emily A. Newhouse",
-            "level": "Friends",
+            "level": "Sustainer",
             "sort": "newhouse",
             "year": 2024
         },
         {
             "display_name": "Jesse A. Johnston",
-            "level": "Sustainer",
+            "level": "Patron",
             "sort": "johnston",
             "year": 2024,
             "sustaining_donor": false
@@ -114,7 +114,7 @@
         },
         {
             "display_name": "Judy Tsou",
-            "level": "Friends",
+            "level": "Sustainer",
             "sort": "tsou",
             "year": 2024
         }
