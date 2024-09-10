@@ -8,7 +8,7 @@ intro_image_hide_on_mobile: true
 show_call_box: false
 donate_show_box: true
 donate_button_text: 'Donate Now!'
-donate_call_to_action: '<p>We fund grants to preserve at-risk audio collections.</p>'
+donate_call_to_action: '<p>We preserve and promote at-risk audio collections.</p>'
 donate_button_link: '/donate/'
 image: 'images/logo/nrpf-seal-624x596.jpeg'
 ---
