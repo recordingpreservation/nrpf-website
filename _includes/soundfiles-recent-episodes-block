@@ -5,15 +5,14 @@
 
 <p><strong>Episode:</strong> Preserving Alaskan Oral Histories and Native Languages featuring Leslie McCartney</p>
 <!-- E02 June 14, 2024 Leslie McCartney, Alaskan Oral Histories and Native Languages -->
-<iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/0cb442a2-c5c2-4b95-be75-9b96e06f3580?dark=false"></iframe>
-<p>&nbsp;</p>
+{% include soundfiles-episode-02 %}<p>&nbsp;</p>
 
 <p><strong>Episode:</strong> Preserving HBCU Radio Archives featuring Jocelyn Robinson</p>
 <!-- E01 May 7 Jocelyn Robinson, HBCU Radio Preservation -->
-<iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/ad2baa6e-4feb-48e4-af02-432fb012b45e?dark=false"></iframe>
+{% include soundfiles-episode-01 %}
 <p>&nbsp;</p>
 
 <p><strong>Trailer:</strong> Introducing Sound Files</p>
 <!-- episode 000 April 2024 Trailer -->
-<iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/a08a41c8-e44c-483c-a544-98457848e766?dark=false"></iframe>
+{% include soundfiles-episode-00_trailer1 %}
 <p>&nbsp;</p>
