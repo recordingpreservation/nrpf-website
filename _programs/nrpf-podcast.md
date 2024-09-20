@@ -28,9 +28,16 @@ We will also offer occasional updates on our activities and programs.
 ## Subscribe
 
 Help us spread the word!
-New episodes will be distributed here and via major podcast platforms.
+New episodes will be distributed here and via major podcast platforms{% if site.data.podcast-soundfiles %}, including:
+
+{% assign distributors = site.data.podcast-soundfiles['links'] %}
+
+{% for distributor in distributors %}* [{{ distributor.label }}]({{ distributor.link }})
+{% endfor %}
+
+{% else %}.{% endif %}
 If you like the pod,
-use any of the players below to via your podcast service of choice.
+subscribe on your favorite podcast service.
 Then you will be notified any time that a new episode drops!
 You can also leave a review, rate the podcast, and share to your networks.
 Episodes will be posted about once a month for the 2024 season, so be sure to check below for our most recent episodes!
