@@ -1,5 +1,5 @@
 ---
-title: "Sound Files: Archival Repatriation, Native American Audio Archives, and the Federal Cylinder Project"
+title: "Sound Files: Archival Repatriation and Native American Audio Archives"
 date: 2024-09-20
 author: "Jesse Johnston"
 categories: 
