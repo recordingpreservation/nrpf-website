@@ -10,7 +10,7 @@ categories:
   - native american
   - repatriation
   - audio repatriation
-description: "The Sound Files podcast features the Federal Cylinder Project and Native American audio archives at the American Folklife Center."
+description: "New episode of the Sound Files podcast features the Federal Cylinder Project and Native American audio archives at the American Folklife Center."
 image: "/images/podcast/soundfiles-2024-1000sq.jpg"
 ---
 
