@@ -48,3 +48,8 @@ by Evan and is recorded, edited, and mastered at the [Black Ram Tree House]({{ s
 We look forward to sharing our future episodes with you!
 The current episode can be streamed on this page,
 or on your favorite podcast platforms, including [Apple podcasts]({{ site.data.podcast-soundfiles.links[0].link }}), [Spotify]({{ site.data.podcast-soundfiles.links[1].link }}), [YouTube]({{ site.data.podcast-soundfiles.links[3].link }}) and more.
+
+### Donate
+
+You can help to support the work of the NRPF!
+If you are in a position to do so, please [consider a donation to help us produce the podcast and click here to Donate Now via GiveLively](https://secure.givelively.org/donate/national-recording-preservation-foundation/sound-files-podcast).
