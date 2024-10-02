@@ -147,6 +147,12 @@
             "url": "https://www.loc.gov/"
         },
         {
+            "display_name": "National Recording Preservation Board",
+            "level": "supporters",
+            "sort": "national_recording_board",
+            "url": "https://www.loc.gov/programs/national-recording-preservation-board/about-this-program/board/"
+        },
+        {
             "display_name": "Eric J. Schwartz",
             "level": "supporters",
             "sort": "schwartz"
