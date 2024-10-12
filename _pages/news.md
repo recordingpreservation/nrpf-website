@@ -1,6 +1,7 @@
 ---
 title: News from the NRPF
 layout: news
+permalink: "/news/"
 description: News and Press Releases
 intro_image: false
 intro_image_path: "images/illustrations/gramophone-detail-12040507v.jpeg"
