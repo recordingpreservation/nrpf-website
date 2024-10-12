@@ -42,12 +42,19 @@ defaults:
       path: ""
     values:
       image: "/images/logo/nrpf-seal-624x596.jpeg"
+  # posts
   - scope:
       type: "posts"
     values:
       layout: "post"
       image: "/images/social/NRPF-mandala-title-white-blue.png"
       fullWidth: "true"
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: page
   - scope:
       path: ""
       type: "services"
@@ -83,6 +90,11 @@ sass:
 plugins:
   - jekyll-environment-variables
 
+# reading files
+# include _pages directory
+include:
+  - _pages
+
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -94,3 +106,6 @@ exclude:
   - LICENSE.md
   - LICENSE
   - README.md
+
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
