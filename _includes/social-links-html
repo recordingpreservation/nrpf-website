@@ -1,0 +1,6 @@
+<!-- insert social links plain ul list --> 
+<ul>
+{% for social in site.data.social %}
+ <li><a href="{{ social.link }}" title="Follow us on {{ social.name }}">{{ social.name }}</a></li>
+{% endfor %}
+</ul>
