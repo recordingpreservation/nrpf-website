@@ -1,6 +1,7 @@
 ---
 title: Subscribe to NRPF News
 layout: page
+permalink: "/subscribe/"
 description: Subscribe to Our Newsletter
 bodyClass: page-about
 ---
