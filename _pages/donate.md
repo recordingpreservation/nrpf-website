@@ -1,6 +1,7 @@
 ---
 title: Support the NRPF
 layout: page
+permalink: "/donate/"
 description: Donate to the National Recording Preservation Foundation
 bodyClass: page-about
 image: images/illustrations/gramophone-left-cropped-12040507v.jpg
