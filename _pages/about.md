@@ -1,6 +1,7 @@
 ---
 title: About the National Recording Preservation Foundation
 layout: page
+permalink: /about/
 description: About the NRPF
 bodyClass: page-about
 ---
