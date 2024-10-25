@@ -7,7 +7,9 @@ bodyClass: page-about
 image: images/illustrations/gramophone-left-cropped-12040507v.jpg
 ---
 
-Consider donating to the National Recording Preservation Foundation! Support at any level allows us to increase our work to preserve at-risk audio collections, share and interpret historic recordings, and promote these histories with new audiences.
+Consider donating to the National Recording Preservation Foundation!
+The Foundation is an independent, charitable organization and registered 501(c)(3) entity. Financial contributions are tax deductible to the full extent of the law.
+Support at any level allows us to increase our work to preserve at-risk audio collections, share and interpret historic recordings, and promote these histories with new audiences.
 
 You can give directly today using the donation form below. Note that the form may require you to complete a captcha. The form and payment processing are powered by our non-profit partner, GiveLively:
 
