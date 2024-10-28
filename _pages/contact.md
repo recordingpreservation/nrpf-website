@@ -14,7 +14,7 @@ We do not directly commission engineers, studios, or vendors.
 
 We share essays, podcast episodes, and occasional news via our Substack letter. Add your name to the list!
 
-{% include subscribe-form-substack %}
+{% include subscribe-form-emailocto %}
 
 ## Find Us on Social Media
 
