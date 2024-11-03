@@ -17,11 +17,18 @@ elevator_pitch: "If you ever wondered what it takes to preserve historic sounds,
 Check out our new podcast, _Sound Files_.
 On the pod, we share and celebrate archival audio
 through conversations and stories.
+
 If you ever wondered what it takes to preserve historic sounds,
 this podcast is for you. Come and listen to hear about
 the preservation of recorded sounds and the people and organizations who preserve them.
 
-Episodes feature long-form conversations with audio archivists,
+The podcast will:
+
+* Provide insights on the work that goes into audio preservation
+* Feature sounds and stories from some of the most significant American sound collections
+* Share and amplify the work of audio archivists and the collections they steward
+
+Each episode features long-form conversations with audio archivists,
 sounds from the collections we have supported, and interviews with voices from the
 audio preservation community.
 We will also offer occasional updates on our activities and programs.
