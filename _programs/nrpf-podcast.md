@@ -18,9 +18,9 @@ Check out our new podcast, _Sound Files_.
 On the pod, we share and celebrate archival audio
 through conversations and stories.
 
-If you ever wondered what it takes to preserve historic sounds,
-this podcast is for you. Come and listen to hear about
-the preservation of recorded sounds and the people and organizations who preserve them.
+Have you ever wondered what it takes to preserve historic sounds and audio collections?
+If so, then this podcast is for you! Listen to learn not only about
+the preservation of recorded sounds, but also the people and organizations who preserve them.
 
 The podcast will:
 
