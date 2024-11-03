@@ -83,7 +83,7 @@
         },
         {
             "display_name": "Samuel Brylawski",
-            "level": "Director",
+            "level": "Librarian",
             "sort": "brylawski",
             "year": 2023
         },
@@ -161,6 +161,11 @@
             "display_name": "Kenneth Silverberg",
             "level": "supporters",
             "sort": "silverberg"
+        },
+        {
+            "display_name": "Rabbaig & Haque Certified Public Accountants",
+            "level": "supporters",
+            "sort": "rabbaig"
         }
     ]
 }
