@@ -52,7 +52,7 @@ Episodes will be posted about once a month for the 2024 season, so be sure to ch
 
 ## Meet the Hosts
 
-_Sound Files_ is hosted by two new members of the NRPF community! We are happy to welcome:
+_Sound Files_ is hosted by new members of the NRPF community! We are happy to welcome:
 
 {% include soundfiles-host-block %}
 
