@@ -1,6 +1,6 @@
 ---
 layout: default
-bodyClass: "page-services"
+bodyClass: "page-service"
 ---
 
 <div class="intro">
@@ -24,7 +24,7 @@ bodyClass: "page-services"
             <img class="card-img-top img-responsive" style="width: 100%;" src="{{ post.image }}" alt="{{ post.description }}" />
             <div class="card-block">
               <h2 class="card-title service-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-              <h5 class="text-muted byline">by {{ post.author }} on {{ post.date | date: "%B %e, %Y" }}</h5>
+              <h5 class="text-muted byline">{% if post.author %}by {{ post.author }} on {% endif %}{{ post.date | date: "%B %e, %Y" }}</h5>
               <p class="card-text">{% if post.description %}{{ post.description | smartify }}{% else %}{{ post.content | markdownify | strip_html | smartify | truncate: 200 }}{% endif %}</p>
             </div>
           </article><!-- .end Card -->

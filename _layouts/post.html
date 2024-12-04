@@ -9,7 +9,7 @@ bodyClass: "page-basic"
             <div class="post post-single">
                 <h1 class="title">{{ page.title }}</h1>
                 <div class="meta">
-                    <p>Posted {{ page.date | date: "%B %e, %Y"}} by {{ page.author }}</p>
+                    <p>Posted {{ page.date | date: "%B %e, %Y"}}{% if page.author %} by {{ page.author }}{% endif %}</p>
                     {% comment this categories list needs to be fixed %}
                     {% if page.categories %}
                       {% if page.categories.length == 1 %}
