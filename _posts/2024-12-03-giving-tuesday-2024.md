@@ -1,7 +1,7 @@
 ---
 title: "Choose NRPF on GivingTuesday 2024"
 date: 2024-12-03
-author: "Jesse Johnston"
+author: 
 categories: 
   - blog
   - fundraising
