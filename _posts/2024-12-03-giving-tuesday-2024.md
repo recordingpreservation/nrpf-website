@@ -27,8 +27,12 @@ The National Recording Preservation Foundation advances the Library of Congress'
 * **Amplify** trainings for community-based sound preservation capacity
 * **Raise awareness** about the risks of audio degradation
 
+## Take Action
+
+* Donate directly via our GiveLively campaign page at [https://secure.givelively.org/donate/national-recording-preservation-foundation/nrpf-giving-tuesday](https://secure.givelively.org/donate/national-recording-preservation-foundation/nrpf-giving-tuesday).
+* [Sign up for our email newsletter!](/subscribe/)
+
 Every gift ensures that the voices of our past continue to speak to future generations. Donate today and be a guardian of sound history!
 
-Donate directly via our GiveLively campaign page at [https://secure.givelively.org/donate/national-recording-preservation-foundation/nrpf-giving-tuesday](https://secure.givelively.org/donate/national-recording-preservation-foundation/nrpf-giving-tuesday).
-
-[Sign up for our email newsletter!](/subscribe/)
+Sincerely,
+The National Recording Preservation Foundation
