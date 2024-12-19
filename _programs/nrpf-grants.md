@@ -22,13 +22,15 @@ How have our grants supported audio preservation? Take a look at the numbers:
 
 {% include grants-impact.html %}
 
-## Opportunities
-
-At present, the Foundation does not have an open call for proposals.
-Please watch our press releases for annnouncements of any pending NRPF grant opportunities.
-
 ## Grants Awarded (since 2016)
 
 {% assign grants = site.grants | sort: year | reverse %}
 
 {% include grants-table-fromcollex.html %}
+
+## Information for Applicants and Grantees
+
+The Foundation does not currently have any open calls for proposals.
+Please watch our press releases for annnouncements of any pending NRPF grant opportunities.
+
+Grant recipients should [refer to our grant policies page for more information on policies and reporting]({% link _pages/grant-policies.md %}).
