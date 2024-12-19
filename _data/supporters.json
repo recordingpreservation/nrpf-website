@@ -70,6 +70,13 @@
             "year": 2021,
             "show_year": true,
             "url": "https://riaa.com/"
+        },
+        {
+            "display_name": "Anonymous in honor of Carolyn Hauer and Her Family",
+            "level": "Bronze",
+            "sort": "anonymous_h",
+            "year": 2023,
+            "show_year": true
         }
     ],
     "donors": [
@@ -85,12 +92,6 @@
             "display_name": "Samuel Brylawski",
             "level": "Librarian",
             "sort": "brylawski",
-            "year": 2023
-        },
-        {
-            "display_name": "Anonymous in honor of Carolyn Hauer and Her Family",
-            "level": "Bronze",
-            "sort": "anonymous_h",
             "year": 2023
         },
         {
