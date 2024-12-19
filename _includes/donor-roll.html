@@ -27,7 +27,7 @@
     <div class="row">
         <ul class="donor-list" style="margin-left: 25px; margin-bottom: 50px; padding-left: 25px; line-height: 26px;">
             {% for benefactor in benefactors %}{% if benefactor.level == 'Bronze' %}
-            <li class="donor-entry">{{ benefactor.display_name }}{% if benefactor.show_year %} ({{ benefactor.year }}){% endif %}</li>
+            <li class="donor-entry">{{ benefactor.display_name }}{% if benefactor.show_year %} (since {{ benefactor.year }}){% endif %}</li>
             {% endif %}{% endfor %}
         </ul>
     </div>
@@ -52,7 +52,7 @@
     </div>
 
 <!-- hide if no donors at this level
-    <h3 class="donor-level">Funders Circle ($5,000+)</h3><a name="directors-circle"></a>
+    <h3 class="donor-level">Funders Circle ($5,000+)</h3><a name="funders-circle"></a>
 
     <div class="row">
         <ul class="donor-list" style="margin-left: 25px; margin-bottom: 50px; padding-left: 25px; line-height: 26px;">
@@ -73,7 +73,19 @@
         </ul>
     </div>
 
-    <h3 class="donor-level">Patrons Circle ($250+)</h3><a name="sustainers"></a>
+<!-- hide if no donors at this level 
+    <h3 class="donor-level">Patrons ($500+)</h3><a name="patrons"></a>
+
+    <div class="row">
+        <ul class="donor-list" style="margin-left: 25px; margin-bottom: 50px; padding-left: 25px; line-height: 26px;">
+            {% for donor in donors %}{% if donor.level == 'Sustainer' %}
+            <li class="donor-entry">{{ donor.display_name }}{% if donor.sustaining_donor %}<sup>&star;</sup>{% endif %}{% if donor.show_year %} ({{ donor.year }}){% endif %}</li>
+            {% endif %}{% endfor %}
+        </ul>
+    </div>
+-->
+    
+    <h3 class="donor-level">Sustainers($250+)</h3><a name="sustainers"></a>
 
     <div class="row">
         <ul class="donor-list" style="margin-left: 25px; margin-bottom: 50px; padding-left: 25px; line-height: 26px;">
