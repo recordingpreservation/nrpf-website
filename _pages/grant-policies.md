@@ -9,7 +9,7 @@ bodyClass: page-grants
 ## Indirect Cost Policy
 
 The National Recording Preservation Foundation does not pay indirect costs.
-Indirect cost recovery agreements are the result of negotiations
+Indirect cost recovery agreements are negotiated
 between federal funding agencies and universities, or other research institutions,
 that carry out government-sponsored research.
 
