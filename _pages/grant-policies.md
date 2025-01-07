@@ -19,5 +19,8 @@ It is our policy to fund direct costs only.
 
 ## Reporting
 
-All recipients of NRPF funds are required to submit reports on their activities. These reports are used by NRPF to assess the impact of its resources, and to create impact stories.
-The Foundation will provide funded projects with information about how and when to report on their projects.
+All recipients of NRPF funds are required to submit reports to NRPF regarding their NRPF-funded activities.
+These reports are used by NRPF to track the outcomes of funded projects,
+assess the impact of NRPF resources,
+and may also be used to communicate with the public regarding the outcomes and impacts of NRPF's work.
+The Foundation will provide funded projects with information about how and when to report on NRPF-funded projects.
