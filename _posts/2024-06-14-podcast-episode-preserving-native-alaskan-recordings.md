@@ -46,9 +46,9 @@ Find out all about the podcast on our main [podcast page and press kit]({% link 
 
 ### Credits
 
-_Sound Files_ is hosted by [Jesse Johnston]({% link _team/jesse-johnston.md %}), NRPF Executive Director and
+_Sound Files_ is created and hosted by [Jesse Johnston]({% link _team/jesse-johnston.md %}), NRPF Executive Director and
 Clinical Assistant Professor at the [University of Michigan School of Information](https://si.umich.edu/),
-and [Evan Haywood]({% link _team/evan-haywood.md %}), audio preservationist and podcast manager for NRPF.
+and co-hosted by [Evan Haywood]({% link _team/evan-haywood.md %}), audio preservationist and podcast manager for NRPF.
 Each episode features original music
 by Evan and is recorded, edited, and mastered at the [Black Ram Tree House]({{ site.data.contact.blackramsound_link }}) studio in Ann Arbor, Michigan.
 
