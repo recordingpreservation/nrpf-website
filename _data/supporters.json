@@ -22,6 +22,11 @@
             "sort": 04
         },
         {
+            "name": "Copper",
+            "type": "benefactors",
+            "sort": 05
+        },
+        {
             "name": "Librarian's Circle",
             "type": "donors",
             "sort": 06
@@ -59,6 +64,14 @@
             "display_name": "Chervenak-Nunnallé Foundation",
             "level": "Bronze",
             "sort": "chervenak",
+            "year": 2013,
+            "show_year": true,
+            "url": ""
+        },
+        {
+            "display_name": "Mattina R. Proctor Foundation",
+            "level": "Copper",
+            "sort": "proctor",
             "year": 2013,
             "show_year": true,
             "url": ""
