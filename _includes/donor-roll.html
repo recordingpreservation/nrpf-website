@@ -31,6 +31,17 @@
             {% endif %}{% endfor %}
         </ul>
     </div>
+
+    <h3 class="donor-level">Copper Benefactors ($5,000+)</h3>
+
+    <div class="row">
+        <ul class="donor-list" style="margin-left: 25px; margin-bottom: 50px; padding-left: 25px; line-height: 26px;">
+            {% for benefactor in benefactors %}{% if benefactor.level == 'Copper' %}
+            <li class="donor-entry">{{ benefactor.display_name }}{% if benefactor.show_year %} (since {{ benefactor.year }}){% endif %}</li>
+            {% endif %}{% endfor %}
+        </ul>
+    </div>
+
 </div>
 
 <!-- annual donors -->
