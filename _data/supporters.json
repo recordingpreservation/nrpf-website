@@ -77,6 +77,14 @@
             "url": ""
         },
         {
+            "display_name": "Council for Library and Information Resources",
+            "level": "Bronze",
+            "sort": "council",
+            "year": 2016,
+            "show_year": true,
+            "url": "https://www.clir.org/"
+        }
+        {
             "display_name": "Recording Industry Association of America",
             "level": "Silver",
             "sort": "rec",
