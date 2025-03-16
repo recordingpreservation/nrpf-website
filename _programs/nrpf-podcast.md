@@ -14,23 +14,22 @@ elevator_pitch: "If you ever wondered what it takes to preserve historic sounds,
 
 ![NRPF Sound Files podcast cover image]({% link images/podcast/soundfiles-2024-1000sq.jpg %}){:style="float: right; width: 40%; padding-left: 10px; margin-top: 0;"}
 
-Check out our new podcast, _Sound Files_.
+Check out the NRPF podcast, _Sound Files_.
 On the pod, we share and celebrate archival audio
 through conversations and stories.
 
 Have you ever wondered what it takes to preserve historic sounds and audio collections?
-If so, then this podcast is for you! Listen to learn not only about
-the preservation of recorded sounds, but also the people and organizations who preserve them.
+If so, then this podcast is for you! Listen to learn about
+the preservation of recorded sounds, as well as the people and organizations who preserve them.
 
-The podcast will:
+The podcast:
 
-* Provide insights on the work that goes into audio preservation
-* Feature sounds and stories from some of the most significant American sound collections
-* Share and amplify the work of audio archivists and the collections they steward
+* Provides "behind-the-scenes" perspectives on the work that goes into archival audio preservation
+* Features sounds and stories from some of the most significant American sound collections
+* Shares and amplifies the work of audio archivists and the collections they steward
 
-Each episode features long-form conversations with audio archivists,
-sounds from the collections we have supported, and interviews with voices from the
-audio preservation community.
+Each episode features a story about audio preservation or an interview with audio archivists.
+In addition, the show features sounds from the collections that NRPF has supported.
 We will also offer occasional updates on our activities and programs.
 
 ## Subscribe
@@ -62,7 +61,7 @@ _Sound Files_ is hosted by new members of the NRPF community! We are happy to we
 
 {% include subscribe-donate-row.html %}
 
-Donations large or small are always appreciated and gratefully acknowledged!
+Support is always appreciated and gratefully acknowledged!
 If you enjoy the podcast, please consider giving &ndash; any donation advances
 our services by supporting the costs of creating, distributing, and sharing the
 podcast. Beyond that, you will be contributing to the overall work of preserving recorded sound history.
