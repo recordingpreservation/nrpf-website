@@ -12,7 +12,7 @@ We do not directly commission engineers, studios, or vendors.
 
 ## Subscribe
 
-We share essays, podcast episodes, and occasional news via our Substack letter. Add your name to the list!
+We share essays, podcast episodes, and occasional news via our email list. Add your name to get updates from NRPF!
 
 {% include subscribe-form-emailocto %}
 
