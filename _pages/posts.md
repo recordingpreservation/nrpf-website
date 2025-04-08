@@ -5,7 +5,7 @@ description: NRPF Features
 permalink: "/features/"
 ---
 
-# NRPF Features: Views from the NRPF
+# NRPF Features: Voices from the NRPF
 
 We are happy to share our NRPF "Features," which are shorter,
 topical posts that focus on sharing recent activities and viewpoints.
