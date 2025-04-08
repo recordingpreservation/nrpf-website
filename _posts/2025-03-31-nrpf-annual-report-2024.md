@@ -13,7 +13,7 @@ fullWidth: true
 updated: 
 ---
 
-I am excited to release the Foundation's Annual Report for 2023 and 2024. As those of you who follow NRPF already know, we have gone through a period of transition and renewal over the past few years, and this report discusses some of the Foundation's changes and strategies going forward. I am excited to introduce this and look forward to sharing more news as we continue our mission to promote and preserve unique, at-risk audio collections that are significant to America's history!
+I am pleased to present the Foundation's Annual Report for 2023 and 2024. As those of you who follow NRPF already know, we have gone through a period of transition and renewal over the past few years, and this report discusses some of the Foundation's changes and strategies going forward. I am excited to introduce this and look forward to sharing more news as we continue our mission to promote and preserve unique, at-risk audio collections that are significant to America's history!
 
 You can [read the full report here]({% link assets/files/2024_nrpf_annual_report-FINAL.pdf %}), or just continue below to read the Executive Summary!
 
