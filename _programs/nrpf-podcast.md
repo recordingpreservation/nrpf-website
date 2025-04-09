@@ -3,7 +3,7 @@ title: "Sound Files Podcast"
 permalink: "/programs/podcast/"
 date: 2023-10-10
 weight: 3
-teaser: "NRPF's first podcast episode is available now, and stay tuned for new episodes to post monthly in 2024!"
+teaser: "NRPF's podcast shares stories about the preservation of recorded sound, as well as the people and organizations who preserve them."
 layout: page
 description: "Sound Files, a podcast from the National Recording Preservation Foundation (NRPF), celebrates and explains the preservation of recorded sounds and the people and organizations who preserve them."
 image: "/images/podcast/soundfiles-2024-1000sq.jpg"
@@ -49,7 +49,7 @@ Then you will be notified any time that a new episode drops!
 You can also leave a review, rate the podcast, and share to your networks.
 Episodes will be posted about once a month for the 2024 season, so be sure to check below for our most recent episodes!
 
-## Meet the Hosts
+## Meet the Host
 
 _Sound Files_ is hosted by new members of the NRPF community! We are happy to welcome:
 
