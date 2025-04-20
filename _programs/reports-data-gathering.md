@@ -23,8 +23,8 @@ needs in the broadcast archives of Historically Black Colleges and University
 radio stations.
 As project director Jocelyn Robinson stated, "we won’t know what needs preservation until we survey the content and conditions of the radio archives on HBCU campuses. What we discover could have enormous potential for podcasts, radio and film documentaries, and museum exhibitions, allowing students, researchers, media producers, and communities to remember, honor and be inspired by the voices of this important legacy."
 
-> "We won’t know what needs preservation until we survey the content and conditions
-> of collections in need.
+> "We won't know what needs preservation until we survey the content and conditions
+> of collections in need."
 >
 > &mdash;Jocelyn Robinson, project director for the _Survey of Broadcast Archives of Historically Black Colleges &amp; Universities_
 
