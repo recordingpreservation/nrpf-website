@@ -13,11 +13,11 @@ hero_teaser: "We acknowledge and celebrate the generosity of those who have supp
 
 &nbsp;
 
-We extend our sincere and profound gratitude to all the donors and supporters
-who have shown unwavering support and boundless generosity towards our mission.
+The Foundation extends sincere and profound gratitude to all the donors and supporters
+who have shown support over the years.
 This page acknowledges those who have made significant financial gifts
 or provided valuable in-kind services.
-These supporters have played key roles in advancing our mission to promote and
+Their generosity has been instrumental in advancing NRPF's mission to promote and
 preserve sound recordings, and in achieving our vision of
 sharing the sounds and stories of American audio heritage.
 
