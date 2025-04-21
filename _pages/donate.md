@@ -15,7 +15,6 @@ You can give directly today using the donation form below. Note that the form ma
 
 {% include give-lively-widget %}
 
-
 ## Note about payment processing
 
 Payments via GiveLively are processed via **Stripe** and subject to their non-profit fee schedule. Want to pay via **PayPal**? Visit our [GiveLively dedicated page](https://secure.givelively.org/donate/national-recording-preservation-foundation), choose an amount, and select the One Time giving option.
@@ -49,3 +48,9 @@ Bank transfers may use the following information:
 We have achieved the Silver Transparency seal from Guidestar at Candid.org. Click below to review our reports.
 
 {% include candid-seal.html %}
+
+# What will your donation support?
+
+Your support allows us to support the preservation of more at-risk audio collections!
+Here are just a few examples of audio heritage preserved
+with support from the National Recording Preservation Foundation: [NRPF Grants Awarded]({% link _programs/nrpf-grants.md %}).
