@@ -19,7 +19,7 @@ You can [read the full report here]({% link assets/files/2024_nrpf_annual_report
 
 ![Image of the west facade of the Jefferson Building at the Library of Congress. Cropped from an unsplash photo by Victor Yuan.]({% link images/blog/loc-facade-west-cropped.png %}){:style="padding: 1px; border: 1px solid black;"}
 
-The National Recording Preservation Foundation (NRPF) _promotes_ and _preserves_ America’s audio heritage—by raising funds and distributing grants to archives, libraries, museums and other non-profit collecting organizations. In 2023 and 2024, the Foundation undertook a strategic re-start and planning, revamped its communications, and supported significant American audio archives through critical preservation grants.
+The National Recording Preservation Foundation (NRPF) _promotes_ and _preserves_ America’s audio heritage—by raising funds and distributing grants to archives, libraries, museums, and other non-profit collecting organizations. In 2023 and 2024, the Foundation undertook a strategic re-start and planning, revamped its communications, and supported significant American audio archives through critical preservation grants.
 
 The Foundation receives support from the private sector, academia, and a range of performers and public figures who value NRPF’s continued work to safeguard America’s rich audio history.
 
