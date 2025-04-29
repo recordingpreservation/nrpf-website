@@ -27,7 +27,7 @@ The Foundation receives support from the private sector, academia, and a range o
 
 ## Funding Impact
 
-* Distributed $28,350 in preservation grants to support unique and at-risk audio recordings from culturally significant radio stations, to historic recordings of culturally significant American performers and composers, to disaster recovery at repositories of American cultural recordings  
+* Distributed $28,350 in preservation grants to support unique and at-risk audio recordings. NRPF's grants supported the preservation of culturally significant radio stations, historic recordings of culturally significant American performers and composers, and disaster recovery at repositories of American cultural recordings  
 
 ## Communications and Engagement
 
