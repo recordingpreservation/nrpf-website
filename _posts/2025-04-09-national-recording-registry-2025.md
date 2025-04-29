@@ -1,5 +1,5 @@
 ---
-title: "Saluting the 2025 Additions to the National Recording Registry"
+title: "A Salute to the 2025 Additions to the National Recording Registry"
 date: 2025-04-09
 author: Jesse A. Johnston
 categories: 
