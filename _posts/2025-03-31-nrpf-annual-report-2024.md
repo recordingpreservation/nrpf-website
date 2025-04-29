@@ -28,7 +28,9 @@ The Foundation receives support from the private sector, academia, and a range o
 ## Funding Impact
 
 * Distributed $28,350 in preservation grants to support unique and at-risk audio recordings from culturally significant radio stations, to historic recordings of culturally significant American performers and composers, to disaster recovery at repositories of American cultural recordings  
-Communications and Engagement
+
+## Communications and Engagement
+
 * Launched the Sound Files podcast to share archived audio collections and spotlight the work of audio preservation professionals
 * Expanded support for education and training, including a grants webinar, fiscal support of the 2024 international conference of the International Audiovisual and Sound Archives association (IASA) and new advisors
 
