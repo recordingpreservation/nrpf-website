@@ -16,23 +16,6 @@ promote, and preserve recorded sound history.
 In that spirit, we aim to provide data about the current state of recorded sound collections in the United States and their preservation needs.
 This data is intended to inform policy and priorities that can advance the preservation of and access to significant audio recordings.
 
-NRPF aims to provide, summarize, and create useful background information to inform decision makers and funders
-regarding responsive, best-practice approaches to preservation challenges that confront
-the audio preservation community.
-This guidance touches on many aspects of recorded sound preservation,
-from work with vintage format types to
-the stories and communities whose perspectives are recorded in these sounds.
-
-For example, in [2018]({% link _grants/2018-wyso-radio.md %}) and again in [2023]({% link _grants/2023-wyso-radio.md %}), we supported critical work to survey the extent of recordings and preservation
-needs in the broadcast archives of Historically Black Colleges and University
-radio stations.
-As project director Jocelyn Robinson stated, "we won’t know what needs preservation until we survey the content and conditions of the radio archives on HBCU campuses. What we discover could have enormous potential for podcasts, radio and film documentaries, and museum exhibitions, allowing students, researchers, media producers, and communities to remember, honor and be inspired by the voices of this important legacy."
-
-> "We won't know what needs preservation until we survey the content and conditions
-> of collections in need."
->
-> &mdash;Jocelyn Robinson, project director for the _Survey of Broadcast Archives of Historically Black Colleges &amp; Universities_
-
 ## Audio Preservation Reports
 
 The following reports were created by related efforts,
@@ -51,8 +34,27 @@ Access the full report here: [https://www.clir.org/pubs/reports/pub164/](https:/
 
 Learn about the National Recording Preservation Plan at the Library of Congress' website: [https://www.loc.gov/programs/national-recording-preservation-plan/](https://www.loc.gov/programs/national-recording-preservation-plan/).
 
-### Quantifying the Need 
+### Quantifying the Need
 
 In 2014, [AVPreserve](https://www.weareavp.com/) and the [Northeast Document Conservation Center (NEDCC)](https://www.nedcc.org/), with funding from [The Andrew W. Mellon Foundation](https://www.mellon.org/), undertook an in-depth, multi-faceted assessment to quantify the existing audio items held in institutional collections throughout the United States. This was performed in response to The Library of Congress National Recording Preservation Plan and its call for the appraisal of collections, as well as to establish a foundation for articulating the current preservation need of sound recordings in collections nationwide. The research found that there are over 537 million sound recordings in collection-holding organizations across the US, grooved media and magnetic media (largely reel-to-reel tape) were the most widely held formats, and the largest quantity of sound recorded is held by academic libraries, archives, and museums. Nearly sixty percent of these are estimated to be unique or rare while less than twenty percent have already been digitized. The report determined that nearly 250 million of the extant recordings are "preservation-worthy" (unique, rare, or irreplaceable), and approximately seventy percent can be digitized using standard preservation workflows. Nonetheless, the cost of digitizing all of these items would be over $20 billion (US dollars).
 
 Read the full report at AVP's website: [https://www.weareavp.com/quantifying-the-need-a-survey-of-existing-sound-recordings-in-collections-in-the-united-states/](https://www.weareavp.com/quantifying-the-need-a-survey-of-existing-sound-recordings-in-collections-in-the-united-states/).
+
+## NRPF's Contributions
+
+NRPF aims to provide, summarize, and create useful background information to inform decision makers and funders
+regarding responsive, best-practice approaches to preservation challenges that confront
+the audio preservation community.
+This guidance touches on many aspects of recorded sound preservation,
+from work with vintage format types to
+the stories and communities whose perspectives are recorded in these sounds.
+
+For example, in [2018]({% link _grants/2018-wyso-radio.md %}) and again in [2023]({% link _grants/2023-wyso-radio.md %}), we supported critical work to survey the extent of recordings and preservation
+needs in the broadcast archives of Historically Black Colleges and University
+radio stations.
+As project director Jocelyn Robinson stated, "we won’t know what needs preservation until we survey the content and conditions of the radio archives on HBCU campuses. What we discover could have enormous potential for podcasts, radio and film documentaries, and museum exhibitions, allowing students, researchers, media producers, and communities to remember, honor and be inspired by the voices of this important legacy."
+
+> "We won't know what needs preservation until we survey the content and conditions
+> of collections in need."
+>
+> &mdash;Jocelyn Robinson, project director for the _Survey of Broadcast Archives of Historically Black Colleges &amp; Universities_
