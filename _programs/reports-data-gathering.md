@@ -4,7 +4,11 @@ date: 2023-05-01
 permalink: /reports-and-data/
 weight: 1
 teaser: "Without action and dedicated resources, unique and irreplaceable audio heritage may be lost."
-layout: page
+layout: page-with-hero
+hero_image: true
+hero_image_path: "images/blog/loc-facade-west-cropped.png"
+hero_gradient: 0.3
+hero_teaser: Without action and dedicated resources, unique and irreplaceable audio heritage may be lost. 
 ---
 
 NRPF's mission is to coordinate resources in order to support,
