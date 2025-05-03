@@ -8,7 +8,8 @@ layout: page-with-hero
 hero_image: true
 hero_image_path: "images/blog/loc-facade-west-cropped.png"
 hero_gradient: 0.3
-hero_teaser: Without action and dedicated resources, unique and irreplaceable audio heritage may be lost. 
+hero_teaser: Without action and dedicated resources, unique and irreplaceable audio heritage may be lost.
+bodyClass: "page-about"
 ---
 
 NRPF's mission is to coordinate resources in order to support,
@@ -16,12 +17,6 @@ promote, and preserve recorded sound history.
 In that spirit, we aim to provide data about the current state of recorded sound collections in the United States and their preservation needs.
 This data is intended to inform policy and priorities that can advance the preservation of and access to significant audio recordings.
 
-NRPF aims to provide, summarize, and create useful background information to inform decision makers and funders
-regarding responsive, best-practice approaches to preservation challenges that confront
-the audio preservation community.
-This guidance touches on many aspects of recorded sound preservation,
-from work with vintage format types to
-the stories and communities whose perspectives are recorded in these sounds.
 Read below to understand some of the significant extant reports.
 
 ## Audio Preservation Reports
@@ -59,3 +54,10 @@ As project director Jocelyn Robinson stated, "we won’t know what needs preserv
 > of collections in need."
 >
 > &mdash;Jocelyn Robinson, project director for the _Survey of Broadcast Archives of Historically Black Colleges &amp; Universities_
+
+NRPF aims to provide, summarize, and create useful background information to inform decision makers and funders
+regarding responsive, best-practice approaches to preservation challenges that confront
+the audio preservation community.
+This guidance touches on many aspects of recorded sound preservation,
+from work with vintage format types to
+the stories and communities whose perspectives are recorded in these sounds.
