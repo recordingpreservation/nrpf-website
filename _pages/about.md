@@ -2,7 +2,7 @@
 title: About the National Recording Preservation Foundation
 layout: page
 permalink: /about/
-description: About the NRPF
+description: "The NRPF is an independent, charitable, and nonprofit corporation with the mission to promote and ensure the preservation of recorded sound heritage in the United States."
 bodyClass: page-about
 ---
 
