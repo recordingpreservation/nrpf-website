@@ -16,6 +16,14 @@ promote, and preserve recorded sound history.
 In that spirit, we aim to provide data about the current state of recorded sound collections in the United States and their preservation needs.
 This data is intended to inform policy and priorities that can advance the preservation of and access to significant audio recordings.
 
+NRPF aims to provide, summarize, and create useful background information to inform decision makers and funders
+regarding responsive, best-practice approaches to preservation challenges that confront
+the audio preservation community.
+This guidance touches on many aspects of recorded sound preservation,
+from work with vintage format types to
+the stories and communities whose perspectives are recorded in these sounds.
+Read below to understand some of the significant extant reports.
+
 ## Audio Preservation Reports
 
 The following reports were created by related efforts,
@@ -42,14 +50,7 @@ Read the full report at AVP's website: [https://www.weareavp.com/quantifying-the
 
 ## NRPF's Contributions
 
-NRPF aims to provide, summarize, and create useful background information to inform decision makers and funders
-regarding responsive, best-practice approaches to preservation challenges that confront
-the audio preservation community.
-This guidance touches on many aspects of recorded sound preservation,
-from work with vintage format types to
-the stories and communities whose perspectives are recorded in these sounds.
-
-For example, in [2018]({% link _grants/2018-wyso-radio.md %}) and again in [2023]({% link _grants/2023-wyso-radio.md %}), we supported critical work to survey the extent of recordings and preservation
+In addition to making preservation grants, we strive to support work that leads to the better understanding of the state of audio preservation in the United States. For example, in [2018]({% link _grants/2018-wyso-radio.md %}) and again in [2023]({% link _grants/2023-wyso-radio.md %}), we supported critical work to survey the extent of recordings and preservation
 needs in the broadcast archives of Historically Black Colleges and University
 radio stations.
 As project director Jocelyn Robinson stated, "we won’t know what needs preservation until we survey the content and conditions of the radio archives on HBCU campuses. What we discover could have enormous potential for podcasts, radio and film documentaries, and museum exhibitions, allowing students, researchers, media producers, and communities to remember, honor and be inspired by the voices of this important legacy."
