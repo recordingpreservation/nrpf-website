@@ -4,14 +4,15 @@ date: 2023-05-01
 permalink: /reports-and-data/
 weight: 1
 teaser: "Without action and dedicated resources, unique and irreplaceable audio heritage may be lost."
+layout: page
 ---
 
-As an organization dedicated to the coordination of resources that support
-awareness of recorded sound history and its preservation, we aim to provide
-data that informs policies, decisions, and priorities
-for the work of preserving and creating access to audio recordings.
+NRPF's mission is to coordinate resources in order to support,
+promote, and preserve recorded sound history.
+In that spirit, we aim to provide data about the current state of recorded sound collections in the United States and their preservation needs.
+This data is intended to inform policy and priorities that can advance the preservation of and access to significant audio recordings.
 
-We aim to provide, summarize, and create useful background information to inform decision makers and funders
+NRPF aims to provide, summarize, and create useful background information to inform decision makers and funders
 regarding responsive, best-practice approaches to preservation challenges that confront
 the audio preservation community.
 This guidance touches on many aspects of recorded sound preservation,
