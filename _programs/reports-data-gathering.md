@@ -12,10 +12,12 @@ hero_teaser: Without action and dedicated resources, unique and irreplaceable au
 bodyClass: "page-about"
 ---
 
-NRPF's mission is to coordinate resources in order to support,
-promote, and preserve recorded sound history.
-In that spirit, we aim to provide data about the current state of recorded sound collections in the United States and their preservation needs.
-This data is intended to inform policy and priorities that can advance the preservation of and access to significant audio recordings.
+NRPF's mission is to coordinate resources in order to support, promote, and
+preserve recorded sound history.
+In that spirit, we aim to provide data about the preservation needs and
+current state of recorded sound collections in the United States.
+This data may inform policy and priorities that can advance the preservation of
+and access to significant audio recordings.
 
 Read below to understand some of the significant extant reports.
 
