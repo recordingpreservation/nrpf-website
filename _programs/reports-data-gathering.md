@@ -19,7 +19,7 @@ current state of recorded sound collections in the United States.
 This data may inform policy and priorities that can advance the preservation of
 and access to significant audio recordings.
 
-Read below about some of the notable reports.
+Read below about some of the notable resources.
 
 ## Audio Preservation Reports
 
