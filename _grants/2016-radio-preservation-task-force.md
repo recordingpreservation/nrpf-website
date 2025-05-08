@@ -1,6 +1,7 @@
 ---
 title: "Expanding Awareness of the History of U.S. Public Broadcasting"
 collection: grants
+type: grant
 amount: "$25,000.00"
 year: 2016
 recipient: Radio Preservation Task Force (Library of Congress)

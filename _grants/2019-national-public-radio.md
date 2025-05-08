@@ -1,6 +1,7 @@
 ---
 title: "Digitizing <em>Voices in the Wind</em>"
 collection: grants
+type: grant
 amount: "$10,000.00"
 year: 2019
 recipient: National Public Radio

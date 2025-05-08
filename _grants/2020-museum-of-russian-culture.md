@@ -1,6 +1,7 @@
 ---
 title: "Preserving Unique Recordings from the Soviet and Tsarist Eras"
 collection: grants
+type: grant
 amount: "$3,500.00"
 year: 2020
 recipient: Museum of Russian Culture

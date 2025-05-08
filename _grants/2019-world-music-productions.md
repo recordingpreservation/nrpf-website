@@ -1,6 +1,7 @@
 ---
 title: "Digitizing Recordings of <em>Afropop Worldwide</em>"
 collection: grants
+type: grant
 amount: "$15,000.00"
 year: 2019
 recipient: World Music Productions

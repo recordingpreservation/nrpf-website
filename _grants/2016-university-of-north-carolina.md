@@ -1,6 +1,7 @@
 ---
 title: "Preserving the Field Recordings of Mike Seeger"
 collection: grants
+type: grant
 amount: "$25,000.00"
 year: 2016
 recipient: University of North Carolina

@@ -1,6 +1,7 @@
 ---
 title: "Digitizing KUT Radio Collections"
 collection: grants
+type: grant
 amount: "$10,000.00"
 year: 2019
 recipient: KUT Radio (University of Texas at Austin)

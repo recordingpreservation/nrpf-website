@@ -1,6 +1,7 @@
 ---
 title: "Digitizing Georgia Oral Histories, 1966&ndash;1968"
 collection: grants
+type: grant
 amount: "$5,000.00"
 year: 2019
 recipient: Atlanta Historical Society

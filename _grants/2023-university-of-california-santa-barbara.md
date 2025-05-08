@@ -1,6 +1,7 @@
 ---
 title: "Digitizing Bernard Herrmann's Recordings with the CBS Symphony"
 collection: grants
+type: grant
 amount: "$8,500.00"
 year: 2023
 recipient: University of California, Santa Barbara

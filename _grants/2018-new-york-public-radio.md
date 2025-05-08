@@ -1,6 +1,7 @@
 ---
 title: "Digitizing WNYC's <em>On the Media</em>"
 collection: grants
+type: grant
 amount: "$10,000.00"
 year: 2018
 recipient: New York Public Radio

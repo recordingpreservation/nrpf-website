@@ -1,6 +1,7 @@
 ---
 title: "Digitizing Recordings of the Unangax̂ (Alaska Aleut) Peoples"
 collection: grants
+type: grant
 amount: "$8,050.00"
 year: 2020
 recipient: University of Alaska Fairbanks

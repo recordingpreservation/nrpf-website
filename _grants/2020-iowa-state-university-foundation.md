@@ -1,6 +1,7 @@
 ---
 title: "Digitizing Lectures from Iowa State University"
 collection: grants
+type: grant
 amount: "$14,999.00"
 year: 2020
 recipient: Iowa State University Foundation
@@ -24,3 +25,4 @@ race, gender, and sexuality,” says Rosie Rowe, AV and Film Preservation Specia
 University.
 
 Adds Daniel Hartwig, Head of Iowa State's Special Collections & University Archives, “Our goal for the project is to stimulate awareness and discourse, as well as center and magnify these voices and movements.”
+

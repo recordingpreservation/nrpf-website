@@ -1,6 +1,7 @@
 ---
 title: "Digitization of Rare Interviews with &lsquo;Outsider&rsquo; Artists"
 collection: grants
+type: grant
 amount: "$14,830.00"
 year: 2020
 recipient: American Folk Art Museum

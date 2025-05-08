@@ -1,6 +1,7 @@
 ---
 title: "Surveying Radio Recording Archives at Historically Black Colleges and Universities"
 collection: grants
+type: grant
 amount: "$15,000.00"
 year: 2018
 recipient: WYSO Radio

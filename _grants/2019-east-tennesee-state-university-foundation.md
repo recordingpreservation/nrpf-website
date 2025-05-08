@@ -1,6 +1,7 @@
 ---
 title: "Digitizing Appalachian Bluegrass Field Recordings"
 collection: grants
+type: grant
 amount: "$10,000.00"
 year: 2019
 recipient: East Tennesee State University Foundation

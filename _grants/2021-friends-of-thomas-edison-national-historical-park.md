@@ -1,6 +1,7 @@
 ---
 title: "Extracting High-Quality Sound from Sealed Master Molds"
 collection: grants
+type: grant
 amount: "$8,653.00"
 year: 2021
 recipient: Friends of Thomas Edison National Historical Park

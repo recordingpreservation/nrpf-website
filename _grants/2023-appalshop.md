@@ -1,6 +1,7 @@
 ---
 title: "Preserving Unique and Historical Appalachian Recordings"
 collection: grants
+type: grant
 amount: "$11,350.00"
 year: 2023
 recipient: Appalshop

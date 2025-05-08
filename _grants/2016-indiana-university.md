@@ -1,6 +1,7 @@
 ---
 title: "Preserving <em>Orson Welles on the Air</em>"
 collection: grants
+type: grant
 amount: "$25,000.00"
 year: 2016
 recipient: Indiana University

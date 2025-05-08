@@ -1,6 +1,7 @@
 ---
 title: "Digitizing the <em>Composer to Composer</em> Recordings"
 collection: grants
+type: grant
 amount: "$10,000.00"
 year: 2018
 recipient: Other Minds

@@ -1,6 +1,7 @@
 ---
 title: "Digitizing the Harry Oster Collection of Field Recordings"
 collection: grants
+type: grant
 amount: "$15,000.00"
 year: 2018
 recipient: Arhoolie Foundation
