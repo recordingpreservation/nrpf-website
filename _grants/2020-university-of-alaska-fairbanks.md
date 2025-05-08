@@ -7,7 +7,7 @@ recipient: University of Alaska Fairbanks
 location: "Fairbanks, AK"
 ---
 
-The ‘Cuttlefish Project’ recordings are of immense Unangax̂ (Alaska Aleut) cultural
+"The ‘Cuttlefish Project’ recordings are of immense Unangax̂ (Alaska Aleut) cultural
 importance due to not only the topics covered by Elders but because many of them were the
 last fluent speakers of the Unangam Tunuu language,” says Leslie McCartney, Associate
 Professor and Curator of Oral History at the Elmer E. Rasmuson Library. “They are of the
