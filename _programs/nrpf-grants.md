@@ -8,7 +8,9 @@ layout: page
 bodyClass: page-grants
 jquery: true
 countUp: true
-cfp: inactive
+cfp: active
+cfp-title: 2025 NRPF Preservation Grants
+cfp-deadline: 2025-07-01
 ---
 
 In pursuing its mandate to preserve recorded sound heritage, the Foundation
@@ -32,7 +34,7 @@ How have our grants supported audio preservation? Take a look at the numbers:
 ## Information for Applicants and Grantees
 
 {% if page.cfp == "active" %}
-NRPF currently welcomes proposals for 2025 NRPF Preservation Grants. **[Please refer to details at the call for proposals]({% link _grants/cfp-nrpf-grants-2025.md %}). Applications are due July 1, 2025.**
+NRPF currently welcomes proposals for {{ page.cfp-title }}. **[Please refer to details at the call for proposals]({% link _grants/cfp-nrpf-grants-2025.md %}). Applications are due {{ page.cfp-deadline | date: "%B %e, %Y" }}.**
 {% else %}
 The Foundation does not currently have any open calls for proposals.
 Please watch our press releases for annnouncements of any pending NRPF grant opportunities.
