@@ -57,7 +57,7 @@ Awards will be announced on or around September 1, 2025.
 
 ## How to Apply
 
-Applications should be submitted online using NRPF's online application form, which can be accessed at: [LINK](LINK).
+Applications should be submitted online using NRPF's online application form, which can be accessed at: <https://form.typeform.com/to/QDzTSAPB>.
 
 # Frequently Asked Questions (FAQs)
 
@@ -83,30 +83,3 @@ For more information, please email to [info@recordingpreservation.org](mailto:in
 
 No. These grants are intended to supply resources that go directly toward preservation activities and do not support the general operating costsof an organization.
 [Please refer to NRPF's grant policies for more details]({% link _pages/grant-policies.md %}).
-
-
-###### OLD ######
-
-## Funding Guidelines
-
-NRPF's 2025 preservation grants program may be used to support a range of eligible preservation activities, including:
-
-* collection inventory and cataloging;
-* collection condition assessment, especially review for binder degradation or other preservation threats;
-* recording rehousing and collection stabilization based on best-practice preservation actions or recommendations of a previous preservation assessment;
-* preservation through digitization, when accomplished by a preservation lab or external vendor; and
-* the creation of, or planning for, expanded access to significant collections within fair-use and preservation guidelines.
-
-## Areas of Emphasis
-
-We particularly encourage projects that address collections featuring recordings of **broadcast, spoken word, or folk and traditional music** genres.
-
-## Who can Apply?
-
-Libraries, archives, museums, and non-profit organizations with the mission to collect and preserve cultural heritage materials are eligible to apply.
-
-The NRPF does not offer grants to individuals unless the materials are housed within a non-profit structure.
-
-In rare cases, NRPF may offer grants to commercial entities if a case can be made for the collection's cultural and historical value, the commercial holder cannot fund such preservation itself and a partnership exists with a non-profit entity in the field. Projects leading only to a commercial release, but without an archival preservation emphasis, are not eligible.
-
-
