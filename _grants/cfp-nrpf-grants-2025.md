@@ -4,7 +4,7 @@ date: 2025-05-14
 layout: page
 permalink: "/programs/grants/2025-call-for-proposals/"
 type: cfp
-deadline: 2025-07-01
+deadline: 2025-06-23
 program-page: false
 grant-list: false
 ---
