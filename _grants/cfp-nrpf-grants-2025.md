@@ -22,7 +22,7 @@ Applications may be submitted via online form at any time before {{ page.deadlin
 ## Opportunity Details
 
 * **Amount:** $5,000 to $10,000 per grant
-* **Eligibile Applicants:** Registered nonprofit organizations with a collecting, preservation, and/or access mission, including libraries, archives, and museums
+* **Eligible Applicants:** Registered nonprofit organizations with a collecting, preservation, and/or access mission, including libraries, archives, and museums
 * **Duration:** 6-12 months
 * **Application Deadline:** {{ page.deadline | date: "%B %e, %Y" }}
 * **Activities the Grant May Support:**
