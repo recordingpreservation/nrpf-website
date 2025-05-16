@@ -10,7 +10,7 @@ jquery: true
 countUp: true
 cfp: active
 cfp-title: 2025 NRPF Preservation Grants
-cfp-deadline: 2025-07-01
+cfp-deadline: 2025-06-23
 ---
 
 In pursuing its mandate to preserve recorded sound heritage, the Foundation
