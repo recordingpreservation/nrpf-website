@@ -32,6 +32,11 @@ Applications may be submitted via online form at any time before {{ page.deadlin
   * Inventorying and assessing collections to identify media types, condition, content, and prioritize preservation actions
   * Planning and conducting workshops that increase knowledge and capacity for collections stewards to preserve, manage, or digitize audio collections, whether physical or digital (may include professional development for regular staff)
 
+Funds may not be used for:
+
+* Acquisition of collections
+* Conservation or restoration of individual items
+
 ## Proposal Evaluation and Selection
 
 Awards will be made on the significance of the collection to be preserved, the best practices and planning for the work proposed, and the responsiveness to this call for proposals.
