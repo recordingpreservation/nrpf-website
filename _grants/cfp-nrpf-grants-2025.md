@@ -30,6 +30,7 @@ Applications may be submitted via online form at any time before {{ page.deadlin
   * Hiring a qualified consultant to conduct a preservation assessment
   * Undertaking planned preservation actions, including re-housing, inventorying, environmental monitoring, or other basic preservation activities (note that due to the critical degradataion of physical audio media, our priority is to support the digitization, or other recovery and preservation, of audio signal over the preservation of physical assets)
   * Inventorying and assessing collections to identify media types, condition, content, and prioritize preservation actions
+  * Planning and conducting workshops that increase knowledge and capacity for collections stewards to preserve, manage, or digitize audio collections, whether physical or digital (may include professional development for regular staff)
 
 ## Proposal Evaluation and Selection
 
