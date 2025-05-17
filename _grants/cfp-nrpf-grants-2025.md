@@ -75,11 +75,11 @@ NRPF does not maintain a list of audio preservation and reformatting professiona
 However, NRPF does recommend checking with those listed as providing preservation transfer services
 on the [ARSC Audio Preservation Directory](https://arsc-audio.org/preservation-directory).
 
+## Does NRPF support indirect costs or "overhead"?
+
+No. These grants are intended to supply resources that go directly toward preservation activities and do not support the general operating costs of an organization.
+[Please refer to NRPF's grant policies for more details]({% link _pages/grant-policies.md %}).
+
 ## How can I get more information?
 
 For more information, please email to [info@recordingpreservation.org](mailto:info@recordingpreservation.org?subject=2025%20NRPF%20Grant%20Information%20Request).
-
-## Does NRPF support indirect costs or "overhead"?
-
-No. These grants are intended to supply resources that go directly toward preservation activities and do not support the general operating costsof an organization.
-[Please refer to NRPF's grant policies for more details]({% link _pages/grant-policies.md %}).
