@@ -83,6 +83,10 @@ NRPF does not maintain a list of audio preservation and reformatting professiona
 However, NRPF does recommend checking with those listed as providing preservation transfer services
 on the [ARSC Audio Preservation Directory](https://arsc-audio.org/preservation-directory).
 
+## If I plan to work with a vendor or external contractor, what documentation is needed?
+
+Identify in the proposal what vendor or contractor you plan to work with. If your application is selected to receive a grant, NRPF will request documentation and contract during the award finalization process.
+
 ## Does NRPF support indirect costs or "overhead"?
 
 No. These grants are intended to supply resources that go directly toward preservation activities and do not support the general operating costs of an organization.
