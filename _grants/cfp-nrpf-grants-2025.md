@@ -73,9 +73,13 @@ Applications should be submitted online using NRPF's online application form, wh
 
 Libraries, archives, museums, and non-profit organizations with the mission to collect and preserve cultural heritage materials are eligible to apply.
 
-The NRPF does not offer grants to individuals.
+This call for proposals does not offer grants to individuals.
 
-In rare cases, NRPF may offer grants to commercial entities if a case can be made for the collection's cultural and historical value, the commercial holder cannot fund such preservation itself and a partnership exists with a non-profit entity in the field. Projects leading only to a commercial release, but without an archival preservation emphasis, are not eligible.
+In rare cases, NRPF may offer grants to entities that are not bona fide non-profit organizations, in cases when collections are of exceptional cultural and historical significance. In most such cases, however, the Foundation would request that applicants seek a fiscal sponsor that is a non-profit entity.
+
+## Are commercial releases possible outcomes of a proposed project?
+
+Outcomes of projects funded under this call should in most cases lead to the creation of preservation plans, collection documentation, catalog records, or other materials that directly benefit the preservation of audio collections. Projects leading only to a commercial release, but without a preservation emphasis, are not eligible.
 
 ## Where to find a digitization vendor?
 
