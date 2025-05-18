@@ -85,7 +85,7 @@ on the [ARSC Audio Preservation Directory](https://arsc-audio.org/preservation-d
 
 ## If I plan to work with a vendor or external contractor, what documentation is needed?
 
-Identify in the proposal what vendor or contractor you plan to work with. If your application is selected to receive a grant, NRPF will request documentation and contract during the award finalization process.
+Identify in the proposal what vendor or contractor you plan to work with. If your application is selected to receive a grant, NRPF will request documentation and contract confirmation during the award finalization process.
 
 ## Does NRPF support indirect costs or "overhead"?
 
