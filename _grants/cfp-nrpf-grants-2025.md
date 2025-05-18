@@ -48,7 +48,7 @@ Applications will be evaluated on their merits, according to:
 * ***Significance:*** The cultural and historical importance of the collection, as well as the potential for the proposed work to enhance the preservation of the audio content in the collection.
 * ***Urgency:*** Extent to which the collection is threatened, whether by organizational capacity, failure of media carriers, or by physical degradation of the media before it may become unplayable or the audio signal becomes unrecoverable
 * ***Planning:*** Relevance and feasibility of the proposed preservation activities, including appropriate personnel and a clear, actionable, and completable plan for the proposed work
-* ***Budget:*** the extent to which the project's total cost as proposed, when compared to the significance and difficulty of preserving the collection's audio content, is reasonable
+* ***Budget:*** the extent to which the project's total cost as proposed, when compared to the significance and impact of the work, is reasonable and beneficial
 
 Applications will be assessed by a panel of evaluators selected by NRPF. Evaluators will be knowledgeable in audio preservation, collections management, and the history of recorded sound.
 NRPF retains the final authority to select recipients and make awards based on the advice of application evaluators.
