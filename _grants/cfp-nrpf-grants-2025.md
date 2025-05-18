@@ -34,8 +34,10 @@ Applications may be submitted via online form at any time before {{ page.deadlin
 
 Funds may not be used for:
 
+* Projects not focused primarily on audio collections
 * Acquisition of collections
 * Conservation or restoration of individual items
+* While a portion of funds may be used to offset staff salary, a grant may not be used solely to pay or supplement a single staff member's salary
 
 ## Proposal Evaluation and Selection
 
