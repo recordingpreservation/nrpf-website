@@ -69,13 +69,13 @@ Awards will be announced on or around September 1, 2025.
 
 ## How to Apply
 
-Applications should be submitted online using NRPF's online application form, which can be accessed at: []().
+Applications should be submitted online using NRPF's online application form, which can be accessed at: [{{ page.application-link }}]({{ page.application-link }}).
 
 # Application Resources
 
 These links provide additional resources for applicants:
 
-* [Application link]({{ page. }})
+* [Online application form (via Typepad)]({{ page.application-link }})
 
 # Frequently Asked Questions (FAQs)
 
