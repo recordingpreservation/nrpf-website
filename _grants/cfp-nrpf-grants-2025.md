@@ -75,7 +75,9 @@ Applications should be submitted online using NRPF's online application form, wh
 
 These links provide additional resources for applicants:
 
-* [Online application form (via Typepad)]({{ page.application-link }})
+* [Application instructions and questions in pdf]({% link assets/files/2025-cfp-applyform-v1.pdf %}) - these may be used to preview the application questions and to prepare application materials
+* [Budget Form Template](https://docs.google.com/document/d/186WrgWgucjOoxeZ5aSw7omfsE2Uj_RWTeMDjUeH1Lck/edit?usp=sharing) - available as a Google doc (click the "File" menu and then Download in your preferred format)
+* [Online application form (via Typeform)]({{ page.application-link }})
 
 # Frequently Asked Questions (FAQs)
 
