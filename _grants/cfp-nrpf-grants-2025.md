@@ -7,15 +7,19 @@ type: cfp
 deadline: 2025-06-23
 program-page: false
 grant-list: false
+application-link: "https://form.typeform.com/to/QDzTSAPB"
 ---
 
 ## Call for Proposals
 
 The National Recording Preservation Foundation (NRPF) is pleased to invite proposals for its 2025 preservation grants program.
-This call for proposals invites non-profit libraries, archives, and other collecting organizations to plan and propose work that will preserve and stabilize significant audio collections under their stewardship.
+NRPF preservation grants support basic preservation activities for unique and at-risk audio collections.
+Grants awarded under this call are intended to support the fundamental actions needed to care for audio collections - including inventory, assessment, storage, and digitization -
+or to increase capacity of collection stewards to care for and preserve audio materials.
 
-NRPF preservation grants are intended to support basic preservation activities for unique and at-risk audio collections.
-NRPF grants are available to non-profit archives, libraries, museums, universities and other entities engaged in the preservation of audio materials of cultural or historical importance that are owned by the applicant organization and are within the United States and its territories.
+NRPF grants are available to non-profit archives, libraries, museums, universities and other entities engaged in the preservation of audio materials of cultural or historical importance.
+Applying organizations should be located within the United States and its territories.
+Collections preserved with these grants should be owned by the applicant organization.
 
 Applications may be submitted via online form at any time before {{ page.deadline | date: "%B %e, %Y" }}. See below for the link to the form.
 
@@ -65,7 +69,13 @@ Awards will be announced on or around September 1, 2025.
 
 ## How to Apply
 
-Applications should be submitted online using NRPF's online application form, which can be accessed at: <https://form.typeform.com/to/QDzTSAPB>.
+Applications should be submitted online using NRPF's online application form, which can be accessed at: []().
+
+# Application Resources
+
+These links provide additional resources for applicants:
+
+* [Application link]({{ page. }})
 
 # Frequently Asked Questions (FAQs)
 
