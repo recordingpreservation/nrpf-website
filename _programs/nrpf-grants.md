@@ -31,7 +31,7 @@ How have our grants supported audio preservation? Take a look at the numbers:
 ## Information for Applicants and Grantees
 
 {% if site.data.nrpf_data.cfp == "active" %}
-NRPF currently welcomes proposals for {{ site.data.nrpf_data.cfp-title }}. **[Please refer to details at the call for proposals]({{ site.url }}{{ site.baseurl }}{{ site.data.nrpf_data.cfp-relative-link }}). Applications are due {{ site.data.nrpf_data.cfp-deadline | date: "%B %e, %Y" }}.**
+NRPF currently welcomes proposals for {{ site.data.nrpf_data.cfp-title }}. **[Please refer to details at the call for proposals]({{ site.data.nrpf_data.cfp-relative-link | relative_url }}). Applications are due {{ site.data.nrpf_data.cfp-deadline | date: "%B %e, %Y" }}.**
 {% else %}
 The Foundation does not currently have any open calls for proposals.
 Please watch our press releases for annnouncements of any pending NRPF grant opportunities.
