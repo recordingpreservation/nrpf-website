@@ -4,7 +4,7 @@ date: 2025-05-14
 layout: page
 permalink: "/programs/grants/2025-call-for-proposals/"
 type: cfp
-deadline: 2025-06-30
+deadline: 2025-06-23
 program-page: false
 grant-list: false
 application-link: "https://form.typeform.com/to/QDzTSAPB"
@@ -17,35 +17,36 @@ Grants awarded under this call are intended to support basic activites to preser
 NRPF grants are available to non-profit archives, libraries, museums, universities and other entities engaged in the preservation of audio materials of cultural or historical importance.
 Applicant organizations should be located within the United States, its territories, or sovereign states and nations associated with or within the United States.
 
-Applications may be submitted via online form at any time before the end of the day, anywhere in the US, on {{ page.deadline | date: "%B %e, %Y" }}. See below for the link to the form.
+Applications may be submitted via online form at any time before {{ page.deadline | date: "%B %e, %Y" }}. See below for the link to the form.
 
 ## Opportunity Details
 
 * **Amount:** $5,000 to $10,000 per grant
 * **Eligible Applicants:** Registered nonprofit organizations with a collecting, preservation, and/or access mission, including libraries, archives, and museums; proposals for preservation activities with a collection should confirm that the applicant organization holds the rights to preserve the collection in question
 * **Duration:** 6-12 months
-* **Applications Due:** {{ page.deadline | date: "%B %e, %Y" }}
-* **Proposals May Request Support for These Types of Activities:**
+* **Application Deadline:** {{ page.deadline | date: "%B %e, %Y" }}
+* **Activities the Grant May Support:**
   * Contracting a qualified vendor to digitize an audio collection for preservation
-  * Hiring a qualified consultant to conduct a preservation assessment of an audio collection, which will result in a written preservation plan
-  * Implementing planned preservation actions, including re-housing, inventorying, environmental monitoring, or other basic preservation activities (note that due to the degradation and obsolescence of physical audio media, our priority is to support the digitization or other recovery and preservation of audio signal, over the storage of physical assets)
+  * Hiring a qualified consultant to conduct a preservation assessment
+  * Undertaking planned preservation actions, including re-housing, inventorying, environmental monitoring, or other basic preservation activities (note that due to the critical degradataion of physical audio media, our priority is to support the digitization, or other recovery and preservation, of audio signal over the preservation of physical assets)
   * Inventorying and assessing collections to identify media types, condition, content, and prioritize preservation actions
   * Planning and conducting workshops that increase knowledge and capacity for collections stewards to preserve, manage, or digitize audio collections, whether physical or digital (may include professional development for regular staff)
 
 Funds may not be used for:
 
-* Projects that do not focus primarily on audio collections
+* Projects not focused primarily on audio collections
 * Acquisition of collections
 * Conservation or restoration of individual items
 * While a portion of funds may be used to offset staff salary, a grant may not be used solely to pay or supplement a single staff member's salary
 
 ## Proposal Evaluation and Selection
 
+Awards will be made on the significance of the collection to be preserved, the best practices and planning for the work proposed, and the responsiveness to this call for proposals.
+
 Applications will be evaluated on their merits, according to:
 
 * ***Significance:*** The cultural and historical importance of the collection, as well as the potential for the proposed work to enhance the preservation of the audio content in the collection.
 * ***Urgency:*** Extent to which the collection is threatened, whether by organizational capacity, failure of media carriers, or by physical degradation of the media before it may become unplayable or the audio signal becomes unrecoverable
-* ***Capacity:*** Degree to which an applicant demonstrates the ability to manage the outcomes of a project, including preserving and providing access to digitally reformatted materials, providing access to collections, or disseminating the contents and outcomes of training activities
 * ***Planning:*** Relevance and feasibility of the proposed preservation activities, including appropriate personnel and a clear, actionable, and completable plan for the proposed work
 * ***Budget:*** the extent to which the project's total cost as proposed, when compared to the significance and impact of the work, is reasonable and beneficial
 
