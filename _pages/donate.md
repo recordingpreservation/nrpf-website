@@ -54,3 +54,18 @@ We have achieved the Silver Transparency seal from Guidestar at Candid.org. Clic
 Your support allows us to support the preservation of more at-risk audio collections!
 Here are just a few examples of audio heritage preserved
 with support from the National Recording Preservation Foundation: [NRPF Grants Awarded]({% link _programs/nrpf-grants.md %}).
+
+# Ways to Give
+
+* Annual giving
+* Gifts/Bequests
+* In-kind services
+* Montly giving: Monthly donors of $50 or more will be recognized as members of the Long Playing Society! 
+
+## Examples/Inspirations
+
+* [transom.org](https://transom.org/about/donate/)
+* [Library of Congress: Ways to Give](https://www.loc.gov/programs/support-the-library-of-congress/ways-to-give/)
+* [Tenement Museum - via GiveLively](https://secure.givelively.org/donate/lower-east-side-tenement-museum)
+* [NFPF Giving Page](https://www.filmpreservation.org/support/making-a-contribution)
+* [Wikimedia Foundation 2022 annual report](https://wikimediafoundation.org/about/annualreport/2022-annual-report/donors/)
