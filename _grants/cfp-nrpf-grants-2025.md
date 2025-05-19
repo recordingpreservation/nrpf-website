@@ -49,7 +49,7 @@ Applications will be evaluated on their merits, according to:
 * ***Planning:*** Relevance and feasibility of the proposed preservation activities, including appropriate personnel and a clear, actionable, and completable plan for the proposed work
 * ***Budget:*** the extent to which the project's total cost as proposed, when compared to the significance and impact of the work, is reasonable and beneficial
 
-Awards will be determined based on a range of factors, including the significance of the collection to be preserved, the best practices and planning for the work proposed, the capacity of the applicant to manage the outcomes of supported activities, and the responsiveness to this call for proposals.
+Grantees will be selected based on a range of factors, including the significance of the collection to be preserved, the best practices and planning for the work proposed, the capacity of the applicant to manage the outcomes of supported activities, and the responsiveness to this call for proposals.
 
 Applications will be assessed by reviewers selected by NRPF. Reviewers will be knowledgeable in audio preservation, collections management, and the history of recorded sound.
 NRPF retains the final authority to select recipients and make awards based on the advice of application reviewers.
@@ -72,7 +72,7 @@ Applications should be submitted online using NRPF's online application form, wh
 
 These links provide additional resources for applicants:
 
-* [Application instructions and questions in pdf]({% link assets/files/2025-cfp-applyform-v1.pdf %}) - these may be used to preview the application questions and to prepare application materials
+* [Application questions and instructions in pdf]({% link assets/files/2025-cfp-applyform-v1.pdf %}) - these may be used to preview the application questions and to prepare application materials
 * [Budget Form Template](https://docs.google.com/document/d/186WrgWgucjOoxeZ5aSw7omfsE2Uj_RWTeMDjUeH1Lck/edit?usp=sharing) - available as a Google doc (click the "File" menu and then Download in your preferred format)
 * [Online application form (via Typeform)]({{ page.application-link }})
 
