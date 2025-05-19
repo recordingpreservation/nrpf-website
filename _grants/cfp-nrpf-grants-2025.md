@@ -12,7 +12,7 @@ application-link: "https://form.typeform.com/to/QDzTSAPB"
 
 The National Recording Preservation Foundation (NRPF) is pleased to invite proposals for its 2025 preservation grants program.
 This cycle of NRPF preservation grants will support the preservation of unique and at-risk audio collections.
-Grants awarded under this call are intended to support basic activites to preserve audio collections --- including inventory, condition assessment, storage, description, and digitization --- or to build capacity to care for and preserve audio materials amongst collection stewards. Applicant organizations should own collections that will be preserved with the support of these grants.
+Grants awarded under this call are intended to support basic activites to preserve audio collections --- including inventory, condition assessment, storage, description, and digitization --- or to build capacity to care for and preserve audio materials amongst collection stewards.
 
 NRPF grants are available to non-profit archives, libraries, museums, universities and other entities engaged in the preservation of audio materials of cultural or historical importance.
 Applicant organizations should be located within the United States, its territories, or sovereign states and nations associated with or within the United States.
@@ -22,7 +22,7 @@ Applications may be submitted via online form at any time before {{ page.deadlin
 ## Opportunity Details
 
 * **Amount:** $5,000 to $10,000 per grant
-* **Eligible Applicants:** Registered nonprofit organizations with a collecting, preservation, and/or access mission, including libraries, archives, and museums
+* **Eligible Applicants:** Registered nonprofit organizations with a collecting, preservation, and/or access mission, including libraries, archives, and museums; proposals for preservation activities with a collection should confirm that the applicant organization holds the rights to preserve the collection in question
 * **Duration:** 6-12 months
 * **Application Deadline:** {{ page.deadline | date: "%B %e, %Y" }}
 * **Activities the Grant May Support:**
