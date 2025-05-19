@@ -10,16 +10,13 @@ grant-list: false
 application-link: "https://form.typeform.com/to/QDzTSAPB"
 ---
 
-## Call for Proposals
-
 The National Recording Preservation Foundation (NRPF) is pleased to invite proposals for its 2025 preservation grants program.
-NRPF preservation grants support basic preservation activities for unique and at-risk audio collections.
-Grants awarded under this call are intended to support the fundamental actions needed to care for audio collections - including inventory, assessment, storage, and digitization -
-or to increase capacity of collection stewards to care for and preserve audio materials.
+This cycle of NRPF preservation grants will support basic preservation activities for unique and at-risk audio collections.
+Grants awarded under this call are intended to support basic preservation actions needed to care for audio collections - including inventory, assessment, storage, and digitization -
+or to increase capacity of collection stewards to care for and preserve audio materials. Applicant organizations should own collections that will be preserved with the support of these grants.
 
 NRPF grants are available to non-profit archives, libraries, museums, universities and other entities engaged in the preservation of audio materials of cultural or historical importance.
-Applying organizations should be located within the United States and its territories.
-Collections preserved with these grants should be owned by the applicant organization.
+Applicant organizations should be located within the United States, its territories, and sovereign states and nations associated with or within the United States.
 
 Applications may be submitted via online form at any time before {{ page.deadline | date: "%B %e, %Y" }}. See below for the link to the form.
 
@@ -54,8 +51,8 @@ Applications will be evaluated on their merits, according to:
 * ***Planning:*** Relevance and feasibility of the proposed preservation activities, including appropriate personnel and a clear, actionable, and completable plan for the proposed work
 * ***Budget:*** the extent to which the project's total cost as proposed, when compared to the significance and impact of the work, is reasonable and beneficial
 
-Applications will be assessed by a panel of evaluators selected by NRPF. Evaluators will be knowledgeable in audio preservation, collections management, and the history of recorded sound.
-NRPF retains the final authority to select recipients and make awards based on the advice of application evaluators.
+Applications will be assessed by reviewers selected by NRPF. Reviewers will be knowledgeable in audio preservation, collections management, and the history of recorded sound.
+NRPF retains the final authority to select recipients and make awards based on the advice of application reviewers.
 
 ## Application Deadline
 
@@ -88,6 +85,8 @@ Libraries, archives, museums, and non-profit organizations with the mission to c
 This call for proposals does not offer grants to individuals.
 
 In rare cases, NRPF may offer grants to entities that are not bona fide non-profit organizations, in cases when collections are of exceptional cultural and historical significance. In most such cases, however, the Foundation would request that applicants seek a fiscal sponsor that is a non-profit entity.
+
+If you have questions about your organiztion's eligibility, please [contact NRPF]({% link _pages/contact.md %}) or send email directly to [info@recordingpreservation.org](mailto:info@recordingpreservation.org?subject=2025%20NRPF%20Grant%20Information%20Request). In your message, identify your organization (or the organization that you would be applying on behalf of) and include a brief description of the project that you intend to propose.
 
 ## Are commercial releases possible outcomes of a proposed project?
 
