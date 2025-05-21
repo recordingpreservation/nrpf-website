@@ -3,6 +3,7 @@ title: "NRPF Grants: 2025 Call for Proposals"
 date: 2025-05-14
 layout: page
 permalink: "/programs/grants/2025-call-for-proposals/"
+image: "/images/social/NRPF-mandala-title-white-blue.png"
 type: cfp
 program-page: false
 grant-list: false
