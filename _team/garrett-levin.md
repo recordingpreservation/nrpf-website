@@ -5,15 +5,16 @@ image: images/team/garrett-levin.jpg
 jobtitle: "Director"
 linkedinurl: https://www.linkedin.com/in/garrett-levin-00704920
 short_bio: "Digital Media Consultant"
-promoted: true
+promoted: false
 weight: 4
-role: board
+role: emeritus
 staff: false
 staff_role: 
 sort_name: levin
 current_term_start: 2024
-current_term_end: 2028
-updated: 2024-01-19
+current_term_end: 2025
+added: 2024-01-19
+updated: 2024-05-22
 ---
 
 Garrett Levin is an independent digital media consultant who uses his unique background and skills to help companies, associations, and international organizations solve problems at the intersection of law, policy, and business. Garrett served as the President and Chief Executive Officer of the Digital Media Association (DiMA)&mdash;the association representing the world’s leading music streaming services. During his time at DiMA, Garrett served on the Boards of Directors of the Mechanical Licensing Committee, Digital Licensee Coordinator, and National Recording Preservation Board.
