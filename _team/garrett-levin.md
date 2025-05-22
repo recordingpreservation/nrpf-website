@@ -17,7 +17,7 @@ added: 2024-01-19
 updated: 2024-05-22
 ---
 
-Garrett Levin is an independent digital media consultant who uses his unique background and skills to help companies, associations, and international organizations solve problems at the intersection of law, policy, and business. Garrett served as the President and Chief Executive Officer of the Digital Media Association (DiMA)&mdash;the association representing the world’s leading music streaming services. During his time at DiMA, Garrett served on the Boards of Directors of the Mechanical Licensing Committee, Digital Licensee Coordinator, and National Recording Preservation Board.
+Garrett Levin is an independent digital media consultant who uses his unique background and skills to help companies, associations, and international organizations solve problems at the intersection of law, policy, and business. Garrett served as the President and Chief Executive Officer of the Digital Media Association (DiMA) --- the association representing the world’s leading music streaming services. During his time at DiMA, Garrett served on the Boards of Directors of the Mechanical Licensing Committee, Digital Licensee Coordinator, and National Recording Preservation Board.
 
 Prior to joining DiMA, Garrett served as Senior Vice President and Deputy General Counsel for Intellectual Property Law and Policy at the National Association of Broadcasters (NAB). At NAB, Garrett was the point person for local radio and television broadcasters’ efforts on all copyright-related policy and legal issues, including the historic passage of the Music Modernization Act.
 
