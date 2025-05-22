@@ -2,7 +2,7 @@
 title: "Garrett Levin"
 date: 2023-12-06
 image: images/team/garrett-levin.jpg
-jobtitle: "Director"
+jobtitle: "Director Emeritus"
 linkedinurl: https://www.linkedin.com/in/garrett-levin-00704920
 short_bio: "Digital Media Consultant"
 promoted: false
