@@ -13,7 +13,7 @@ closed: true
 ---
 
 {% if page.closed %}
-**This call for proposals closed on {{ page.deadline | date: "%B %e, %Y" }}.**
+**This call for proposals closed on {{ page.cfp-deadline | date: "%B %e, %Y" }}.**
 {% endif %}
 
 The National Recording Preservation Foundation (NRPF) is pleased to invite proposals for its 2025 preservation grants program.
