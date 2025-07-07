@@ -11,7 +11,7 @@ grant-list: false
 
 The National Recording Preservation Foundation (NRPF) is pleased to invite proposals for its 2025 preservation grants program.
 This cycle of NRPF preservation grants will support the preservation of unique and at-risk audio collections.
-Grants awarded under this call are intended to support basic activites to preserve audio collections --- including inventory, condition assessment, storage, description, and digitization --- or to build capacity to care for and preserve audio materials amongst collection stewards.
+Grants awarded under this call are intended to support basic activities to preserve audio collections --- including inventory, condition assessment, storage, description, and digitization --- or to build capacity to care for and preserve audio materials amongst collection stewards.
 
 NRPF grants are available to non-profit archives, libraries, museums, universities and other entities engaged in the preservation of audio materials of cultural or historical importance.
 Applicant organizations should be located within the United States, its territories, or sovereign states and nations associated with or within the United States.
