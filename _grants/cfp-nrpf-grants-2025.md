@@ -7,7 +7,14 @@ image: "/images/social/NRPF-mandala-title-white-blue.png"
 type: cfp
 program-page: false
 grant-list: false
+cfp-deadline: 2025-06-30
+cfp-application-link: "https://form.typeform.com/to/QDzTSAPB"
+closed: true
 ---
+
+{% if page.closed %}
+**This call for proposals closed on {{ page.deadline | date: "%B %e, %Y" }}.**
+{% endif %}
 
 The National Recording Preservation Foundation (NRPF) is pleased to invite proposals for its 2025 preservation grants program.
 This cycle of NRPF preservation grants will support the preservation of unique and at-risk audio collections.
@@ -16,14 +23,14 @@ Grants awarded under this call are intended to support basic activities to prese
 NRPF grants are available to non-profit archives, libraries, museums, universities and other entities engaged in the preservation of audio materials of cultural or historical importance.
 Applicant organizations should be located within the United States, its territories, or sovereign states and nations associated with or within the United States.
 
-Applications may be submitted via online form at any time before the end of the day, anywhere in the US, on {{ site.data.nrpf_data.cfp-deadline | date: "%B %e, %Y" }}. See below for the link to the form.
+Applications may be submitted via online form at any time before the end of the day, anywhere in the US, on {{ page.cfp-deadline | date: "%B %e, %Y" }}. See below for the link to the form.
 
 ## Opportunity Details
 
 * **Amount:** $5,000 to $10,000 per grant
 * **Eligible Applicants:** Registered nonprofit organizations with a collecting, preservation, and/or access mission, including libraries, archives, and museums; proposals for preservation activities with a collection should confirm that the applicant organization holds the rights to preserve the collection in question
 * **Duration:** 6-12 months
-* **Applications Due:** {{ site.data.nrpf_data.cfp-deadline | date: "%B %e, %Y" }}
+* **Applications Due:** {{ page.cfp-deadline | date: "%B %e, %Y" }}
 * **Proposals May Request Support for These Types of Activities:**
   * Contracting a qualified vendor to digitize an audio collection for preservation
   * Hiring a qualified consultant to conduct a preservation assessment of an audio collection, which will result in a written preservation plan
@@ -55,7 +62,7 @@ NRPF retains the final authority to select recipients and make awards based on t
 
 ## Application Deadline
 
-{{ site.data.nrpf_data.cfp-deadline | date: "%B %e, %Y" }}
+{{ page.cfp-deadline | date: "%B %e, %Y" }}
 
 ## Expected Awards
 
@@ -65,7 +72,7 @@ Awards will be announced on or around September 1, 2025.
 
 ## How to Apply
 
-Applications should be submitted online using NRPF's online application form, which can be accessed at: [{{ site.data.nrpf_data.cfp-application-link }}]({{ site.data.nrpf_data.cfp-application-link }}).
+Applications should be submitted online using NRPF's online application form, which can be accessed at: <{{ page.cfp-application-link }}>.
 
 # Application Resources
 
@@ -73,7 +80,7 @@ These links provide additional resources for applicants:
 
 * [Application questions and instructions in pdf]({% link assets/files/2025-cfp-applyform-v1.pdf %}) - these may be used to preview the application questions and to prepare application materials
 * [Budget Form Template](https://docs.google.com/document/d/186WrgWgucjOoxeZ5aSw7omfsE2Uj_RWTeMDjUeH1Lck/edit?usp=sharing) - available as a Google doc (click the "File" menu and then Download in your preferred format)
-* [Online application form (via Typeform)]({{ site.data.nrpf_data.cfp-application-link }})
+* [Online application form (via Typeform)]({{ page.cfp-application-link }})
 
 # Frequently Asked Questions (FAQs)
 
