@@ -51,6 +51,10 @@ We have achieved the Silver Transparency seal from Guidestar at Candid.org. Clic
 
 # What will your donation support?
 
-Your support allows us to support the preservation of more at-risk audio collections!
-Here are just a few examples of audio heritage preserved
-with support from the National Recording Preservation Foundation: [NRPF Grants Awarded]({% link _programs/nrpf-grants.md %}).
+All donations support the Foundation's work to preserve at-risk audio collections!
+Our primary way of doing this is through preservation grants to libraries, archives, and cultural heritage collecting organizations.
+Since 2012, we have supported the preservation a wide array of recorded sound media and different genres:
+from LPs to reel-to-reel tape, and from traditional American folk music to radio broadcasts to
+one-of-a-kind field recordings of American musicians to historical elements of sound recording technologies!
+Learn about more examples of audio heritage preserved
+with support from the National Recording Preservation Foundation at our [NRPF Grants Page]({% link _programs/nrpf-grants.md %}), where you can read about collections we've supported.
