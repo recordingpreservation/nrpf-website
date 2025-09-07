@@ -13,6 +13,10 @@ donate_button_link: '/donate/'
 image: 'images/logo/nrpf-seal-624x596.jpeg'
 ---
 
-# The National Recording Preservation Foundation
+# Saving the Sounds of America
+
+{% comment %}
+# Saving America's Sounds, One Recording at at Time!
+{% endcomment %}
 
 The National Recording Preservation Foundation (NRPF) promotes the preservation of and public awareness about recorded audio history. We work with public and nonprofit archives throughout the United States to celebrate and preserve cultures of sound and amplify shared audio heritage.
