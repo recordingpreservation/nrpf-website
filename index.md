@@ -10,7 +10,6 @@ donate_show_box: true
 donate_button_text: 'Donate Now!'
 donate_call_to_action: '<p>We preserve and promote at-risk audio collections through grants and engaging programs. NRPF is a registered 501(c)(3) organization and donations are tax deductible.</p>'
 donate_button_link: '/donate/'
-image: 'images/logo/nrpf-seal-2025.png'
 ---
 
 # Saving the Sounds of America
