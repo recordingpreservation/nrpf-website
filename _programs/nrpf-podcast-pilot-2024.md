@@ -56,7 +56,7 @@ Episodes will be posted about once a month for the 2024 season, so be sure to ch
 
 _Sound Files_ is hosted by new members of the NRPF community! We are happy to welcome:
 
-{% include soundfiles-host-block %}
+{% include soundfiles-host-block-pilot %}
 
 ## Recent Episodes
 
