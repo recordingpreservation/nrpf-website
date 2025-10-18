@@ -10,6 +10,7 @@ categories:
   - radio
 description: "Sound Files is now live! Listen to our interview with Jocelyn Robinson on preserving HBCU radio archives."
 image: "/images/podcast/soundfiles-2024-1000sq.jpg"
+episode_number: 1
 ---
 
 ![NRPF Sound Files podcast cover image]({% link images/podcast/soundfiles-2024-1000sq.jpg %}){:style="float: left; max-width: 40%; padding: 0 15px 0 0px; margin-top: 0;"}
