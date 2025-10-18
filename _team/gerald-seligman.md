@@ -1,8 +1,10 @@
 ---
 title: "Gerald Seligman"
 date: 2013-05-01
-jobtitle: "Secretary and Executive Director Emeritus"
-role: emeritus
+jobtitle: "Secretary and Director Emeritus"
+role:
+  - emeritus
+  - emeritus_director
 staff: false
 staff_role: "Executive Director"
 short_bio: "Executive Director"

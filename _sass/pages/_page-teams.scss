@@ -1,4 +1,8 @@
 .page-teams {
+  h2 {
+    font-size: 32px;
+  }
+
   .team-summary {
     display: flex;
     flex-wrap: wrap;
@@ -37,7 +41,7 @@
   .team-summary-large {
     background-color: $white-offset;
     padding: 30px;
-    border-radius: 3px;
+    border-radius: 4px;
     .team-image {
       height: 90px;
       width: 90px;
@@ -46,6 +50,141 @@
       overflow: hidden;
       img {
         width: 90px;
+      }
+    }
+  }
+
+  // Board of Directors - Corporate Glossy Style
+  .board-directors-grid {
+    margin-top: 30px;
+  }
+
+  .board-member-card {
+    background: linear-gradient(145deg, $white 0%, $white-offset 100%);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(0, 86, 135, 0.08);
+    transition: all 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 86, 135, 0.06);
+
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(0, 86, 135, 0.15);
+    }
+
+    .board-member-image {
+      width: 100%;
+      height: 400px;
+      overflow: hidden;
+      background: linear-gradient(180deg, $white-offset 0%, $white 100%);
+      position: relative;
+
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: linear-gradient(90deg, $primary 0%, $secondary 100%);
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center top;
+      }
+    }
+
+    .board-member-content {
+      padding: 24px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .board-member-name {
+      font-family: $font-family-heading;
+      font-size: 24px;
+      font-weight: 600;
+      color: $primary-dark;
+      margin: 0 0 8px 0;
+      line-height: 1.3;
+    }
+
+    .board-member-title {
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: $primary;
+      margin: 0 0 12px 0;
+    }
+
+    .board-member-organization {
+      font-size: 14px;
+      color: $steel;
+      margin: 0 0 12px 0;
+      line-height: 1.5;
+    }
+
+    .board-member-term {
+      font-size: 13px;
+      color: $black;
+      font-weight: 500;
+      margin: 0 0 16px 0;
+      padding: 8px 12px;
+      background: $white-offset;
+      border-radius: 4px;
+//      border-left: 3px solid $secondary;
+    }
+
+    .board-member-actions {
+      margin-top: auto;
+      display: flex;
+      gap: 12px;
+      padding-top: 16px;
+      border-top: 1px solid rgba(0, 86, 135, 0.1);
+    }
+
+    .board-member-link,
+    .board-member-linkedin {
+      flex: 1;
+      text-align: center;
+      padding: 10px 16px;
+      border-radius: 4px;
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      display: inline-block;
+    }
+
+    .board-member-link {
+      background: $primary;
+      color: $white;
+
+      &:hover {
+        background: darken($primary, 8%);
+        color: $white;
+        transform: translateY(-1px);
+        box-shadow: 0 2px 8px rgba(0, 86, 135, 0.3);
+      }
+    }
+
+    .board-member-linkedin {
+      background: $white;
+      color: $primary;
+      border: 2px solid $primary;
+
+      &:hover {
+        background: $primary;
+        color: $white;
+        transform: translateY(-1px);
       }
     }
   }

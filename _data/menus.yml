@@ -11,8 +11,10 @@ main:
     subitems:
       - name: "About Us"
         url: "/about/"
+      - name: "Board of Directors"
+        url: "/about/board/"
       - name: "People"
-        url: "/board-and-staff/"
+        url: "/about/people/"
       - name: "Supporters"
         url: "/sponsors/"
       - name: "Press"

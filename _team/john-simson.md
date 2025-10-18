@@ -5,7 +5,9 @@ image:
 jobtitle: "Chair Emeritus"
 short_bio: "Lawyer, Past Executive Director Sound Exchange"
 linkedinurl: ""
-role: emeritus
+role:
+  - emeritus
+  - emeritus_director
 sort_name: "simson"
 ---
 
