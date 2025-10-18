@@ -84,7 +84,7 @@
 
 // Podcast Team Cards
 .podcast-team-card {
-  background: linear-gradient(145deg, $white 0%, $white-offset 100%);
+  background: #E9F7FF;
   border-radius: 12px;
   padding: 40px;
   margin: 0 0 30px 0;
@@ -336,6 +336,112 @@
 
     @media (min-width: 768px) {
       margin-top: 0;
+    }
+  }
+}
+
+// Podcast Episodes List
+.podcast-episode-item {
+  background: $white;
+  border: 1px solid rgba(0, 86, 135, 0.15);
+  border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 30px;
+  transition: all 0.3s ease;
+  position: relative;
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 86, 135, 0.1);
+    border-color: rgba(0, 86, 135, 0.3);
+  }
+
+  @media (max-width: 767px) {
+    padding: 20px;
+  }
+
+  .episode-item-badge {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    background: $primary;
+    color: $white;
+    padding: 4px 14px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 6px rgba(0, 86, 135, 0.2);
+  }
+
+  .episode-item-header {
+    margin-bottom: 15px;
+    padding-top: 5px;
+  }
+
+  .episode-item-title {
+    font-family: $font-family-heading;
+    font-size: 22px;
+    font-weight: 600;
+    color: $primary-dark;
+    margin: 8px 0;
+    line-height: 1.4;
+
+    @media (max-width: 767px) {
+      font-size: 20px;
+    }
+  }
+
+  .episode-item-guest {
+    font-size: 18px;
+    font-weight: 400;
+    color: $steel;
+    font-style: italic;
+
+    @media (max-width: 767px) {
+      font-size: 16px;
+      display: block;
+      margin-top: 4px;
+    }
+  }
+
+  .episode-item-date {
+    font-size: 13px;
+    color: $steel;
+    margin: 4px 0 0 0;
+  }
+
+  .episode-item-description {
+    font-size: 15px;
+    line-height: 1.6;
+    color: $black;
+    margin: 15px 0;
+  }
+
+  .episode-item-player {
+    margin: 20px 0;
+
+    iframe {
+      border-radius: 4px;
+    }
+  }
+
+  .episode-item-actions {
+    margin-top: 15px;
+  }
+
+  .episode-item-link {
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: $primary;
+    text-decoration: none;
+    transition: all 0.2s ease;
+
+    &:hover {
+      color: #5A352A;
+      text-decoration: underline;
     }
   }
 }
