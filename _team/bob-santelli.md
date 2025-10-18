@@ -6,7 +6,9 @@ short_bio: "Executive Director, Grammy Museum"
 promoted: false
 term_start: 2012
 term_end: 2019
-role: emeritus
+role:
+  - emeritus
+  - emeritus_director
 sort_name: santelli
 updated: 2024-06-10
 ---

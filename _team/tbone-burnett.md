@@ -6,7 +6,9 @@ short_bio: "Musician, Producer"
 promoted: false
 term_start: 2012
 term_end: 2019
-role: emeritus
+role: 
+    - emeritus
+    - emeritus_director
 sort_name: burnett
 updated: 2024-06-10
 ---

@@ -6,7 +6,9 @@ short_bio: "Co-Founder, Sub Pop Records"
 promoted: false
 term_start: 2012
 term_end: 2019
-role: emeritus
+role:
+  - emeritus
+  - emeritus_director
 sort_name: poneman
 updated: 2024-06-10
 ---
