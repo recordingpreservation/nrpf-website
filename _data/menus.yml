@@ -13,6 +13,8 @@ main:
         url: "/about/"
       - name: "Board of Directors"
         url: "/about/board/"
+      - name: "People"
+        url: "/about/people/"
       - name: "Supporters"
         url: "/sponsors/"
       - name: "Press"
