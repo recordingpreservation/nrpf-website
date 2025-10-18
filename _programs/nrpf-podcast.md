@@ -32,11 +32,9 @@ Each episode features a story about audio preservation or an interview with audi
 
 If you like the pod, subscribe on your favorite podcast service, leave a review, rate the podcast, and share to your networks.
 
-## Meet the Host
+## Meet the Sound Files Team
 
-_Sound Files_ is hosted by NRPF's Executive Director, Jesse Johnston:
-
-{% include soundfiles-host-block-jesse %}
+{% include podcast-team-cards.html %}
 
 ## Recent Episodes
 
