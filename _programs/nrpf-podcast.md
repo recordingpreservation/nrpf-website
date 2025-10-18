@@ -38,7 +38,7 @@ If you like the pod, subscribe on your favorite podcast service, leave a review,
 
 {% include podcast-team-cards.html %}
 
-## More Recent Episodes
+## Most Recent Episodes
 
 {% include podcast-episodes-list.html %}
 
