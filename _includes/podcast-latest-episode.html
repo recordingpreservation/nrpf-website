@@ -1,0 +1,49 @@
+<!-- Latest Episode Highlight - Dynamic -->
+{% assign podcast_episodes = site.posts | where_exp: "post", "post.categories contains 'sound files'" | sort: "date" | reverse %}
+{% assign latest_episode = podcast_episodes.first %}
+
+{% if latest_episode %}
+<div class="podcast-latest-episode">
+    <div class="episode-badge">Latest Episode</div>
+    <div class="row align-items-center">
+        {% if latest_episode.image %}
+        <div class="col-12 col-md-8">
+        {% else %}
+        <div class="col-12">
+        {% endif %}
+            <div class="episode-header">
+                {% if latest_episode.episode_number %}
+                <span class="episode-number">Episode {{ latest_episode.episode_number }}</span>
+                {% endif %}
+                <h3 class="episode-title">{% if latest_episode.episode_title %}{{ latest_episode.episode_title }}{% else %}{{ latest_episode.title }}{% endif %}</h3>
+                {% if latest_episode.episode_guest %}
+                <p class="episode-guest">featuring <strong>{{ latest_episode.episode_guest }}</strong></p>
+                {% endif %}
+                <p class="episode-date">{{ latest_episode.date | date: "%B %Y" }}</p>
+            </div>
+            {% if latest_episode.episode_description %}
+            <div class="episode-description">
+                <p>{{ latest_episode.episode_description | markdownify }}</p>
+            </div>
+            {% endif %}
+            <div class="episode-player">
+                {% if latest_episode.episode_embed %}
+                {{ latest_episode.episode_embed }}
+                {% elsif latest_episode.episode_include %}
+                {% include {{ latest_episode.episode_include }} %}
+                {% endif %}
+            </div>
+            {% if latest_episode.url %}
+            <div class="episode-actions">
+                <a href="{{ latest_episode.url | relative_url }}" class="episode-link">Read More about the Episode →</a>
+            </div>
+            {% endif %}
+        </div>
+        {% if latest_episode.image %}
+        <div class="col-12 col-md-4">
+            <img src="{{ latest_episode.image | relative_url }}" alt="{{ latest_episode.title }}" class="episode-image img-fluid">
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endif %}

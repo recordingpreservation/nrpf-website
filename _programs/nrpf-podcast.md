@@ -14,6 +14,8 @@ elevator_pitch: "If you ever wondered what it takes to preserve historic sounds,
 
 {% include podcast-hero.html %}
 
+{% include podcast-latest-episode.html %}
+
 ## About the Podcast
 
 NRPF's podcast _Sound Files_ shares stories about the preservation of recorded sound, as well as the people and organizations who preserve them. On the pod, we share and celebrate archival audio through conversations and stories.
@@ -36,7 +38,7 @@ If you like the pod, subscribe on your favorite podcast service, leave a review,
 
 {% include podcast-team-cards.html %}
 
-## Recent Episodes
+## More Recent Episodes
 
 {% include soundfiles-recent-episodes-block %}
 
