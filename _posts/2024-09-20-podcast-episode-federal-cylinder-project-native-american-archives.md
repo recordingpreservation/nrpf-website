@@ -33,7 +33,7 @@ Find out all about the podcast on our main [podcast page and press kit]({% link 
 
 ### Meet the Hosts
 
-{% include soundfiles-host-block %}
+{% include soundfiles-host-block-pilot %}
 
 ### Credits
 

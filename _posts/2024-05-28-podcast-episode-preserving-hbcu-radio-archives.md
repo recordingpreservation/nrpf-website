@@ -29,7 +29,7 @@ Listen now to the episode in the player below. Or, follow the links below to sub
 
 ## Meet the Hosts
 
-{% include soundfiles-host-block %}
+{% include soundfiles-host-block-pilot %}
 
 ## About the podcast
 
