@@ -23,23 +23,49 @@
   ],
   "episodes": [
     {
-        "number": 000,
-        "title": "Introducing Sound Files",
-        "link": "https://podcast.recordingpreservation.org/episodes/introducing-sound-files",
-        "embed-code": "<iframe height=\"200px\" width=\"100%\" frameborder=\"no\" scrolling=\"no\" seamless src=\"https:\/\/player.simplecast.com\/a08a41c8-e44c-483c-a544-98457848e766?dark=false\"><\/iframe>",
-        "published": true
+      "number": 3,
+      "title": "Native American Sound Recordings, Communities, and the Federal Cylinder Project",
+      "guest": "Judith Gray",
+      "date": "2024-09-20",
+      "description": "In this episode, we explore the Federal Cylinder Project and its crucial work in preserving Native American sound recordings.",
+      "link": "https://podcast.recordingpreservation.org/episodes/native-american-sound-recordings",
+      "embed-code": "<iframe height=\"200px\" width=\"100%\" frameborder=\"no\" scrolling=\"no\" seamless src=\"https://player.simplecast.com/b545eaba-a4a2-4c1a-8515-204c6dc20c87?dark=false\"></iframe>",
+      "published": true,
+      "featured": false
     },
     {
-        "number": 001,
-        "title": "Preserving HBCU Radio Archives ft Jocelyn Robinson",
-        "embed-code": "<iframe height=\"200px\" width=\"100%\" frameborder=\"no\" scrolling=\"no\" seamless src=\"https:\/\/player.simplecast.com\/ad2baa6e-4feb-48e4-af02-432fb012b45e?dark=false\"><\/iframe>",
-        "published": true
+      "number": 2,
+      "title": "Preserving Alaskan Oral Histories and Native Languages",
+      "guest": "Leslie McCartney",
+      "date": "2024-06-14",
+      "description": "Leslie McCartney discusses the preservation of Alaskan oral histories and Native languages.",
+      "link": "https://podcast.recordingpreservation.org/episodes/alaskan-oral-histories",
+      "embed-code": "<iframe height=\"200px\" width=\"100%\" frameborder=\"no\" scrolling=\"no\" seamless src=\"https:\/\/player.simplecast.com\/0cb442a2-c5c2-4b95-be75-9b96e06f3580?dark=false\"><\/iframe>",
+      "published": true,
+      "featured": false
     },
     {
-       "number": 003,
-       "title": "",
-       "embed-code": "<iframe height=\"200px\" width=\"100%\" frameborder=\"no\" scrolling=\"no\" seamless src=\"https:\/\/player.simplecast.com\/b545eaba-a4a2-4c1a-8515-204c6dc20c87?dark=false\"><\/iframe>",
-       "published": true
+      "number": 1,
+      "title": "Preserving HBCU Radio Archives",
+      "guest": "Jocelyn Robinson",
+      "date": "2024-05-07",
+      "description": "Jocelyn Robinson shares insights on preserving historic HBCU radio archives.",
+      "link": "https://podcast.recordingpreservation.org/episodes/hbcu-radio-archives",
+      "embed-code": "<iframe height=\"200px\" width=\"100%\" frameborder=\"no\" scrolling=\"no\" seamless src=\"https://player.simplecast.com/ad2baa6e-4feb-48e4-af02-432fb012b45e?dark=false\"></iframe>",
+      "published": true,
+      "featured": false
+    },
+    {
+      "number": 0,
+      "title": "Introducing Sound Files",
+      "guest": null,
+      "date": "2024-04-01",
+      "description": "Welcome to Sound Files! Learn about our mission to share stories of audio preservation.",
+      "link": "https://podcast.recordingpreservation.org/episodes/introducing-sound-files",
+      "embed-code": "<iframe height=\"200px\" width=\"100%\" frameborder=\"no\" scrolling=\"no\" seamless src=\"https://player.simplecast.com/a08a41c8-e44c-483c-a544-98457848e766?dark=false\"></iframe>",
+      "published": true,
+      "featured": false,
+      "is_trailer": true
     }
   ]
 }
