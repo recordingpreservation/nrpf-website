@@ -1,0 +1,25 @@
+<!-- Podcast Subscription Buttons -->
+<div class="podcast-subscribe">
+    <h3 class="podcast-subscribe-title">Listen & Subscribe</h3>
+    <div class="podcast-subscribe-buttons">
+        {% if site.data.podcast-soundfiles %}
+        {% assign platforms = site.data.podcast-soundfiles['links'] %}
+        {% for platform in platforms %}
+        <a href="{{ platform.link }}" target="_blank" rel="noopener noreferrer" class="podcast-platform-button" title="Listen on {{ platform.label }}">
+            {% if platform.label == "Apple Podcasts" %}
+            <img src="{{ 'images/social/apple-podcasts.svg' | relative_url }}" alt="{{ platform.label }}">
+            {% elsif platform.label == "Spotify" %}
+            <img src="{{ 'images/social/spotify.svg' | relative_url }}" alt="{{ platform.label }}">
+            {% elsif platform.label == "Amazon Music" %}
+            <img src="{{ 'images/social/amazon-music.svg' | relative_url }}" alt="{{ platform.label }}">
+            {% elsif platform.label == "YouTube" %}
+            <img src="{{ 'images/social/youtube.svg' | relative_url }}" alt="{{ platform.label }}">
+            {% elsif platform.label == "RSS" %}
+            <img src="{{ 'images/social/rss.svg' | relative_url }}" alt="{{ platform.label }}">
+            {% endif %}
+            <span class="platform-label">{{ platform.label }}</span>
+        </a>
+        {% endfor %}
+        {% endif %}
+    </div>
+</div>
