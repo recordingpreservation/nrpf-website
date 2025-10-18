@@ -6,7 +6,7 @@
     <h3 class="hosts">{{ host.title }}</h3>
 
     <img alt="Portrait photo of {{ host.title }}" class="img-thumbnail img-fluid rounded-circle" style="float:left;width:25%;margin: 0 10px 10px 0;" src="{{ host.image | relative_url }}" />
-    {{ host.podcast_bio | markdownify }}
+    {{ host.podcast_bio_pilot | markdownify }}
 
     </div>
     {% endfor %}
