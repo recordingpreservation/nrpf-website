@@ -1,0 +1,155 @@
+// Podcast Hero Section
+.podcast-hero {
+  padding: 0 0 60px 0;
+  margin-bottom: 40px;
+
+  .podcast-hero-image {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin: 0 auto 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 86, 135, 0.15);
+    display: block;
+
+    @media (min-width: 768px) {
+      max-width: 400px;
+      margin-bottom: 0;
+    }
+
+    @media (max-width: 576px) {
+      max-width: 280px;
+    }
+  }
+
+  .podcast-hero-title {
+    font-family: $font-family-heading;
+    font-size: 42px;
+    font-weight: 700;
+    color: $primary-dark;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-top: 0;
+    line-height: 1.2;
+
+    @media (max-width: 991px) {
+      font-size: 36px;
+    }
+
+    @media (max-width: 767px) {
+      font-size: 32px;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 576px) {
+      font-size: 28px;
+    }
+  }
+
+  .podcast-hero-pitch {
+    font-size: 20px;
+    font-weight: 500;
+    color: $black;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    text-align: justify;
+
+    @media (max-width: 991px) {
+      font-size: 18px;
+    }
+
+    @media (max-width: 767px) {
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+
+  .podcast-hero-teaser {
+    font-size: 16px;
+    color: $steel;
+    line-height: 1.6;
+    text-align: justify;
+
+    @media (max-width: 991px) {
+      font-size: 15px;
+    }
+
+    @media (max-width: 767px) {
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+}
+
+// Podcast Subscribe Section
+.podcast-subscribe {
+//  padding: 40px 0;
+  margin: 40px 0;
+  text-align: center;
+
+  .podcast-subscribe-title {
+    color: $primary-dark;
+    font-family: $font-family-base;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  .podcast-subscribe-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .podcast-platform-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: $primary;
+    border: 2px solid $primary;
+    border-radius: 12px;
+    padding: 20px;
+    min-width: 120px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 86, 135, 0.15);
+
+    &:hover {
+      background: #5A352A;
+      border-color: #5A352A;
+      transform: translateY(-4px);
+      box-shadow: 0 8px 20px rgba(90, 53, 42, 0.3);
+    }
+
+    img {
+      width: 50px;
+      height: 50px;
+      margin-bottom: 10px;
+      filter: brightness(0) invert(1);
+    }
+
+    .platform-label {
+      color: $white;
+      font-size: 14px;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    @media (max-width: 576px) {
+      min-width: 100px;
+      padding: 15px;
+
+      img {
+        width: 40px;
+        height: 40px;
+      }
+
+      .platform-label {
+        font-size: 12px;
+      }
+    }
+  }
+}
