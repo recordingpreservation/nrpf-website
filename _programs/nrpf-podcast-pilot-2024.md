@@ -13,7 +13,7 @@ elevator_pitch: "If you ever wondered what it takes to preserve historic sounds,
 ---
 
 NOTE: This page describes the _Sound Files_ pilot episodes from 2024.
-For the current season, [visit the current podcast page]("/programs/podcast/").
+For the current season, [visit the current podcast page](/programs/podcast/).
 
 ![NRPF Sound Files podcast cover image]({% link images/podcast/soundfiles-2024-1000sq.jpg %}){:style="float: right; width: 40%; padding-left: 10px; margin-top: 0;"}
 
