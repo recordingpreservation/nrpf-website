@@ -11,6 +11,7 @@ categories:
   - native alaskan
 description: "Listen to our interview with Leslie McCartney on the work of preserving oral history and Native Alaskan languages."
 image: "/images/podcast/soundfiles-2024-1000sq.jpg"
+episode_number: 2
 ---
 
 ![NRPF Sound Files podcast cover image]({% link images/podcast/soundfiles-2024-1000sq.jpg %}){:style="float: left; max-width: 40%; padding: 0 15px 0 0px; margin-top: 0;"}
@@ -42,7 +43,7 @@ Find out all about the podcast on our main [podcast page and press kit]({% link 
 
 ### Meet the Hosts
 
-{% include soundfiles-host-block %}
+{% include soundfiles-host-block-pilot %}
 
 ### Credits
 

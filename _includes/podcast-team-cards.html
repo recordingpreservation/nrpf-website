@@ -1,0 +1,34 @@
+<!-- Podcast Team Cards -->
+{% assign team_members = site.team | where: "soundfiles_team", true | sort: "podcast_team_order" %}
+{% for member in team_members %}
+<div class="podcast-team-card">
+    <div class="row align-items-center">
+        <div class="col-12 col-md-4 text-center">
+            {% if member.image %}
+            <img src="{{ member.image | relative_url }}" alt="{{ member.title }}" class="podcast-team-image img-fluid">
+            {% endif %}
+        </div>
+        <div class="col-12 col-md-8">
+            <h3 class="podcast-team-name">{{ member.title }}</h3>
+            <p class="podcast-team-role">{{ member.podcast_role }}</p>
+            <div class="podcast-team-bio">
+                {{ member.podcast_bio | markdownify }}
+            </div>
+            {% if member.linkedinurl or member.personal_url %}
+            <div class="podcast-team-links">
+                {% if member.personal_url %}
+                <a href="{{ member.personal_url }}" target="_blank" rel="noopener noreferrer" class="podcast-team-link">
+                    <span>Website</span>
+                </a>
+                {% endif %}
+                {% if member.linkedinurl %}
+                <a href="{{ member.linkedinurl }}" target="_blank" rel="noopener noreferrer" class="podcast-team-link">
+                    <span>LinkedIn</span>
+                </a>
+                {% endif %}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endfor %}

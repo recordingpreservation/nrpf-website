@@ -12,6 +12,11 @@ categories:
   - audio repatriation
 description: "New episode of the Sound Files podcast features the Federal Cylinder Project and Native American audio archives at the American Folklife Center."
 image: "/images/podcast/soundfiles-2024-1000sq.jpg"
+episode_guest: "Judith Gray"
+episode_number: 3
+episode_description: "This episode of _Sound Files_ features a conversation with Judith Gray, who discusses the Federal Cylinder Project and Native American audio collections at the American Folklife Center of the Library of Congress."
+episode_date: 2024-09
+episode_title: Archival Repatriation and Native American Audio Archives
 ---
 
 ![NRPF Sound Files podcast cover image]({% link images/podcast/soundfiles-2024-1000sq.jpg %}){:style="float: left; max-width: 40%; padding: 0 15px 0 0px; margin-top: 0;"}
@@ -33,7 +38,7 @@ Find out all about the podcast on our main [podcast page and press kit]({% link 
 
 ### Meet the Hosts
 
-{% include soundfiles-host-block %}
+{% include soundfiles-host-block-pilot %}
 
 ### Credits
 

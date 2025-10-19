@@ -68,3 +68,25 @@
     }
   }
 }
+
+.calltoaction-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 24px;
+  background: $primary;
+  color: $white;
+  text-decoration: none !important;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 86, 135, 0.2);
+
+  &:hover {
+    background: #5A352A;
+    color: $white;
+    text-decoration: none !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(90, 53, 42, 0.3);
+  }
+}

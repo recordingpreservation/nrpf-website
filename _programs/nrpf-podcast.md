@@ -4,60 +4,43 @@ permalink: "/programs/podcast/"
 date: 2023-10-10
 weight: 3
 teaser: "NRPF's podcast shares stories about the preservation of recorded sound, as well as the people and organizations who preserve them."
-layout: page
+layout: podcast
 description: "Sound Files, a podcast from the National Recording Preservation Foundation (NRPF), celebrates and explains the preservation of recorded sounds and the people and organizations who preserve them."
-image: "/images/podcast/soundfiles-2024-1000sq.jpg"
-as_of: 2025-04-09
+image: "/images/podcast/soundfiles-2025-main.png"
+as_of: 2025-10-22
 campaign_donate_link: 'https://secure.givelively.org/donate/national-recording-preservation-foundation/sound-files-podcast'
-elevator_pitch: "If you ever wondered what it takes to preserve historic sounds, this podcast is for you! Come and listen to hear about the preservation of recorded sounds and the people and organizations who preserve them." 
+elevator_pitch: "If you ever wondered what it takes to preserve historic sounds, this podcast is for you! Come and listen to hear about the preservation of recorded sounds and the people and organizations who preserve them."
 ---
 
-![NRPF Sound Files podcast cover image]({% link images/podcast/soundfiles-2024-1000sq.jpg %}){:style="float: right; width: 40%; padding-left: 10px; margin-top: 0;"}
+{% include podcast-hero.html %}
 
-Check out the NRPF podcast, _Sound Files_.
-On the pod, we share and celebrate archival audio
-through conversations and stories.
+{% include podcast-latest-episode.html %}
 
-Have you ever wondered what it takes to preserve historic sounds and audio collections?
-If so, then this podcast is for you! Listen to learn about
-the preservation of recorded sounds, as well as the people and organizations who preserve them.
+## About the Podcast
 
-The podcast:
+NRPF's podcast _Sound Files_ shares stories about the preservation of recorded sound, as well as the people and organizations who preserve them. On the pod, we share and celebrate archival audio through conversations and stories.
+
+The _Sound Files_ podcast:
 
 * Provides "behind-the-scenes" perspectives on the work that goes into archival audio preservation
 * Features sounds and stories from some of the most significant American sound collections
-* Shares and amplifies the work of audio archivists and the collections they steward
+* Shares and amplifies the work of audio preservation, the work of archivists, and the challenges and opportunities of preserving recorded sound
 
-Each episode features a story about audio preservation or an interview with audio archivists.
-In addition, the show features sounds from the collections that NRPF has supported.
-We will also offer occasional updates on our activities and programs.
+Each episode features a story about audio preservation or an interview with audio archivists. In addition, the show features sounds from the collections that NRPF has supported. We will also offer occasional updates on our activities and programs.
 
-## Subscribe
+**Ready to dive in?** Subscribe now and never miss an episode! New episodes drop monthly.
 
-Help us spread the word!
-New episodes will be distributed here and via major podcast platforms{% if site.data.podcast-soundfiles %}, including:
+{% include podcast-subscribe-buttons.html %}
 
-{% assign distributors = site.data.podcast-soundfiles['links'] %}
+If you like the pod, subscribe on your favorite podcast service, leave a review, rate the podcast, and share to your networks.
 
-{% for distributor in distributors %}* [{{ distributor.label }}]({{ distributor.link }})
-{% endfor %}
+## Meet the Sound Files Team
 
-{% else %}.{% endif %}
-If you like the pod,
-subscribe on your favorite podcast service.
-Then you will be notified any time that a new episode drops!
-You can also leave a review, rate the podcast, and share to your networks.
-Episodes will be posted about once a month for the 2024 season, so be sure to check below for our most recent episodes!
+{% include podcast-team-cards.html %}
 
-## Meet the Hosts
+## Most Recent Episodes
 
-_Sound Files_ is hosted by new members of the NRPF community! We are happy to welcome:
-
-{% include soundfiles-host-block %}
-
-## Recent Episodes
-
-{% include soundfiles-recent-episodes-block %}
+{% include podcast-episodes-recent.html %}
 
 {% include subscribe-donate-row.html %}
 

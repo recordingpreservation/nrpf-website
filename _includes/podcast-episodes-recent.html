@@ -1,0 +1,39 @@
+<!-- Podcast Episodes List - Dynamic from JSON -->
+{% assign episodes = site.data.podcast-soundfiles.episodes | where: "published", true | sort: "date" | reverse %}
+
+{% for episode in episodes | limit: 3%}
+<div class="podcast-episode-item">
+    {% if episode.is_trailer %}
+    <span class="episode-item-badge">Trailer</span>
+    {% else %}
+    <span class="episode-item-badge">Episode {{ episode.number }}</span>
+    {% endif %}
+    <div class="episode-item-header">
+        <h4 class="episode-item-title">{{ episode.title }}{% if episode.guest %} <span class="episode-item-guest">featuring {{ episode.guest }}</span>{% endif %}</h4>
+        {% if episode.date %}
+        <p class="episode-item-date">{{ episode.date | date: "%B %Y" }}</p>
+        {% endif %}
+    </div>
+
+    {% if episode.description %}
+    <p class="episode-item-description">{{ episode.description }}</p>
+    {% endif %}
+
+    <div class="episode-item-player">
+        {{ episode.embed-code }}
+    </div>
+
+    {% if episode.number or episode.number == 0 %}
+        {% assign episode_post = site.posts | where: "episode_number", episode.number | first %}
+        {% if episode_post %}
+        <div class="episode-item-actions">
+            <a href="{{ episode_post.url | relative_url }}" class="episode-item-link">Read Full Episode Notes →</a>
+        </div>
+        {% endif %}
+    {% endif %}
+</div>
+{% endfor %}
+
+<div class="episode-actions">
+    <a href="{{ '/programs/podcast/episodes/' | relative_url }}" class="episode-link">See All Episodes →</a>
+</div>
