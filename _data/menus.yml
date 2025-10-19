@@ -9,7 +9,7 @@ main:
     url: "/about/"
     weight: 2
     subitems:
-      - name: "About Us"
+      - name: "About NRPF"
         url: "/about/"
       - name: "Board of Directors"
         url: "/about/board/"
