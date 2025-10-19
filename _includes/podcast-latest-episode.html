@@ -12,14 +12,10 @@
         <div class="col-12">
         {% endif %}
             <div class="episode-header">
-                {% if latest_episode.episode_number %}
-                <span class="episode-number">Episode {{ latest_episode.episode_number }}</span>
-                {% endif %}
                 <h3 class="episode-title">{% if latest_episode.episode_title %}{{ latest_episode.episode_title }}{% else %}{{ latest_episode.title }}{% endif %}</h3>
                 {% if latest_episode.episode_guest %}
-                <p class="episode-guest">featuring <strong>{{ latest_episode.episode_guest }}</strong></p>
+                <p class="episode-guest">a conversation with <strong>{{ latest_episode.episode_guest }}</strong></p>
                 {% endif %}
-                <p class="episode-date">{{ latest_episode.date | date: "%B %Y" }}</p>
             </div>
             {% if latest_episode.episode_description %}
             <div class="episode-description">
