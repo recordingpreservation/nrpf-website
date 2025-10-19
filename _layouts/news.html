@@ -51,7 +51,7 @@ bodyClass: "page-services"
 <!-- blog section -->
 
 <!-- bootstrap card posts, modeled on https://medium.com/geekculture/33-blog-card-css-for-web-design-726a037217b5 -->
-{% assign posts = site.posts | sort "date" | reverse %}
+{% assign posts = site.posts | sort: "date" | reverse %}
 {% if posts %}
 <div class="container m-t-md pb-6 pt-6">
   <h2 class="section-header"><a name="features"></a>Recent Features</h2>
@@ -80,7 +80,7 @@ bodyClass: "page-services"
 
 
 <!-- press release section -->
-{% assign news = site.news | where: "type", "press release" | sort "date" | reverse %}
+{% assign news = site.news | where: "type", "press release" | sort: "date" | reverse %}
 {% if news %}
 <div class="container pt-6">
   <h2 class="section-header"><a name="press-releases"></a>Press Releases</h2>
