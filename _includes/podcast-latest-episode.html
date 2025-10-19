@@ -1,6 +1,7 @@
 <!-- Latest Episode Highlight - Dynamic -->
 {% assign podcast_episodes = site.posts | where_exp: "post", "post.categories contains 'sound files'" | sort: "date" | reverse %}
 {% assign latest_episode = podcast_episodes.first %}
+{% assign latest_episode_data = site.data.podcast-soundfiles.episodes | where: "number", latest_episode.episode_number | first %}
 
 {% if latest_episode %}
 <div class="podcast-latest-episode">
@@ -23,10 +24,8 @@
             </div>
             {% endif %}
             <div class="episode-player">
-                {% if latest_episode.episode_embed %}
-                {{ latest_episode.episode_embed }}
-                {% elsif latest_episode.episode_include %}
-                {% include {{ latest_episode.episode_include }} %}
+                {% if latest_episode_data.embed-code %}
+                {{ latest_episode_data.embed-code }}
                 {% endif %}
             </div>
             {% if latest_episode.url %}
