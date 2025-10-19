@@ -3,17 +3,15 @@ layout: default
 bodyClass: "page-teams"
 ---
 
-<div class="intro">
-    <div class="container">
-        <div class="row justify-content-start">
-            <div class="col-12 order-2 order-md-1">
-                {{ content }}
-            </div>
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10{% if page.show_lines_background %} page-background-lines{% endif %}">
+    <div class="row justify-content-start">
+        <div class="col-12 order-2 order-md-1">
+            {{ content }}
         </div>
     </div>
 </div>
 
-<div class="container pt-6 pb-6">
+<div class="container pb-6">
 
     <!-- Board of Directors -->
     <h2><a name="directors"></a>Board of Directors</h2>

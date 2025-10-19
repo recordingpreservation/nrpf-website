@@ -11,11 +11,121 @@
     }
   }
 }
+
+.page-services {
+  .m-t-md {
+    padding-top: 3rem;
+  }
+  h2.section-header {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.press-release-card {
+  background: $white-offset;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 16px rgba(0, 86, 135, 0.08);
+  border: 1px solid rgba(0, 86, 135, 0.06);
+  transition: all 0.3s ease;
+  margin-bottom: 2rem;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 86, 135, 0.15);
+  }
+
+  @media (max-width: 767px) {
+    padding: 24px 20px;
+  }
+
+  .service-content {
+    h2.service-title {
+      font-family: $font-family-heading;
+      font-size: 22px;
+      font-weight: 600;
+      color: $primary-dark;
+      margin: 0 0 16px 0;
+      line-height: 1.3;
+
+      a {
+        color: $primary-dark;
+        text-decoration: none;
+        transition: color 0.2s ease;
+
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: $steel;
+      margin: 0;
+    }
+  }
+}
 .intro p {
   font-size: 1.25rem;
   width: 100%;
 }
-// Card text margin helpers
+// Service Cards for Programs
+.service {
+  height: 100%;
+}
+
+.service-summary {
+  background: linear-gradient(145deg, $white 0%, $white-offset 100%);
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 16px rgba(0, 86, 135, 0.08);
+  border: 1px solid rgba(0, 86, 135, 0.06);
+  transition: all 0.3s ease;
+  height: 100%;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 86, 135, 0.15);
+  }
+
+  @media (max-width: 767px) {
+    padding: 24px 20px;
+  }
+
+  .service-content {
+    h2.service-title {
+      font-family: $font-family-heading;
+      font-size: 22px;
+      font-weight: 600;
+      color: $primary-dark;
+      margin: 0 0 16px 0;
+      line-height: 1.3;
+
+      a {
+        color: $primary-dark;
+        text-decoration: none;
+        transition: color 0.2s ease;
+
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: $steel;
+      margin: 0;
+    }
+  }
+}
+
+// Legacy card styles for compatibility
 h2.service-title {
   margin: 10px 0;
 }
@@ -45,7 +155,7 @@ a {transition: .25s all;}
   transition: .25s box-shadow;
   &:focus,
   &:hover {@include BoxShadowHelper(2);}
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 .card-inverse .card-img-overlay {
   background-color: rgba(#333,.85);

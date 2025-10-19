@@ -6,3 +6,33 @@
     flex: 1 0 0;
   }
 }
+
+.page-background-lines {
+  position: relative;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('/images/illustrations/lines.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.35;
+    pointer-events: none;
+    z-index: 0;
+  }
+  @include media-breakpoint-up(md) {
+    &::before {
+      width: 60%;
+      top: -10%;
+      right: -5%;
+    }
+  }
+  > * {
+    position: relative;
+    z-index: 1;
+  }
+}

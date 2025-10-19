@@ -29,9 +29,13 @@ bodyClass: "page-services"
   </div>
 </div>
 {% else %}
-<div class="col-12">
-  <h1>{{ page.title }}</h1>
-  {{ content }}
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10{% if page.show_lines_background %} page-background-lines{% endif %}">
+  <div class="row justify-content-start">
+    <div class="col-12">
+      <h1>{{ page.title }}</h1>
+      {{ content }}
+    </div>
+  </div>
 </div>
 {% endif %}
 
@@ -49,8 +53,8 @@ bodyClass: "page-services"
 <!-- bootstrap card posts, modeled on https://medium.com/geekculture/33-blog-card-css-for-web-design-726a037217b5 -->
 {% assign posts = site.posts | sort "date" | reverse %}
 {% if posts %}
-<div class="container m-t-md pb-6">
-  <h2><a name="features"></a>Recent Features</h2>
+<div class="container m-t-md pb-6 pt-6">
+  <h2 class="section-header"><a name="features"></a>Recent Features</h2>
   <!-- auto-generated rows -->
   <div class="row">
       {% for post in posts limit: 6 %}
@@ -78,21 +82,19 @@ bodyClass: "page-services"
 <!-- press release section -->
 {% assign news = site.news | where: "type", "press release" | sort "date" | reverse %}
 {% if news %}
-<div class="container">
-  <h2><a name="press-releases"></a>Press Releases</h2>
+<div class="container pt-6">
+  <h2 class="section-header"><a name="press-releases"></a>Press Releases</h2>
   <div class="row">
     {% for item in news %}
     <div class="col-12">
-      <div class="service service-summary">
+      <div class="press-release-card">
         <div class="service-content">
           <h2 class="service-title">
             <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
           </h2>
           <p>Released {{ item.date | date: "%B %e, %Y" }} | <a href="/contact/">Press contact</a></p>
         </div>
-        <p>&nbsp;</p>
       </div>
-      <hr style="border: none; border-bottom: 1px solid #e9f7ff;" />
     </div>
     {% endfor %}
   </div>
