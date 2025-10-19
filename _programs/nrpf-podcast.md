@@ -40,7 +40,7 @@ If you like the pod, subscribe on your favorite podcast service, leave a review,
 
 ## Most Recent Episodes
 
-{% include podcast-episodes-list.html %}
+{% include podcast-episodes-recent.html %}
 
 {% include subscribe-donate-row.html %}
 

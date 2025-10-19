@@ -1,7 +1,7 @@
 <!-- Podcast Episodes List - Dynamic from JSON -->
-{% assign episodes = site.data.podcast-soundfiles.episodes | where: "published", true %}
+{% assign episodes = site.data.podcast-soundfiles.episodes | where: "published", true | sort: "date" | reverse %}
 
-{% for episode in episodes %}
+{% for episode in episodes | limit: 3%}
 <div class="podcast-episode-item">
     {% if episode.is_trailer %}
     <span class="episode-item-badge">Trailer</span>
@@ -35,6 +35,5 @@
 {% endfor %}
 
 <div class="episode-actions">
-    <a href="{{ '/programs/podcast/' | relative_url }}" class="episode-link">Back to Main Podcast Page →</a>
+    <a href="{{ '/programs/podcast/episodes/' | relative_url }}" class="episode-link">See All Episodes →</a>
 </div>
-
