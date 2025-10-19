@@ -506,8 +506,8 @@ This creates a redirect from `/podcast/` to `/programs/podcast/`.
 
 ### Markdown Tips
 
-- Use `{% link file.md %}` for internal links to ensure they update correctly
-- Use `{{ site.baseurl }}` or `relative_url` filter for asset paths
+- Use `{% raw %}{% link file.md %}{% endraw %}` for internal links to ensure they update correctly
+- Use `{% raw %}{{ site.baseurl }}{% endraw %}` or `relative_url` filter for asset paths
 - Front matter values can include HTML with `<em>` tags for italics
 
 ### Testing Changes Locally
