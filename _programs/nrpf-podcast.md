@@ -42,11 +42,4 @@ If you like the pod, subscribe on your favorite podcast service, leave a review,
 
 {% include podcast-episodes-recent.html %}
 
-{% include subscribe-donate-row.html %}
-
-Support is always appreciated and gratefully acknowledged!
-If you enjoy the podcast, please consider giving &ndash; any donation advances
-our services by supporting the costs of creating, distributing, and sharing the
-podcast. Beyond that, you will be contributing to the overall work of preserving recorded sound history.
-
-To donate, click above, or <abbr title="To donate, text 'soundfiles' to 44-321">text "soundfiles" to 44-321</abbr>.
+{% include podcast-support-section.html %}
