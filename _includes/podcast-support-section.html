@@ -1,0 +1,43 @@
+<!-- Podcast Support Section -->
+<div class="podcast-support-section">
+  <div class="row">
+
+    {% if site.data.contact.newsletter_link %}
+    <!-- Newsletter Subscribe -->
+    <div class="col-12 col-md-6 mb-4">
+      <div class="podcast-support-card podcast-support-newsletter">
+        <div class="support-icon">
+          <img src="/images/illustrations/envelope-svgrepo.svg" alt="" width="48" height="48">
+        </div>
+        <h3 class="support-title">Subscribe to Our Newsletter</h3>
+        <p class="support-description">Stay connected with the latest podcast episodes, archival audio stories, and preservation news delivered to your inbox.</p>
+        <div class="support-button-wrapper">
+          <a class="support-button support-button-newsletter" href="{{ site.data.contact.newsletter_subscribe_page }}">Subscribe</a>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+
+    <!-- Donate -->
+    <div class="col-12 {% if site.data.contact.newsletter_link %}col-md-6{% endif %} mb-4">
+      <div class="podcast-support-card podcast-support-donate">
+        <div class="support-icon">
+          <img src="/images/illustrations/heart-svgrepo.svg" alt="" width="48" height="48">
+        </div>
+        <h3 class="support-title">Support Sound Files</h3>
+        <p class="support-description">Your donation helps us create, distribute, and share the podcast. Every gift helps us to tell more stories of recorded sound preservation!</p>
+        <div class="support-details">
+          <p><strong>Ways to give:</strong></p>
+          <ul>
+            <li>Click the button below to donate online</li>
+            <li>Text <strong>"soundfiles"</strong> to <strong>44-321</strong></li>
+          </ul>
+        </div>
+        <div class="support-button-wrapper">
+          <a class="support-button support-button-donate" href="{% if page.campaign_donate_link %}{{ page.campaign_donate_link }}{% else %}/donate/{% endif %}">Donate Now</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
