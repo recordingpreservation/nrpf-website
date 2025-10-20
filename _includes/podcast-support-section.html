@@ -26,13 +26,13 @@
         </div>
         <h3 class="support-title">Support Sound Files</h3>
         <p class="support-description">Your donation helps us create, distribute, and share the podcast. Every gift helps us to tell more stories of recorded sound preservation!</p>
-        <div class="support-details">
+        {% if page.show_support_details %}<div class="support-details">
           <p><strong>Ways to give:</strong></p>
           <ul>
             <li>Click the button below to donate online</li>
             <li>Text <strong>"soundfiles"</strong> to <strong>44-321</strong></li>
           </ul>
-        </div>
+        </div>{% endif %}
         <div class="support-button-wrapper">
           <a class="support-button support-button-donate" href="{% if page.campaign_donate_link %}{{ page.campaign_donate_link }}{% else %}/donate/{% endif %}">Donate Now</a>
         </div>
