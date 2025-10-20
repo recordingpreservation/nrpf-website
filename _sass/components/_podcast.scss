@@ -552,3 +552,130 @@
     }
   }
 }
+
+// Podcast Support Section (Subscribe & Donate)
+.podcast-support-section {
+  margin: 60px 0 40px;
+
+  .podcast-support-card {
+    background: #E9F7FF;
+    border-radius: 12px;
+    padding: 40px;
+    height: 100%;
+    box-shadow: 0 4px 16px rgba(0, 86, 135, 0.1);
+    border: 1px solid rgba(0, 86, 135, 0.08);
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(0, 86, 135, 0.15);
+    }
+
+    @media (max-width: 767px) {
+      padding: 30px 24px;
+    }
+  }
+
+  .support-icon {
+    color: $primary;
+    margin-bottom: 20px;
+    text-align: center;
+
+    svg {
+      width: 48px;
+      height: 48px;
+    }
+  }
+
+  .support-title {
+    font-family: $font-family-heading;
+    font-size: 28px;
+    font-weight: 700;
+    color: $primary-dark;
+    margin: 0 0 16px 0;
+    text-align: center;
+
+    @media (max-width: 767px) {
+      font-size: 24px;
+    }
+  }
+
+  .support-description {
+    font-size: 16px;
+    line-height: 1.7;
+    color: $steel;
+    margin-bottom: 20px;
+    text-align: center;
+    flex-grow: 1;
+  }
+
+  .support-details {
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 24px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: $black;
+
+    p {
+      margin: 0 0 12px 0;
+      font-weight: 600;
+      color: $primary-dark;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+
+      li {
+        margin-bottom: 8px;
+        color: $steel;
+
+        strong {
+          color: $primary;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+
+  .support-button-wrapper {
+    text-align: center;
+    margin-top: auto;
+  }
+
+  .support-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 32px;
+    background: $primary;
+    color: $white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 86, 135, 0.2);
+    width: 100%;
+    max-width: 280px;
+
+    &:hover {
+      background: #5A352A;
+      color: $white;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(90, 53, 42, 0.3);
+      text-decoration: none;
+    }
+
+    @media (max-width: 576px) {
+      padding: 12px 24px;
+      font-size: 14px;
+    }
+  }
+}
