@@ -2,7 +2,7 @@
 title: "Evan Haywood"
 date: 2023-07-01
 image: "images/team/evan-haywood.jpg"
-jobtitle: "Preservation Advisor and Podcast Producer (2023-2025)"
+jobtitle: "Advisor and Podcast Producer (2023-2025)"
 short_bio: 
 role: emeritus
 weight: 3
