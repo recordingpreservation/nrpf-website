@@ -13,6 +13,7 @@ This document provides guidance for adding and managing content on the National 
   - [Add a Grant](#add-a-grant)
 - [News & Blog Posts](#news--blog-posts)
   - [Add a Blog Post](#add-a-blog-post)
+  - [Add a Press Release](#add-a-press-release)
 - [Pages](#pages)
   - [Add a Static Page](#add-a-static-page)
 - [Redirects](#redirects)
@@ -269,6 +270,98 @@ We are excited to announce the recipients of our 2024 grant cycle...
 ```
 
 Posts will automatically appear on the blog page in reverse chronological order.
+
+---
+
+### Add a Press Release
+
+Press releases are stored in the `_news/` directory and use a specific layout for formal announcements and media distribution.
+
+**Location:** `_news/YYYY-MM-DD-descriptive-title.md`
+
+**Required Front Matter Fields:**
+
+```yaml
+---
+title: "Press Release Title"
+date: 2024-03-11
+location: "Washington, D.C."
+author: "Author Name"
+categories:
+  - news
+  - press releases
+type: press release
+layout: "press-release"
+release:
+tags:
+  - National Recording Preservation Foundation
+  - relevant tag
+  - press release
+image: images/social/NRPF-mandala-title-white-blue.png
+description: "Brief summary for SEO and social media sharing"
+---
+```
+
+**Field Descriptions:**
+
+- `title`: The headline of the press release
+- `date`: Publication date in YYYY-MM-DD format
+- `location`: Dateline location (typically "Washington, D.C.")
+- `author`: Person responsible for the release
+- `categories`: Must include `news` and `press releases`
+- `type`: Must be set to `press release`
+- `layout`: Must be set to `"press-release"`
+- `release`: Leave blank (used by the layout)
+- `tags`: Array of relevant keywords for categorization
+- `image`: Social media sharing image (typically use the default NRPF image)
+- `description`: 1-2 sentence summary for previews and SEO
+
+**Example:**
+
+```yaml
+---
+title: "Librarian of Congress Appoints New Directors to the National Recording Preservation Foundation"
+date: 2024-03-11
+location: "Washington, D.C."
+author: "Jesse Johnston"
+categories:
+  - news
+  - press releases
+type: press release
+layout: "press-release"
+release:
+tags:
+  - National Recording Preservation Foundation
+  - Board of Directors
+  - Librarian of Congress
+  - audio preservation
+  - press release
+image: images/social/NRPF-mandala-title-white-blue.png
+description: "Dr. Carla Hayden has appointed seven new directors to the National Recording Preservation Foundation's Board of Directors."
+---
+
+Dr. Carla Hayden, the 14th Librarian of Congress, has appointed seven new directors to the National Recording Preservation Foundation's Board of Directors, effective immediately...
+```
+
+**Press Release Content Guidelines:**
+
+1. **Opening Paragraph**: Include who, what, when, where, and why in the first paragraph
+2. **Body**: Provide supporting details, quotes, and background information
+3. **Boilerplate**: Include standard information about NRPF
+4. **Contact Information**: End with website URL and contact email:
+   ```markdown
+   For more information, please visit the National Recording Preservation Foundation's website at <https://www.recordingpreservation.org/> or contact [info@recordingpreservation.org](mailto:info@recordingpreservation.org).
+   ```
+
+**Tips:**
+
+- Use professional, formal tone throughout
+- Include relevant quotes from leadership or stakeholders
+- Add hyperlinks to referenced resources or pages
+- Keep paragraphs focused and concise
+- Use the standard NRPF social image unless there's a specific visual asset
+
+Press releases will appear in the news section and can be distributed to media contacts.
 
 ---
 
