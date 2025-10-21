@@ -2,11 +2,11 @@
 title: "Evan Haywood"
 date: 2023-07-01
 image: "images/team/evan-haywood.jpg"
-jobtitle: "Advisor and Podcast Producer (2023-2025)"
+jobtitle: "Advisor and Podcast Producer"
 short_bio: 
-role: emeritus
+role: 
 weight: 3
-staff: false
+staff: true
 staff_role: Audio Preservationist and Podcast Producer
 sort_name: "haywood"
 soundfiles_host: true
