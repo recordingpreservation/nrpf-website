@@ -16,19 +16,19 @@ that are stored on at-risk or obsolete physical media.
 Since 2016, the Foundation has distributed over a quarter of a million dollars
 to promote and preserve recorded sound history.
 
-## Impact
+<h2 class="section-header">Impact</h2>
 
 How have our grants supported audio preservation? Take a look at the numbers:
 
 {% include grants-impact.html %}
 
-## Grants Awarded (since 2016)
+<h2 class="section-header">Grants Awarded (since 2016)</h2>
 
 {% assign grants = site.grants | where: "type", "grant" | sort: "year" | reverse %}
 
 {% include grants-table-fromcollex.html %}
 
-## Information for Applicants and Grantees
+<h2 class="section-header">Information for Applicants and Grantees</h2>
 
 {% if site.data.nrpf_data.cfp == "active" %}
 NRPF currently welcomes proposals for {{ site.data.nrpf_data.cfp-title }}. **[Please refer to details at the call for proposals]({{ site.data.nrpf_data.cfp-relative-link | relative_url }}). Applications are due {{ site.data.nrpf_data.cfp-deadline | date: "%B %e, %Y" }}.**
