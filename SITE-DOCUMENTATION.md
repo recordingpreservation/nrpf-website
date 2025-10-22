@@ -22,204 +22,6 @@ This document provides guidance for adding and managing content on the National 
 
 ---
 
-## People & Team
-
-### Add a Team Member
-
-Team members are stored in the `_team/` directory. Each person gets their own markdown file.
-
-**Location:** `_team/firstname-lastname.md`
-
-**Required Front Matter Fields:**
-
-```yaml
----
-title: "Full Name"
-date: 2024-01-01           # Date added
-image: "images/team/firstname-lastname-200.jpg"
-jobtitle: "Board Title"    # e.g., "Chair", "Secretary", "Treasurer"
-sort_name: lastname        # Used for alphabetical sorting
----
-```
-
-**Optional Front Matter Fields:**
-
-```yaml
-linkedinurl: "https://www.linkedin.com/in/username"
-personal_url: "https://example.com"
-short_bio: "Brief affiliation or description"
-promoted: true             # Set to true for Board of Directors
-weight: 1                  # Lower numbers appear first (for promoted members)
-role: board                # Options: "board", "ex-officio", "advisor", "emeritus_director"
-staff: true                # Set to true for staff members
-staff_role: "Job Title"    # e.g., "Executive Director", "Program Manager"
-current_term_start: 2024   # For board members with terms
-current_term_end: 2028
-```
-
-**Example:**
-
-```yaml
----
-title: "Jane Smith"
-date: 2024-01-15
-image: "images/team/jane-smith-200.jpg"
-jobtitle: "Chair"
-linkedinurl: "https://www.linkedin.com/in/janesmith"
-short_bio: "Example University"
-promoted: true
-weight: 1
-role: board
-sort_name: smith
-current_term_start: 2024
-current_term_end: 2028
----
-
-Jane Smith is the Chair of the NRPF Board of Directors...
-```
-
-**Team Member Display Locations:**
-
-- **Board of Directors**: `promoted: true` + `role: board`
-- **Ex Officio Members**: `role: ex-officio`
-- **Advisory Board**: `role: advisor`
-- **Staff Members**: `staff: true`
-- **Former Directors**: `role: emeritus_director`
-- **SoundFiles podcast**: `soundfiles_team: true` (Note: requires additional metadata fields as noted below)
-
----
-
-### Add a Podcast Team Member
-
-To add someone to the podcast team (host, producer, editor, etc.), add these fields to their team file:
-
-**Required Fields:**
-
-```yaml
-soundfiles_team: true
-podcast_role: "Host"       # e.g., "Host", "Producer", "Editor", "Sound Engineer"
-podcast_bio: "Bio text specifically for the podcast page..."
-podcast_team_order: 1      # Lower numbers appear first
-```
-
-**Example:**
-
-```yaml
----
-title: "Jesse A. Johnston"
-soundfiles_team: true
-podcast_role: "Host"
-podcast_bio: "Jesse A. Johnston, M.S.I., Ph.D., serves as Executive Director and Secretary of NRPF..."
-podcast_team_order: 1
-linkedinurl: "https://www.linkedin.com/in/jesseajohnston"
-personal_url: "https://www.jesseajohnston.net/"
----
-```
-
-The podcast team cards will display on `/programs/podcast/` with the member's photo, role, bio, and links.
-
----
-
-## Programs
-
-### Add a Program
-
-Programs are stored in the `_programs/` directory.
-
-**Location:** `_programs/program-name.md`
-
-**Required Front Matter Fields:**
-
-```yaml
----
-title: "Program Name"
-permalink: "/programs/program-name/"
-date: 2024-01-01
-weight: 1                  # Order in programs listing (lower = higher)
-teaser: "Brief description for listings"
-layout: page               # or "podcast" for podcast page
-description: "Full SEO description"
----
-```
-
-**Optional Front Matter Fields:**
-
-```yaml
-image: "/images/program-image.jpg"
-campaign_donate_link: 'https://donate-link-here'
-elevator_pitch: "One-line pitch for the program"
-```
-
-**Example:**
-
-```yaml
----
-title: "NRPF Grants Program"
-permalink: "/programs/grants/"
-date: 2023-01-01
-weight: 1
-teaser: "Supporting audio preservation projects nationwide"
-layout: page
-description: "NRPF provides grants to support audio preservation projects..."
-image: "/images/programs/grants-hero.jpg"
----
-
-The NRPF Grants Program provides funding to...
-```
-
----
-
-## Grants
-
-### Add a Grant
-
-Grants are stored in the `_grants/` directory, typically organized by year and recipient.
-
-**Location:** `_grants/YYYY-recipient-name.md`
-
-**Required Front Matter Fields:**
-
-```yaml
----
-title: "Grant Project Title"
-collection: grants
-type: grant
-amount: "$25,000.00"
-year: 2024
-recipient: Organization Name
-location: "City, State"
----
-```
-
-**Optional Front Matter Fields:**
-
-```yaml
-url: "https://organization.org"          # Link to organization
-project_url: "https://project-site.org"   # Link to project
-image: "/images/grants/project-image.jpg"
-```
-
-**Example:**
-
-```yaml
----
-title: "Preserving Historic Radio Broadcasts"
-collection: grants
-type: grant
-amount: "$30,000.00"
-year: 2024
-recipient: "State Historical Society"
-location: "Madison, WI"
-url: "https://example.org"
----
-
-Funding to support the digitization of master audio recordings...
-```
-
-Grants will automatically appear in the grants listing page and can be filtered by year.
-
----
-
 ## News & Blog Posts
 
 ### Add a Blog Post
@@ -519,6 +321,204 @@ After completing the above steps, the episode should automatically appear in:
 - **Embed player not showing:** Check that iframe src URL is correct and quotes are properly escaped in JSON (`\"` not `"`)
 - **Episode not linking to blog post:** Verify `episode_number` matches exactly between JSON and post front matter
 - **Player appears twice:** Make sure you're using the automatic embed code method (not including a separate episode file)
+
+---
+
+## People & Team
+
+### Add a Team Member
+
+Team members are stored in the `_team/` directory. Each person gets their own markdown file.
+
+**Location:** `_team/firstname-lastname.md`
+
+**Required Front Matter Fields:**
+
+```yaml
+---
+title: "Full Name"
+date: 2024-01-01           # Date added
+image: "images/team/firstname-lastname-200.jpg"
+jobtitle: "Board Title"    # e.g., "Chair", "Secretary", "Treasurer"
+sort_name: lastname        # Used for alphabetical sorting
+---
+```
+
+**Optional Front Matter Fields:**
+
+```yaml
+linkedinurl: "https://www.linkedin.com/in/username"
+personal_url: "https://example.com"
+short_bio: "Brief affiliation or description"
+promoted: true             # Set to true for Board of Directors
+weight: 1                  # Lower numbers appear first (for promoted members)
+role: board                # Options: "board", "ex-officio", "advisor", "emeritus_director"
+staff: true                # Set to true for staff members
+staff_role: "Job Title"    # e.g., "Executive Director", "Program Manager"
+current_term_start: 2024   # For board members with terms
+current_term_end: 2028
+```
+
+**Example:**
+
+```yaml
+---
+title: "Jane Smith"
+date: 2024-01-15
+image: "images/team/jane-smith-200.jpg"
+jobtitle: "Chair"
+linkedinurl: "https://www.linkedin.com/in/janesmith"
+short_bio: "Example University"
+promoted: true
+weight: 1
+role: board
+sort_name: smith
+current_term_start: 2024
+current_term_end: 2028
+---
+
+Jane Smith is the Chair of the NRPF Board of Directors...
+```
+
+**Team Member Display Locations:**
+
+- **Board of Directors**: `promoted: true` + `role: board`
+- **Ex Officio Members**: `role: ex-officio`
+- **Advisory Board**: `role: advisor`
+- **Staff Members**: `staff: true`
+- **Former Directors**: `role: emeritus_director`
+- **SoundFiles podcast**: `soundfiles_team: true` (Note: requires additional metadata fields as noted below)
+
+---
+
+### Add a Podcast Team Member
+
+To add someone to the podcast team (host, producer, editor, etc.), add these fields to their team file:
+
+**Required Fields:**
+
+```yaml
+soundfiles_team: true
+podcast_role: "Host"       # e.g., "Host", "Producer", "Editor", "Sound Engineer"
+podcast_bio: "Bio text specifically for the podcast page..."
+podcast_team_order: 1      # Lower numbers appear first
+```
+
+**Example:**
+
+```yaml
+---
+title: "Jesse A. Johnston"
+soundfiles_team: true
+podcast_role: "Host"
+podcast_bio: "Jesse A. Johnston, M.S.I., Ph.D., serves as Executive Director and Secretary of NRPF..."
+podcast_team_order: 1
+linkedinurl: "https://www.linkedin.com/in/jesseajohnston"
+personal_url: "https://www.jesseajohnston.net/"
+---
+```
+
+The podcast team cards will display on `/programs/podcast/` with the member's photo, role, bio, and links.
+
+---
+
+## Grants
+
+### Add a Grant
+
+Grants are stored in the `_grants/` directory, typically organized by year and recipient.
+
+**Location:** `_grants/YYYY-recipient-name.md`
+
+**Required Front Matter Fields:**
+
+```yaml
+---
+title: "Grant Project Title"
+collection: grants
+type: grant
+amount: "$25,000.00"
+year: 2024
+recipient: Organization Name
+location: "City, State"
+---
+```
+
+**Optional Front Matter Fields:**
+
+```yaml
+url: "https://organization.org"          # Link to organization
+project_url: "https://project-site.org"   # Link to project
+image: "/images/grants/project-image.jpg"
+```
+
+**Example:**
+
+```yaml
+---
+title: "Preserving Historic Radio Broadcasts"
+collection: grants
+type: grant
+amount: "$30,000.00"
+year: 2024
+recipient: "State Historical Society"
+location: "Madison, WI"
+url: "https://example.org"
+---
+
+Funding to support the digitization of master audio recordings...
+```
+
+Grants will automatically appear in the grants listing page and can be filtered by year.
+
+---
+
+## Programs
+
+### Add a Program
+
+Programs are stored in the `_programs/` directory.
+
+**Location:** `_programs/program-name.md`
+
+**Required Front Matter Fields:**
+
+```yaml
+---
+title: "Program Name"
+permalink: "/programs/program-name/"
+date: 2024-01-01
+weight: 1                  # Order in programs listing (lower = higher)
+teaser: "Brief description for listings"
+layout: page               # or "podcast" for podcast page
+description: "Full SEO description"
+---
+```
+
+**Optional Front Matter Fields:**
+
+```yaml
+image: "/images/program-image.jpg"
+campaign_donate_link: 'https://donate-link-here'
+elevator_pitch: "One-line pitch for the program"
+```
+
+**Example:**
+
+```yaml
+---
+title: "NRPF Grants Program"
+permalink: "/programs/grants/"
+date: 2023-01-01
+weight: 1
+teaser: "Supporting audio preservation projects nationwide"
+layout: page
+description: "NRPF provides grants to support audio preservation projects..."
+image: "/images/programs/grants-hero.jpg"
+---
+
+The NRPF Grants Program provides funding to...
+```
 
 ---
 
