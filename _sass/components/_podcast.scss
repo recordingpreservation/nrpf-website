@@ -6,6 +6,16 @@
   }
 }
 
+// Podcast episode post image styling (works in both page-podcast body class and postClass)
+img.podcast-episode-image {
+  float: left;
+  max-width: 40%;
+  margin-right: 25px;
+  margin-top: 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 86, 135, 0.15);
+}
+
 // Podcast Hero Section
 .podcast-hero {
   padding: 0 0 60px 0;
