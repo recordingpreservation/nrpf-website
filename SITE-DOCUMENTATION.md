@@ -4,15 +4,16 @@ This document provides guidance for adding and managing content on the National 
 
 ## Table of Contents
 
+- [News & Blog Posts](#news--blog-posts)
+  - [Add a Blog Post](#add-a-blog-post)
+  - [Add a Podcast Episode](#add-a-new-podcast-episode-complete-workflow)
 - [People & Team](#people--team)
   - [Add a Team Member](#add-a-team-member)
   - [Add a Podcast Team Member](#add-a-podcast-team-member)
-- [Programs](#programs)
-  - [Add a Program](#add-a-program)
 - [Grants](#grants)
   - [Add a Grant](#add-a-grant)
-- [News & Blog Posts](#news--blog-posts)
-  - [Add a Blog Post](#add-a-blog-post)
+- [Programs](#programs)
+  - [Add a Program](#add-a-program)
 - [Pages](#pages)
   - [Add a Static Page](#add-a-static-page)
 - [Redirects](#redirects)
