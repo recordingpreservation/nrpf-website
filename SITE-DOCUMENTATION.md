@@ -485,7 +485,8 @@ Jesse Johnston, creator of Sound Files and a Clinical Assistant Professor at the
 
 ## About the Podcast
 
-Find out all about _Sound Files_ on our main [podcast page and press kit]({% raw %}{% link _programs/nrpf-podcast.md %}{% endraw %}).
+{% raw %}{% include podcast-press-kit-button.html %}
+{% endraw %}
 ```
 
 **Important Notes:**
@@ -680,4 +681,4 @@ For questions or issues:
 - Review Jekyll documentation at https://jekyllrb.com/docs/
 - Contact the web administrator
 
-**Last Updated:** 2025-10-18
+**Last Updated:** 2025-10-22
