@@ -35,12 +35,12 @@ Each episode features a story about audio preservation or an interview with audi
 
 If you like the pod, subscribe on your favorite podcast service, leave a review, rate the podcast, and share to your networks.
 
-## Meet the Sound Files Team
-
-{% include podcast-team-cards.html %}
-
 ## Most Recent Episodes
 
 {% include podcast-episodes-recent.html %}
 
 {% include podcast-support-section.html %}
+
+## Meet the Sound Files Team
+
+{% include podcast-team-cards.html %}
