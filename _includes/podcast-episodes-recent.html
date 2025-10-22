@@ -27,7 +27,7 @@
         {% assign episode_post = site.posts | where: "episode_number", episode.number | first %}
         {% if episode_post %}
         <div class="episode-item-actions">
-            <a href="{{ episode_post.url | relative_url }}" class="episode-item-link">Read Full Episode Notes →</a>
+            <a href="{{ episode_post.url | relative_url }}" class="episode-item-link">Read All About the Episode →</a>
         </div>
         {% endif %}
     {% endif %}

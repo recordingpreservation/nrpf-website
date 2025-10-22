@@ -23,6 +23,16 @@
   ],
   "episodes": [
     {
+      "number": 4,
+      "title": "Citizen DJ: A New Spin on Historical Sound Preservation",
+      "date": "2025-10-22",
+      "description": "Explore the amazing world of Citizen DJ, a platform that lets you remix historical sounds in ways you never imagined. Join us, whether you're a history buff or just love fresh music, in this new episode of <em>Sound Files</em>!",
+      "link": "https://podcast.recordingpreservation.org/episodes/citizen-dj-a-new-spin-on-historical-sound-preservation",
+      "embed-code": "<iframe height=\"200px\" width=\"100%\" frameborder=\"no\" scrolling=\"no\" seamless src=\"https://player.simplecast.com/31fe0359-32a4-4baa-bdde-749419871fb3?dark=false\"></iframe>",
+      "published": true,
+      "featured": true
+    },
+    {
       "number": 3,
       "title": "Native American Sound Recordings, Communities, and the Federal Cylinder Project",
       "guest": "Judith Gray",
