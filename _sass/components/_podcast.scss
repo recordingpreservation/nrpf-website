@@ -16,6 +16,37 @@ img.podcast-episode-image {
   box-shadow: 0 4px 12px rgba(0, 86, 135, 0.15);
 }
 
+// Podcast press kit button
+.podcast-press-kit-button-wrapper {
+  text-align: center;
+  margin: 40px 0;
+}
+
+a.podcast-press-kit-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 32px;
+  background: $primary;
+  color: $white;
+  text-decoration: none !important;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 86, 135, 0.2);
+
+  &:hover {
+    background: #5A352A;
+    color: $white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(90, 53, 42, 0.3);
+    text-decoration: none !important;
+  }
+}
+
 // Podcast Hero Section
 .podcast-hero {
   padding: 0 0 60px 0;

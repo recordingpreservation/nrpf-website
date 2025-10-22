@@ -27,7 +27,7 @@ The episode introduces the Citizen DJ project. The project uses historical audio
 
 Explore Citizen DJ on your own at [www.citizen-dj.labs.loc.gov](http://www.citizen-dj.labs.loc.gov) and dive deeper into the Library of Congress' vast audio collection at [www.loc.gov/audio/](http://www.loc.gov/audio/).
 
-# Listen Now
+## Listen Now
 
 {% assign episode_data = site.data.podcast-soundfiles.episodes | where: "number", page.episode_number | first %}
 {% if episode_data.embed-code %}
@@ -36,12 +36,10 @@ Explore Citizen DJ on your own at [www.citizen-dj.labs.loc.gov](http://www.citiz
 
 {% include podcast-subscribe-buttons.html %}
 
-### Episode Credits
+## Episode Credits
 
 Sound Files is presented by the National Recording Preservation Foundation (NRPF), an independent nonprofit dedicated to preserving recorded sound history with generous support from the University of Michigan School of Information and other NRPF supporters. Learn more or make a donation at [www.recordingpreservation.org](http://www.recordingpreservation.org).
 
 Jesse Johnston, creator of Sound Files and a Clinical Assistant Professor at the University of Michigan School of Information, hosts the podcast. Teresa Carey is the senior producer, editor, and creative lead for Morse Alpha Studios, which produced this podcast. Writing is by Jacob Pinter, field production by Steve Lack, and sound engineering by Ben Carey. Original music by Evan Haywood.
 
-## About the Podcast
-
-Find out all about _Sound Files_ on our main [podcast page and press kit]({% link _programs/nrpf-podcast.md %}).
+{% include podcast-press-kit-button.html %}
