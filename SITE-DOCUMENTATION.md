@@ -84,6 +84,7 @@ Jane Smith is the Chair of the NRPF Board of Directors...
 - **Advisory Board**: `role: advisor`
 - **Staff Members**: `staff: true`
 - **Former Directors**: `role: emeritus_director`
+- **SoundFiles podcast**: `soundfiles_team: true` (Note: requires additional metadata fields as noted below)
 
 ---
 
