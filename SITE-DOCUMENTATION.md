@@ -4,8 +4,9 @@ This document provides guidance for adding and managing content on the National 
 
 ## Table of Contents
 
-- [News & Blog Posts](#news--blog-posts)
-  - [Add a Blog Post](#add-a-blog-post)
+- [Feature Content](#news--blog-posts)
+  - [Add a Blog/Feature Post](#add-a-blog-post)
+  - [Add a Press Release](#add-a-press-release)
   - [Add a Podcast Episode](#add-a-new-podcast-episode-complete-workflow)
 - [People & Team](#people--team)
   - [Add a Team Member](#add-a-team-member)
@@ -366,7 +367,6 @@ Press releases will appear in the news section and can be distributed to media c
 
 ---
 
-### Add a Podcast Episode Post
 ### Add a New Podcast Episode (Complete Workflow)
 
 When publishing a new podcast episode, you need to update two files to ensure the episode appears correctly across the site. Follow these steps in order:
