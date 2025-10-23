@@ -151,6 +151,12 @@
             "level": "Sustainer",
             "sort": "levin",
             "year": 2025
+        },
+        {
+            "display_name": "The Kitchen Sisters",
+            "level": "Sustainer",
+            "sort": "kitchen",
+            "year": 2025
         }
     ],
     "supporters": [
@@ -207,6 +213,13 @@
             "sort": "invisible",
             "url": "https://invisibleengines.com/",
             "service": "expert graphic design"
+        },
+        {
+            "display_name": "MorseAlpha",
+            "level": "supporters",
+            "sort": "morse",
+            "url": "https://morsealpha.com/",
+            "service": "podcast production and consulting"
         }
     ]
 }
