@@ -1,5 +1,5 @@
 ---
-title: "Sound Files Podcast"
+title: "Sound Files: The NRPF Podcast"
 permalink: "/programs/podcast/"
 date: 2023-10-10
 weight: 3
@@ -13,9 +13,9 @@ elevator_pitch: "If you ever wondered what it takes to preserve historic sounds,
 show_support_details: false
 ---
 
-{% include podcast-latest-episode.html %}
-
 {% include podcast-hero.html %}
+
+{% include podcast-latest-episode.html %}
 
 ## About the Podcast
 
