@@ -13,9 +13,9 @@ elevator_pitch: "If you ever wondered what it takes to preserve historic sounds,
 show_support_details: false
 ---
 
-{% include podcast-hero.html %}
-
 {% include podcast-latest-episode.html %}
+
+{% include podcast-hero.html %}
 
 ## About the Podcast
 
