@@ -200,6 +200,13 @@
             "display_name": "Rabbaig & Haque Certified Public Accountants",
             "level": "supporters",
             "sort": "rabbaig"
+        },
+        {
+            "display_name": "Invisible Engines",
+            "level": "supporters",
+            "sort": "invisible",
+            "url": "https://invisibleengines.com/",
+            "service": "expert graphic design"
         }
     ]
 }
