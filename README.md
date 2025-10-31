@@ -2,24 +2,7 @@
 
 ## Site design template
 
-The site was built using Serif, a modern business theme for Jekyll, as an underlying design and architecture. This theme was created by Zerostatic Themes:
-
-[Live Demo](https://jekyll-serif.netlify.app/) |
-[Zerostatic Themes](https://www.zerostatic.io)
-
-## Deployment
-
-### Netlify
-
-Use Netlify to deploy this theme. This theme contains a valid and tested `netlify.toml` - Feel free to use the 1-click deploy below.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/zerostaticthemes/jekyll-serif-theme)
-
-### Github Pages
-
-This theme has been tested to work with Github Pages (and Github Project Pages). When using Github Pages you will need to update the `baseurl` in the `_config.yml` otherwise all the css, images and paths will be broken.
-
-For example the site https://zerostaticthemes.github.io/jekyll-serif-theme would have `baseurl: "/jekyll-serif-theme/"`
+The site was originally built using the Serif theme from Zerostatic themes. Serif provides a modern business theme for Jekyll, as an underlying design and architecture. Significant modification of the underlying structure and design was undertaken in 2024 & 2025. If you want to use the original Serif theme, you can see it at the [Live Demo](https://jekyll-serif.netlify.app/) or learn more at [Zerostatic Themes](https://www.zerostatic.io).
 
 ## Extras
 
