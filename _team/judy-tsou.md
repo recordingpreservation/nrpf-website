@@ -5,12 +5,14 @@ image: images/team/judy-tsou-sqr.jpg
 jobtitle: "Director"
 linkedinurl: 
 short_bio: "University of Washington (emeritus)"
+staff: false
+sort_name: tsou
 promoted: true
 role: board
-weight: 8
-staff: false
-staff_role:
-sort_name: tsou
+board_member: true
+board_position: "Member"
+board_committees:
+  - grants
 current_term_start: 2024
 current_term_end: 2028
 updated: 2024-01-19

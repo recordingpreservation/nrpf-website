@@ -7,12 +7,14 @@ linkedinurl: https://www.linkedin.com/in/sam-brylawski-bba9339/
 short_bio: "American Discography Project"
 promoted: true
 role: board
-weight: 3
+board_member: true
+board_position: "Member"
+board_committees:
+  - grants
 staff: false
-staff_role: 
-sort_name: brylawski
 current_term_start: 2024
 current_term_end: 2028
+sort_name: brylawski
 updated: 2024-01-19
 ---
 

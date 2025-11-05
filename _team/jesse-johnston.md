@@ -9,6 +9,15 @@ short_bio: "University of Michigan School of Information"
 promoted: true
 weight: 2
 role: board
+board_member: true
+board_position: "Secretary"
+board_committees:
+  - grants
+  - executive committee
+term1_start: 2024
+term1_end: 2028
+current_term_start: 2024
+current_term_end: 2028
 staff: true
 staff_role: "Executive Director"
 sort_name: johnston
@@ -19,10 +28,6 @@ podcast_role: "Host"
 podcast_image: true
 podcast_bio_pilot: "Jesse A. Johnston, M.S.I., Ph.D., serves as Executive Director and Secretary of NRPF. He is a Clinical Assistant Professor at the [University of Michigan School of Information](https://www.si.umich.edu/people/jesse-johnston). He has worked in various archival and library rules, including at the Library of Congress, the Smithsonian Center for Folklife and Cultural Heritage, and the National Endowment for the Humanities. Learn more about Jesse at <www.jesseajohnston.net>."
 podcast_bio: "Jesse is the creator, executive producer, and host of _Sound Files_. He is the Secretary and Executive Director of NRPF and a Clinical Assistant Professor at the [University of Michigan School of Information](https://www.si.umich.edu/people/jesse-johnston). He has worked in various archival and library roles, including at the Library of Congress, the Smithsonian Center for Folklife and Cultural Heritage, and the National Endowment for the Humanities. Learn more about Jesse at <https://www.jesseajohnston.net/>."
-term1_start: 2024
-term1_end: 2028
-current_term_start: 2024
-current_term_end: 2028
 updated: 2024-06-02
 ---
 
