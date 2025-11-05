@@ -1,16 +1,19 @@
 ---
 title: "Dr. Carla Hayden"
 date: 2023-05-01
-jobtitle: "Librarian of Congress"
-linkedinurl: "https://www.loc.gov/about/about-the-librarian/"
+jobtitle: "14th Librarian of Congress"
+url: "https://www.loc.gov/item/n91118623/carla-hayden/"
 weight: 1
-role: ex-officio
+role: 
+  - emeritus
+  - emeritus_director
 sort_name: hayden
 ---
 
-Carla Hayden is the 14th Librarian of Congress and
-serves as an ex officio member of the NRPF Board of Directors.
+Dr. Carla Hayden served as the 14th Librarian of Congress, and
+while Librarian she was also an ex officio member of the NRPF Board of Directors.
 Dr. Hayden was sworn in as the Librarian of Congress on September 14, 2016,
-and is the first woman and the first African American to lead the Library.
+and was the first woman and the first African American to lead the Library of Congress.
+Dr. Hayden served as Librarian of Congress until May 2025.
 
-[Learn more about Dr. Hayden]({{ page.linkedinurl }})
+[Learn more about Dr. Hayden]({{ page.url }})
