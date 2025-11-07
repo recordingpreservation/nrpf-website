@@ -6,7 +6,7 @@ linkedinurl: "https://www.linkedin.com/in/madison-haack/"
 personal_url: 
 jobtitle: "NRPF Grants Management Intern (2024)"
 short_bio: 
-role: emeritus
+role: emeritus_staff
 sort_name: haack
 ---
 

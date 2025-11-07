@@ -4,7 +4,7 @@ date: 2014-11-19T10:47:58+10:00
 image: 
 jobtitle: "Social Media Manager (2013)"
 short_bio: 
-role: emeritus
+role: emeritus_staff
 sort_name: "levay"
 ---
 

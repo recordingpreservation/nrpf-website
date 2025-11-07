@@ -37,7 +37,7 @@ bodyClass: "page-teams"
     <!-- Emeritus members -->
     <h2><a name="emeritus"></a>Former NRPF Directors and Staff</h2>
         <div class="row pt-6 pb-6">
-            {% assign teams = site.team | where: "role", "emeritus" | sort: "sort_name" %}
+            {% assign teams = site.team | where: "role", "emeritus_staff" | sort: "sort_name" %}
             {% for team in teams %}
             <div class="col-12 col-md-4 mb-3">
                 <div class="team team-summary">
