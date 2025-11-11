@@ -15,7 +15,3 @@ We do not directly commission engineers, studios, or vendors.
 We share essays, podcast episodes, and occasional news via our email list. Add your name to get updates from NRPF!
 
 {% include subscribe-form-emailocto %}
-
-## Find Us on Social Media
-
-{% include social-links-html %}
