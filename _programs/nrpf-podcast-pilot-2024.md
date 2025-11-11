@@ -2,7 +2,7 @@
 title: "Sound Files Podcast Pilot Season"
 permalink: "/programs/podcast/pilot/"
 date: 2023-10-10
-weight: 3
+weight: 9
 teaser: "NRPF's podcast shares stories about the preservation of recorded sound, as well as the people and organizations who preserve them."
 layout: page
 description: "Sound Files, a podcast from the National Recording Preservation Foundation (NRPF), celebrates and explains the preservation of recorded sounds and the people and organizations who preserve them."

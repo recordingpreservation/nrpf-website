@@ -2,7 +2,7 @@
 title: "What Is at Stake?"
 date: 2023-05-01
 permalink: /reports-and-data/
-weight: 1
+weight: 6
 teaser: "Without action and dedicated resources, unique and irreplaceable audio heritage may be lost."
 layout: page-with-hero
 hero_image: true
