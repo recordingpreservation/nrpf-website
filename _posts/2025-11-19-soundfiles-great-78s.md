@@ -8,10 +8,10 @@ categories:
   - sound files
   - community
   - audio preservation
-description: "Ready to step back in time? This episode explores The Great 78 Project, where folks like George Blood are preserving old records as digital treasures."
+description: "Ready to step back in time? This episode explores The Great 78 Project, an initiative by the Internet Archive and George Blood Audio to preserve old records as digital treasures."
 image: "/images/podcast/soundfiles-ep05-promo1.png"
 episode_number: 5
-episode_description: "Ready to step back in time? This episode explores The Great 78 Project, where folks like George Blood are preserving old records as digital treasures."
+episode_description: "Ready to step back in time? This episode explores The Great 78 Project, an initiative by the Internet Archive and George Blood Audio to preserve old records as digital treasures."
 episode_date: 2025-11
 episode_title: "The Great 78 Project: A Battle to Save Historic Sounds"
 podcast_episode: true
@@ -20,9 +20,7 @@ postClass: "page-podcast"
 
 ![NRPF Sound Files episode graphic for The Great 78s]({% link images/podcast/soundfiles-ep05-promo1.png %}){:.podcast-episode-image}
 
-Ready to step back in time? This episode explores The Great 78 Project, which is working
-to preserve fragile shellac records, also known as "78s" because of the speed. We talk to people like
-Brewster Kahle, George Blood, and others working on The Great 78 Project, which is preserving these old sound recordings as digital treasures. Hear about how they're bringing jazz, blues, and forgotten voices back to life. Along the way, you'll hear how they've perfected the process with fancy turntables and multiple needles, and why preserving these fragile sounds matters for history, music, and culture buffs everywhere.
+Ready to step back in time? Join Sound Files in an exploration of The Great 78 Project, a major initiative by the Internet Archive to preserve hundreds of thousands of fragile shellac discs (aka "78s"). We meet folks like preservationists George Blood and Brewster Kahle who are working to preserve old records by making them digital. The project brings jazz, blues, and forgotten voices back to life. You'll also meet educator Jason Luther. Along the way, hear about how they've perfected the digitization process with fancy turntables and multiple needles, and why preserving these fragile sounds matters for history, music, and culture buffs everywhere.
 
 But it’s not all smooth sailing. High-stakes legal challenges are shaping the future of access to this treasure trove of sound. Major publishers and preservationists don't necessarily agree on the best ways to provide access to the preserved recordings. The episode wraps up with the latest update in this battle: after a long fight, the matter was settled out of court. Still, the work to preserve and share history continues, and we continue to face big questions about access, control, and the sustainability of cultural memory.
 
