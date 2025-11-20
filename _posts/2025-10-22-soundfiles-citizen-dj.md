@@ -1,7 +1,7 @@
 ---
 title: "Citizen DJ Drops a New Spin on History"
 date: 2025-10-22
-author: "Jesse Johnston"
+author: 
 categories:
   - blog
   - podcast

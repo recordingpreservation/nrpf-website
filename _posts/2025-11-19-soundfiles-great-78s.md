@@ -1,7 +1,7 @@
 ---
 title: "The Great 78 Project Battles to Save Historic Sounds"
 date: 2025-11-19
-author: "Jesse Johnston"
+author: 
 categories:
   - blog
   - podcast
