@@ -47,6 +47,8 @@ main:
         url: "/news/#press-releases"
       - name: "Features"
         url: "/features/"
+      - name: "Subscribe to Our Newsletter"
+        url: "/subscribe/"
       - name: "divider"
       - name: "All News"
         url: "/news/"
