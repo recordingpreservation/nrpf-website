@@ -23,7 +23,7 @@ In 2025, we have renewed and redoubled our efforts to make impactful grants that
 
 NRPF has been giving grants to support audio preservation since 2016! Those I mentioned above are just some of the [sound collections that NRPF has supported in its first decade of grant giving]({% link _programs/nrpf-grants.md %}). The outcomes of NRPF's first decade provides a solid foundation from which we can renew. As we build on that foundation, I'm excited about what we can accomplish in 2026, the beginning of NRPF's next decade!
 
-As readers of our NRPF blog, therefore, I'm asking you to consider a 2025 year-end gift to the National Recording Preservation Foundation. Giving is easy, just click below!
+As readers of our NRPF blog, therefore, I'm asking you to consider a 2025 year-end gift to the National Recording Preservation Foundation. Giving is easy, [just click here]({% link _pages/donate.md %}) or on the button below!
 
 **Thank you for amplifying our mission!**
 
