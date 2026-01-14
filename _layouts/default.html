@@ -51,6 +51,7 @@
   {% if page.meta_twitter_creator %}<meta name="twitter:creator" content="{{ page.meta_twitter_creator }}"/>{% elsif site.data.seo.meta_twitter_creator %}<meta name="twitter:creator" content="{{ site.data.seo.meta_twitter_creator }}"/>{% endif %}
   <meta name="twitter:title" content="{% if page.meta_title %}{{ page.meta_title }}{% else %}{{ page.title }}"{% endif %} />
   {% if page.image %}<meta name="twitter:image" content="{{ page.image | absolute_url }}" />{% endif %}
+  {% if page.soundfiles_metadata %}{% include soundfiles-metadata-jsonld %}{% endif %}
 
 </head>
 

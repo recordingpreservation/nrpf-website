@@ -11,6 +11,7 @@ as_of: 2025-10-22
 campaign_donate_link: 'https://secure.givelively.org/donate/national-recording-preservation-foundation/sound-files-podcast'
 elevator_pitch: "If you ever wondered what it takes to preserve historic sounds, this podcast is for you! Come and listen to hear about the preservation of recorded sounds and the people and organizations who preserve them."
 show_support_details: false
+soundfiles_metadata: true
 ---
 
 {% include podcast-hero.html %}

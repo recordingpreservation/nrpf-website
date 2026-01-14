@@ -1,0 +1,45 @@
+<script type="application/ld+json">
+  {
+   "@context": "https://schema.org/",
+   "@type": "PodcastSeries",
+   "image": "https://www.recordingpreservation.org/images/podcast/soundfiles-2025-main.png",
+   "url": "https://podcast.recordingpreservation.org/",
+   "name": "Sound Files",
+   "issn": "3070-3743",
+   "description": "Sound Files celebrates the preservation of America's recorded sound heritage through conversations with the archivists, librarians, and preservationists who safeguard our audio treasures. From historic radio broadcasts and musical recordings to oral histories and cultural documentation, discover the fascinating work behind the preservation of historic audio. Sound Files is presented by the National Recording Preservation Foundation, an independent nonprofit chartered by Congress to promote and preserve recorded sound collections across the United States. Join us as we amplify the voices of those working to save the sounds and stories of America for future generations.",
+   "webFeed": "https://feeds.simplecast.com/qv7w_H2z",
+   "creator": {
+     "@type": "Person",
+     "name": "Jesse Johnston"
+   },
+   "producer": {
+    "@type": "Person",
+    "name": "Teresa Carey"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "National Recording Preservation Foundation"
+   },
+   "sponsor": {
+    "@type": "Organization",
+    "name": "University of Michigan School of Information"
+   },
+   "author": [
+    {
+        "@type": "Person",
+        "name": "Jesse Johnston",
+        "url": "https://www.jesseajohnston.net/",
+        "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "orcID",
+            "value": "0000-0003-2617-0166"
+            }
+    },
+    {
+        "@type": "Person",
+        "name": "Teresa Carey"
+    }
+   ],
+   "sameAs": "https://www.recordingpreservation.org/podcast/"
+  }
+</script>
