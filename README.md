@@ -1,4 +1,4 @@
-# National Recording Preservation Foundation 
+# National Recording Preservation Foundation
 
 ## Site design template
 
