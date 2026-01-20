@@ -23,6 +23,16 @@
   ],
   "episodes": [
     {
+      "number": 7,
+      "title": "The Cuttlefish Project: Preserving Unangax̂ Culture",
+      "date": "2026-01-21",
+      "description": "Discover the journey of the Cuttlefish Project, where the voices of the Unangam Tunuu language come alive through archival recordings in Alaska. In this episode of Sound Files, we explore how these valuable tapes were rescued from obscurity and digitized, thanks to the dedicated efforts of educators Ray Hudson, George Pletnikoff Junior, and curator Leslie McCartney.",
+      "link": "https://podcast.recordingpreservation.org/episodes/the-cuttlefish-project",
+      "embed-code": "<iframe height=\"200px\" width=\"100%\" frameborder=\"no\" scrolling=\"no\" seamless src=\"https://player.simplecast.com/fa8624fa-a7e8-4651-bb75-1ff5c7832f73?dark=false\"></iframe>",
+      "published": true,
+      "featured": true
+    },
+    {
       "number": 6,
       "title": "Reviving the Archive: Saving Appalachian Sounds at Appalshop",
       "date": "2025-12-10",
@@ -30,7 +40,7 @@
       "link": "https://podcast.recordingpreservation.org/episodes/reviving-the-appalshop-archive",
       "embed-code": "<iframe height=\"200px\" width=\"100%\" frameborder=\"no\" scrolling=\"no\" seamless src=\"https://player.simplecast.com/81648344-256a-4082-a3f4-f708923a05e8?dark=false\"></iframe>",
       "published": true,
-      "featured": true
+      "featured": false
     },
     {
       "number": 5,
