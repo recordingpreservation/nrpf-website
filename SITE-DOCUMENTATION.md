@@ -201,6 +201,7 @@ episode_description: "1-2 sentence description (optional, can leave empty)"
 episode_date: 2025-10
 episode_title: "Citizen DJ: A New Spin on Historical Sound Preservation"
 podcast_episode: true
+postClass: "page-podcast"
 ---
 ```
 
@@ -212,6 +213,7 @@ podcast_episode: true
 - `podcast_episode`: Set to `true`
 - `image`: Episode cover art or promo image
 - `description`: Can include HTML tags for formatting
+- `postClass`: for pulling in any custom CSS styling in the scss templates
 
 **NB:** the tag `author` can be used if desirable to list the author of the post on the Features page.
 
