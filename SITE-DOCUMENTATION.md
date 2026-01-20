@@ -173,7 +173,7 @@ Press releases will appear in the news section and can be distributed to media c
 
 When publishing a new podcast episode, you need to update two files to ensure the episode appears correctly across the site. Follow these steps in order:
 
-#### Step 1: Create a Blog Post for the Episode
+#### Step 1: Create a Post for the Episode
 
 Create a feature blog post that provides detailed information about the episode.
 
@@ -187,7 +187,6 @@ Create a feature blog post that provides detailed information about the episode.
 ---
 title: "Citizen DJ Drops a New Spin on History"
 date: 2025-10-22
-author: "Jesse Johnston"
 categories:
   - blog
   - podcast
@@ -214,7 +213,9 @@ podcast_episode: true
 - `image`: Episode cover art or promo image
 - `description`: Can include HTML tags for formatting
 
-**Post Content Structure:**
+**NB:** the tag `author` can be used if desirable to list the author of the post on the Features page.
+
+**Post Content Template:**
 
 ```markdown
 ![NRPF Sound Files podcast cover image]({% raw %}{% link images/podcast/soundfiles-ep04-promo-insta2.png %}{% endraw %}){:style="float: left; max-width: 40%; padding: 0 15px 0 0px; margin-top: 0;"}
@@ -250,6 +251,7 @@ Jesse Johnston, creator of Sound Files and a Clinical Assistant Professor at the
 - The episode embed code is automatically pulled from `podcast-soundfiles.json` based on the `episode_number`
 - No need to create separate include files for episode players
 - The floated image should be episode-specific promo art if available
+- if using the above text directly, remove the "raw" tags that are inserted to make the text display correctly in this guide
 
 ---
 
@@ -309,9 +311,12 @@ After completing the above steps, the episode should automatically appear in:
 **Checklist:**
 - [ ] Created blog post in `_posts/` with all required front matter fields
 - [ ] Included `sound files` in categories
+- [ ] Add episode cover image to `images/podcast/...`
+- [ ] Add episode social graphic for features to `images/podcast...`
 - [ ] Added episode to `_data/podcast-soundfiles.json` at the top of the array
 - [ ] Verified `episode_number` matches in both JSON and blog post
 - [ ] Ensured embed-code quotes are properly escaped in JSON (`\"`)
+- [ ] create correct relative links to graphics and cover image
 - [ ] Tested that episode appears in Latest Episode section
 - [ ] Confirmed episode shows in Recent Episodes list
 - [ ] Checked that blog post link works from episode players
