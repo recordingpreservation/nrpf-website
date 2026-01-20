@@ -45,3 +45,19 @@ If you like the pod, subscribe on your favorite podcast service, leave a review,
 ## Meet the Sound Files Team
 
 {% include podcast-team-cards.html %}
+
+## Publishing Details (Colophon)
+
+The podcast is published and distributed by the National Recording Preservation Foundation (NRPF). The following information represents the most current and complete publishing information about the series:
+
+- **Title:** Sound Files
+- **Publisher:** National Recording Preservation Foundation
+- **Creator and Host:** Jesse A. Johnston
+- **Producer**: Teresa Carey
+- **ISSN:** 3070-3743
+- **Description:** Sound Files celebrates the preservation of America's recorded sound heritage through conversations with the archivists, librarians, and preservationists who safeguard our audio treasures. From historic radio broadcasts and musical recordings to oral histories and cultural documentation, discover the fascinating work behind the preservation of historic audio. Sound Files is presented by the National Recording Preservation Foundation, an independent nonprofit chartered by Congress to promote and preserve recorded sound collections across the United States. Join us as we amplify the voices of those working to save the sounds and stories of America for future generations.
+- **URL:** <https://podcast.recordingpreservation.org/>
+- **Format:** Serial Podcast
+- **Frequency:** Episodes are released monthly, during the podcast's regular seasons
+- **First Publication Date:** May 2024
+- **Distribution:** Episodes can be streamed at <https://podcast.recordingpreservation.org/> or found on all major podcast platforms, including [Apple Podcasts]({{ site.data.podcast-soundfiles.links[0].link }}), [Spotify]({{ site.data.podcast-soundfiles.links[1].link }}), [YouTube]({{ site.data.podcast-soundfiles.links[3].link }}), [Amazon]({{ site.data.podcast-soundfiles.links[2].link }}), and elsewhere
