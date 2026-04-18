@@ -506,6 +506,7 @@ description: "Full SEO description"
 
 ```yaml
 image: "/images/program-image.jpg"
+program_cover_image: "/images/programs/program-name-cover.jpg"   # 720x360px, shown on home page cards
 campaign_donate_link: 'https://donate-link-here'
 elevator_pitch: "One-line pitch for the program"
 ```
