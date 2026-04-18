@@ -9,9 +9,12 @@ grantsCount: 23
 grantsStatesReached: 
 grantsHoursPreserved: 
 donationsTotal:
+
 # centralize CFP information
 cfp: inactive
 cfp-title: "2025 NRPF Preservation Grants"
+
+# CFP - 2025 Information
 cfp-deadline: 2025-06-30
 cfp-application-link: "https://form.typeform.com/to/QDzTSAPB"
 cfp-relative-link: "/programs/grants/2025-call-for-proposals/"
