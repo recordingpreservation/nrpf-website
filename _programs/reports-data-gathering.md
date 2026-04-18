@@ -2,8 +2,9 @@
 title: "What Is at Stake?"
 date: 2023-05-01
 permalink: /reports-and-data/
-weight: 6
+weight: 3
 teaser: "Without action and dedicated resources, unique and irreplaceable audio heritage may be lost."
+program_card_image: "/images/illustrations/cover-program-atrisk.jpg"
 layout: page-with-hero
 hero_image: true
 hero_image_path: "images/blog/loc-facade-west-cropped.png"
