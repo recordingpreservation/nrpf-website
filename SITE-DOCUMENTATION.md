@@ -620,6 +620,7 @@ This creates a redirect from `/podcast/` to `/programs/podcast/`.
 - **Team Photos**: 200x200px minimum, square crop, stored in `images/team/`
 - **Featured Images**: 1200x630px for social media sharing
 - **Program/Page Headers**: 1600x900px recommended
+- **Program Cover Images (home page cards)**: 720x360px (2:1 ratio) recommended. Images are displayed at ~360x180px on standard screens; 720x360px provides 2× resolution for retina/HiDPI displays. Store in `images/programs/`. Set via the `program_cover_image` front matter field (see Programs section).
 
 ### Markdown Tips
 
