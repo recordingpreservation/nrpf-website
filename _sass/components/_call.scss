@@ -58,6 +58,23 @@
       color: rgba($white, 0.85);
     }
   }
+}
+
+.page-contact .call {
+  .call-name {
+    color: $black;
+  }
+  .call-phone {
+    color: $black;
+  }
+  .call-email {
+    a {
+      color: $primary;
+    }
+  }
+  .call-address {
+    color: $black;
+  }
   strong {
     font-weight: bold;
   }
