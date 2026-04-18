@@ -16,6 +16,17 @@
     }
   }
 
+  // Program strip styling
+  .program-strip .title h1 {
+    color: $cream;
+  }
+
+  .program-strip .button {
+    color: $primary-dark;
+    background: $cream;
+    margin-top: 12px;
+  }
+
   // Responsive spacing improvements
   .strip {
     padding-top: 40px;
