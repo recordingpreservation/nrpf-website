@@ -26,7 +26,8 @@
   {% endif %}
   {% if include.show_button %}
       <div class="call-box-bottom">
-        <a href="{% if page.donate_button_link %}{{ page.donate_button_link }}{% else %}{{ site.data.donate.donate_button_link }}{% endif %}" class="button">{% if page.donate_button_text %}{{ page.donate_button_text }}{% else %}{{ site.data.donate.donate_button_text }}{% endif %}</a>
+        <a href="{% if page.donate_button_link %}{{ page.donate_button_link }}{% else %}{{ site.data.donate.donate_button_link }}{% endif %}" class="button button-donate" aria-label="Donate to the National Recording Preservation Foundation">{% if page.donate_button_text %}{{ page.donate_button_text }}{% else %}{{ site.data.donate.donate_button_text }}{% endif %}</a>
+        <p class="donate-trust-line">Donate securely</p>
       </div>
     {% endif %}
 </div>

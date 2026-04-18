@@ -1,3 +1,28 @@
+.button-donate {
+  white-space: nowrap;
+  display: inline-block;
+  height: auto;
+  line-height: 1.4;
+  padding: 16px 32px;
+  background: $nrpf-red;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(163, 59, 32, 0.25);
+  transition: all 0.3s ease;
+  &:hover {
+    color: #ffffff;
+    background-color: darken($nrpf-red, 10%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(163, 59, 32, 0.35);
+    text-decoration: none;
+  }
+}
+
 .button {
   white-space: nowrap;
   display: inline-block;
