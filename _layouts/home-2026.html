@@ -58,14 +58,19 @@ bodyClass: "page-home"
 
 <!-- call to action strip -->
 <div class="strip strip-donate">
-  <div class="container pt-5 pb-6">
-    <div class="row justify-content-start">
-    {% if page.show_call_box %}
-      {% include call.html show_button=true %}
-    {% endif %}
-    {% if page.donate_show_box %}
-      {% include donate-box.html show_button=true %}
-    {% endif %}
+  <div class="container pt-6 pb-7">
+    <div class="row align-items-center">
+      {% if page.donate_cta_image %}<div class="col-12 col-md-5">
+        <img src="{{ page.donate_cta_image | relative_url }}" alt="Without action and dedicated resources, our irreplaceable audio heritage may be lost. Join us in saving the sounds of America." class="img-fluid donate-cta-image" />
+      </div>{% endif %}
+      <div class="col-12 col-md-7">
+        {% if page.show_call_box %}
+          {% include call.html show_button=true %}
+        {% endif %}
+        {% if page.donate_show_box %}
+          {% include donate-box.html show_button=true %}
+        {% endif %}
+      </div>
     </div>
   </div>
 </div>

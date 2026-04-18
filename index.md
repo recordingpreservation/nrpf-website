@@ -8,8 +8,10 @@ intro_image_hide_on_mobile: true
 show_call_box: false
 donate_show_box: true
 donate_button_text: 'Donate Now!'
-donate_call_to_action: '<p class="donate-headline">Help us save audio history before it&rsquo;s gone!</p><p>We preserve at-risk audio collections through grants and engaging programs. NRPF is a registered 501(c)(3) organization and all donations are tax deductible to the extent allowed by law.</p>'
+donate_headline: 'Help us save audio history before it&rsquo;s too late!'
+donate_call_to_action: '<p>We preserve at-risk audio collections through grants and engaging programs. NRPF is a registered 501(c)(3) organization and all donations are tax deductible to the extent allowed by law.</p>'
 donate_button_link: '/donate/'
+donate_cta_image: '/images/illustrations/cta-cream.jpg'
 ---
 
 # Saving the Sounds of America
