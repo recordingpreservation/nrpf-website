@@ -1,0 +1,63 @@
+---
+layout: default
+bodyClass: "page-home"
+---
+
+<div class="intro">
+  <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+        {{ content }}
+        {% if page.show_call_box %}
+          {% include call.html show_button=true %}
+        {% endif %}
+        {% if page.donate_show_box %}
+          {% include donate-box.html show_button=true %}
+        {% endif %}
+      </div>
+      {% if page.intro_image %}
+      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+        <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<!-- programs -->
+<div class="strip strip-primary program-strip">
+  <div class="container pt-6 pb-6 pb-md-10">
+    <div class="row justify-content-start">
+      <div class="section title col-12">
+        <h1 class="title">Current NRPF Initiatives</h1>
+      </div>
+      
+      {% assign limit = site.home.limit_services | default: 6 %}
+      {% assign programs = site.programs | sort: "weight" %}
+      {% for program in programs limit: limit %}
+      <div class="col-xs-12 col-md-4 mb-1">
+        <article class="card">
+          {% if program.program_card_image %}
+          <img class="card-img-top img-responsive" style="width: 100%;" src="{{ program.program_card_image | relative_url }}" alt="Graphic for {{ program.title }}" />
+          {% endif %}
+          <div class="card-block">
+            <h2 class="card-title service-title">
+              <a href="{{ program.url | relative_url }}">{% if program.program_card_title %}{{ program.program_card_title }}{% else %}{{ program.title }}{% endif %}</a>
+            </h2>
+            {% if program.teaser %}
+            <p class="card-text">{{ program.teaser }}</p>
+            {% else %}
+            <p class="card-text">{{ program.content | markdownify | strip_html | truncate: 100 }}</p>
+            {% endif %}
+          </div>
+        </article>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-auto">
+        <a class="button button-primary" href="{{ "our-work" | relative_url }}">View All Programs</a>
+      </div>
+    </div>
+  </div>
+</div>
