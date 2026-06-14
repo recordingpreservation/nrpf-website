@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "National Recording Preservation Foundation Awards $7,130 to Preserve Pulitzer-Winning Journalist Laurie Garrett’s Audio Archives"
 date: 2026-06-12
 author: "Jesse Johnston"
 location: "Ann Arbor, Mich."
