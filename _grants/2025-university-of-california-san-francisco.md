@@ -2,7 +2,7 @@
 title: "Digitizing Tapes from the Laurie Garrett Collection"
 collection: grants
 type: grant
-amount: "$7,130.00 "
+amount: "$7,130.00"
 year: 2025
 recipient: University of California, San Francisco
 location: "San Francisco, CA"
