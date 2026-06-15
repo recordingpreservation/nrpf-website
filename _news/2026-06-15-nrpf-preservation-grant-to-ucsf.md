@@ -1,5 +1,5 @@
 ---
-title: "National Recording Preservation Foundation Awards $7,130 to Preserve Pulitzer-Winning Journalist Laurie Garrett's Audio Archives"
+title: "National Recording Preservation Foundation Awards $7,130 to Preserve Pulitzer-Winning Journalist Laurie Garrett’s Audio Archives"
 date: 2026-06-15
 author: "Jesse Johnston"
 location: "Ann Arbor, Mich."
@@ -13,7 +13,7 @@ tags:
 description: "The National Recording Preservation Foundation granted $7,130 to the University of California, San Francisco, to preserve Pulitzer-winning journalist Laurie Garrett's HIV/AIDS-era audio archives."
 ---
 
-{% if page.location %}{{ page.location | upcase }} --- {% endif %}The National Recording Preservation Foundation (NRPF) has awarded $7,130 to the University of California, San Francisco (UCSF) Library, Archives and Special Collections (UCSF Archives) to digitize and preserve 252 audiocassettes from the papers of Pulitzer Prize-winning journalist Laurie Garrett. Garrett's career began in the 1970s and she is known as one of the most prescient voices in public health reporting of the past half-century.
+{% if page.location %}{{ page.location | upcase }} --- {% endif %}The National Recording Preservation Foundation (NRPF) has awarded $7,130 to the University of California, San Francisco (UCSF) Library, Archives and Special Collections (UCSF Archives) to digitize and preserve 252 audiocassettes from the collection of Pulitzer Prize-winning journalist Laurie Garrett at UCSF Archives. Garrett's career began in the 1970s and she is known as one of the most prescient voices in public health reporting of the past half-century.
 
 The recordings, spanning the years 1979 to 2000, document Garrett's groundbreaking investigative work on infectious disease, HIV/AIDS, and global health crises. The collection was acquired by UCSF in 2013 as part of an ongoing initiative to preserve the history of the HIV/AIDS epidemic, but the audio recordings have remained inaccessible to researchers, since they were stored in off-site boxes and unplayable without specialized equipment. Many of the recordings are on physical media that exceeds 40 years in age, largely recorded on audiocassettes, a magnetic tape recording medium subject to growing risks of deterioration. With this grant, UCSF Archives will contract with The Media Preserve, a preservation-quality digitization vendor, to convert approximately 250 to 275 hours of content into preservation-quality digital surrogates. In addition, metadata and transcripts will be created to make the recordings discoverable through the Online Archive of California.
 
@@ -31,4 +31,4 @@ The digitized recordings will be preserved in the Merritt Digital Preservation R
 
 The University of California, San Francisco is exclusively focused on the health sciences and is dedicated to promoting health worldwide through advanced biomedical research, graduate-level education in the life sciences and health professions, and excellence in patient care. Learn more at [ucsf.edu](https://www.ucsf.edu/).
 
-The National Recording Preservation Foundation is an independent charitable organization that promotes the preservation of historical and at-risk audio collections through grants, programs, and partnerships. Grants decided in 2025 were made possible with generous support from the Recording Industry Association of America, the Music Library Association, and other donors who make the Foundation's work possible. To learn more about the Foundation, or to hear NRPF's podcast Sound Files, which features audio clips of many recordings preserved with NRPF support, visit the Foundation's website at [recordingpreservation.org](https://www.recordingpreservation.org/).
+The National Recording Preservation Foundation is an independent charitable organization that promotes the preservation of historical and at-risk audio collections through grants, programs, and partnerships. NRPF's 2025 Preservation Grants were made possible with generous support from the Recording Industry Association of America, the Music Library Association, and other donors. To learn more about the Foundation, or to hear NRPF's podcast Sound Files, which features audio clips of many recordings preserved with NRPF support, visit the Foundation's website at [recordingpreservation.org](https://www.recordingpreservation.org/).
