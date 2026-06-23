@@ -11,7 +11,7 @@ main:
     subitems:
       - name: "About NRPF"
         url: "/about/"
-      - name: "Board of Directors"
+      - name: "Directors and Advisors"
         url: "/about/board/"
       - name: "People"
         url: "/about/people/"
