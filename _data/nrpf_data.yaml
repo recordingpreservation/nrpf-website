@@ -11,10 +11,10 @@ grantsHoursPreserved:
 donationsTotal:
 
 # centralize CFP information
-cfp: inactive # active or inactive
-cfp-title: "2025 NRPF Preservation Grants"
+cfp: active # active or inactive
+cfp-title: "2026 NRPF Preservation Grants"
 
 # CFP - Active Information
-cfp-deadline: 2025-06-30
-cfp-application-link: "https://form.typeform.com/to/QDzTSAPB"
-cfp-relative-link: "/programs/grants/2025-call-for-proposals/"
+cfp-deadline: 2026-07-31
+cfp-application-link: "https://form.typeform.com/to/uY27ejuh"
+cfp-relative-link: "/programs/grants/2026-call-for-proposals/"

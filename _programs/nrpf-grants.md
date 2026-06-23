@@ -17,6 +17,13 @@ that are stored on at-risk or obsolete physical media.
 Since 2016, the Foundation has distributed over a quarter of a million dollars
 to promote and preserve recorded sound history.
 
+{% if site.data.nrpf_data.cfp == "active" %}
+NRPF currently welcomes proposals for {{ site.data.nrpf_data.cfp-title }}. **[Please refer to details at the call for proposals]({{ site.data.nrpf_data.cfp-relative-link | relative_url }}). Applications are due {{ site.data.nrpf_data.cfp-deadline | date: "%B %e, %Y" }}.**
+{% else %}
+The Foundation does not currently have any open calls for proposals.
+Please watch our press releases for annnouncements of any pending NRPF grant opportunities.
+{% endif %}
+
 <h2 class="section-header">Impact</h2>
 
 How have our grants supported audio preservation? Take a look at the numbers:
@@ -29,13 +36,6 @@ How have our grants supported audio preservation? Take a look at the numbers:
 
 {% include grants-table-fromcollex.html %}
 
-<h2 class="section-header">Information for Applicants and Grantees</h2>
-
-{% if site.data.nrpf_data.cfp == "active" %}
-NRPF currently welcomes proposals for {{ site.data.nrpf_data.cfp-title }}. **[Please refer to details at the call for proposals]({{ site.data.nrpf_data.cfp-relative-link | relative_url }}). Applications are due {{ site.data.nrpf_data.cfp-deadline | date: "%B %e, %Y" }}.**
-{% else %}
-The Foundation does not currently have any open calls for proposals.
-Please watch our press releases for annnouncements of any pending NRPF grant opportunities.
-{% endif %}
+<h2 class="section-header">Information for Grantees</h2>
 
 Grant recipients should [refer to our grant policies page for more information on policies and reporting]({% link _pages/grant-policies.md %}).
