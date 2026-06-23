@@ -480,6 +480,63 @@ Grants will automatically appear in the grants listing page and can be filtered 
 
 ---
 
+### Open a New Call for Proposals (CFP)
+
+Opening a new grant cycle requires three steps: creating a new CFP page, uploading application documents, and activating the CFP in site data.
+
+#### Step 1: Create the CFP Page
+
+Create a new file at `_grants/cfp-nrpf-grants-YYYY.md`. Copy the previous year's CFP file as a starting point and update the front matter and body text for the new cycle.
+
+**Required Front Matter Fields:**
+
+```yaml
+---
+title: "NRPF Grants: 2027 Call for Proposals"
+date: 2027-06-01
+layout: page
+permalink: "/programs/grants/2027-call-for-proposals/"
+type: cfp
+closed: false
+cfp-deadline: 2027-07-31
+cfp-application-link: "https://form.typeform.com/to/XXXXXXXX"
+---
+```
+
+The `permalink` must match the `cfp-relative-link` value you will set in `nrpf_data.yaml` (Step 3). Set `closed: true` after the deadline passes to display a "this CFP is closed" notice at the top of the page.
+
+#### Step 2: Upload Application Documents
+
+Add the PDF documents to [`assets/files/`](assets/files/):
+
+- `YYYY-cfp-notice-v1.pdf` — the official call for proposals notice
+- `YYYY-cfp-applyform-v1.pdf` — application questions and instructions
+
+Update the links in the CFP page's "Application Resources" section to point to the new files.
+
+#### Step 3: Activate the CFP in Site Data
+
+Edit [`_data/nrpf_data.yaml`](_data/nrpf_data.yaml) and update the CFP fields:
+
+```yaml
+cfp: active                          # change from "inactive" to "active"
+cfp-title: "2027 NRPF Preservation Grants"
+cfp-deadline: 2027-07-31
+cfp-application-link: "https://form.typeform.com/to/XXXXXXXX"
+cfp-relative-link: "/programs/grants/2027-call-for-proposals/"
+```
+
+Setting `cfp: active` causes the grants program page ([`_programs/nrpf-grants.md`](_programs/nrpf-grants.md)) to automatically display the current CFP notice and deadline. The `cfp-relative-link` must match the `permalink` in the CFP page created in Step 1.
+
+#### Step 4: Close a CFP
+
+When the application deadline passes:
+
+1. Set `cfp: inactive` in `_data/nrpf_data.yaml` — this hides the CFP notice on the grants program page and replaces it with a "no open calls" message
+2. Set `closed: true` in the CFP page front matter — this displays a "this call for proposals is closed" notice at the top of the CFP page instead of removing it
+
+---
+
 ## Programs
 
 ### Add a Program
