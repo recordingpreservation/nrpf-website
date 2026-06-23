@@ -13,6 +13,7 @@ This document provides guidance for adding and managing content on the National 
   - [Add a Podcast Team Member](#add-a-podcast-team-member)
 - [Grants](#grants)
   - [Add a Grant](#add-a-grant)
+  - [Open a New CFP](#open-a-new-call-for-proposals-cfp)
 - [Programs](#programs)
   - [Add a Program](#add-a-program)
 - [Pages](#pages)
