@@ -23,6 +23,16 @@
   ],
   "episodes": [
     {
+      "number": 8,
+      "title": "Preserving the Oldest Known Whale Song Recordings",
+      "date": "2026-07-22",
+      "description": "The <em>Sound Files</em> podcast recounts the rediscovery and preservation of the oldest known audio recordings of whalesongs, dated to 1949 and preserved in the collections of the Woods Hole Oceanographic Institition. The WHOI preserved these historic recordings with the support of an NRPF grant.",
+      "link": "https://podcast.recordingpreservation.org/episodes/oldest-whale-song-recordings",
+      "embed-code": "<iframe height=\"200px\" width=\"100%\" frameborder=\"no\" scrolling=\"no\" seamless src=\"https://player.simplecast.com/df5ef5ed-e6e1-4c73-80b6-036f1330647a?dark=false\"></iframe>",
+      "published": true,
+      "featured": true
+    },
+    {
       "number": 7,
       "title": "The Cuttlefish Project: Preserving Unangax̂ Culture",
       "date": "2026-01-21",
@@ -30,7 +40,7 @@
       "link": "https://podcast.recordingpreservation.org/episodes/the-cuttlefish-project",
       "embed-code": "<iframe height=\"200px\" width=\"100%\" frameborder=\"no\" scrolling=\"no\" seamless src=\"https://player.simplecast.com/fa8624fa-a7e8-4651-bb75-1ff5c7832f73?dark=false\"></iframe>",
       "published": true,
-      "featured": true
+      "featured": false
     },
     {
       "number": 6,
