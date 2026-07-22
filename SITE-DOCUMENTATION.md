@@ -178,9 +178,9 @@ When publishing a new podcast episode, you need to update two files to ensure th
 
 Create a feature blog post that provides detailed information about the episode.
 
-**Location:** `_posts/YYYY-MM-DD-soundfiles-ep##-descriptive-title.md`
+**Location:** `_posts/YYYY-MM-DD-soundfiles-descriptive-title.md`
 
-**Example:** `_posts/2025-10-22-soundfiles-ep04-citizen-dj.md`
+**Example:** `_posts/2025-10-22-soundfiles-citizen-dj.md`
 
 **Required Front Matter:**
 
@@ -198,6 +198,7 @@ categories:
 description: "Brief description for SEO and social sharing (can include HTML tags like <em>)"
 image: "/images/podcast/soundfiles-ep04-cover.png"
 episode_number: 4
+episode_guest: Guest Name
 episode_description: "1-2 sentence description (optional, can leave empty)"
 episode_date: 2025-10
 episode_title: "Citizen DJ: A New Spin on Historical Sound Preservation"
@@ -211,10 +212,11 @@ postClass: "page-podcast"
 - `episode_number`: Episode number (must match the number in podcast-soundfiles.json)
 - `episode_title`: Full episode title (used in Latest Episode display)
 - `episode_date`: YYYY-MM format
+- `episode_guest`: Name of guest, if episode is primarily an interview or feature
 - `podcast_episode`: Set to `true`
 - `image`: Episode cover art or promo image
 - `description`: Can include HTML tags for formatting
-- `postClass`: for pulling in any custom CSS styling in the scss templates
+- `postClass`: for pulling in any custom CSS styling in the scss templates, should be "page-podcast"
 
 **NB:** the tag `author` can be used if desirable to list the author of the post on the Features page.
 
