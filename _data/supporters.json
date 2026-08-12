@@ -175,6 +175,12 @@
             "level": "Sustainer",
             "sort": "kitchen",
             "year": 2025
+        },
+        {
+            "display_name": "In memory of Scott David Hall",
+            "level": "Friends",
+            "sort": "hall",
+            "year": "2026"
         }
     ],
     "supporters": [
