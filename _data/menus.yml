@@ -24,7 +24,7 @@ main:
       - name: "divider"
       - name: "Home"
         url: "/"
-  - name: "Our Work"
+  - name: "Programs"
     url: "/programs/"
     weight: 4
     subitems:
@@ -39,7 +39,7 @@ main:
       - name: "divider"
       - name: "All Programs"
         url: "/programs/"
-  - name: "News"
+  - name: "Newsroom"
     url: "/news/"
     weight: 6
     subitems:
