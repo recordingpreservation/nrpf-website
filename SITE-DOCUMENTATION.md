@@ -536,7 +536,7 @@ Setting `cfp: active` causes the grants program page ([`_programs/nrpf-grants.md
 When the application deadline passes:
 
 1. Set `cfp: inactive` in `_data/nrpf_data.yaml` — this hides the CFP notice on the grants program page and replaces it with a "no open calls" message
-2. Set `closed: true` in the CFP page front matter — this displays a "this call for proposals is closed" notice at the top of the CFP page instead of removing it
+2. Set `closed: true` in the CFP page front matter in the corresponding page located at `_grants/cfp*.md` — this displays a "this call for proposals is closed" notice at the top of the CFP page instead of removing it
 
 ---
 
