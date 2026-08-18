@@ -11,7 +11,7 @@ grantsHoursPreserved:
 donationsTotal:
 
 # centralize CFP information
-cfp: active # active or inactive
+cfp: inactive # active or inactive
 cfp-title: "2026 NRPF Preservation Grants"
 
 # CFP - Active Information

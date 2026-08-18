@@ -9,7 +9,7 @@ program-page: false
 grant-list: false
 cfp-deadline: 2026-07-31
 cfp-application-link: "https://form.typeform.com/to/uY27ejuh"
-closed: false
+closed: true
 ---
 
 {% if page.closed %}
