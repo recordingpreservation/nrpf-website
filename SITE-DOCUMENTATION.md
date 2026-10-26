@@ -20,6 +20,13 @@ This document provides guidance for adding and managing content on the National 
   - [Add a Static Page](#add-a-static-page)
 - [Redirects](#redirects)
   - [Create a Redirect](#create-a-redirect)
+- [Branding & Style](#branding--style)
+  - [Color Palette](#color-palette)
+  - [Typography](#typography)
+  - [Logos & Marks](#logos--marks)
+  - [Buttons](#buttons)
+  - [Layout Breakpoints & Spacing](#layout-breakpoints--spacing)
+  - [Where to Change Styles](#where-to-change-styles)
 
 ---
 
@@ -674,6 +681,142 @@ This creates a redirect from `/podcast/` to `/programs/podcast/`.
 
 ---
 
+## Branding & Style
+
+All site styling is written in Sass and compiled by Jekyll. The main stylesheet is [`assets/css/style.scss`](assets/css/style.scss), which defines the site's color and font variables at the top and then imports Bootstrap partials, component partials from [`_sass/components/`](_sass/components/), and page-specific partials from [`_sass/pages/`](_sass/pages/).
+
+### Color Palette
+
+All colors are defined as Sass variables at the top of [`assets/css/style.scss`](assets/css/style.scss). Use the variable name (not the raw hex value) when writing new styles so the palette stays consistent.
+
+**Core brand colors:**
+
+| Variable | Hex | Description | Typical use |
+| --- | --- | --- | --- |
+| `$primary` | `#005687` | NRPF blue | Links, buttons, footer background, banner strips, headings on colored panels |
+| `$primary-dark` | `#003654` | Deep blue | Sub-footer background, headings in features/intros/podcast cards |
+| `$secondary` | `#78a0e6` | Light blue | Gradient partner to `$primary`, blockquote borders, accent rules |
+| `$nrpf-orange` | `#ef7a06` | NRPF orange | Donate button, accent rules and top borders, call-to-action highlights |
+| `$nrpf-brown` | `#5a352a` | NRPF brown | Button hover state, home page panel background |
+| `$nrpf-cream` / `$cream` | `#ebebd3` | NRPF cream | Accent borders, home page panel background/text |
+| `$nrpf-red` | `#a33b20` | NRPF red | Reserved brand color (not currently used in the stylesheets) |
+
+**Neutrals and supporting colors:**
+
+| Variable | Hex | Description | Typical use |
+| --- | --- | --- | --- |
+| `$black` | `#2f2f41` | Near-black (slightly blue) | Page titles, menu text, donate button label |
+| `$steel` | `#5c5a5a` | Warm gray | Default body copy and paragraph text |
+| `$white` | `#ffffff` | White | Text on blue backgrounds, footer text |
+| `$white-offset` | `#e9f7ff` | Very pale blue | Section backgrounds, hairline borders, dropdown menu background |
+| `$nrpf-light-blue` | `#e9f7ff` | Same value as `$white-offset` | Reserved alias (not currently used in the stylesheets) |
+
+**Derived values:**
+
+These are computed from the palette rather than declared separately:
+
+- Link color: `$primary`; link hover: `lighten($primary, 10%)` with underline on hover
+- Footer background: `$primary`; footer text: `$white`
+- Sub-footer background: `darken($primary, 10%)`; sub-footer text: `$white`
+- Donate button hover: `lighten($nrpf-orange, 8%)`
+
+Gradients used in banner strips and team page headings run left-to-right or top-to-bottom from `$primary` to `$secondary`.
+
+### Typography
+
+Two typefaces are used site-wide. Both are loaded from Google Fonts in [`_layouts/default.html`](_layouts/default.html) and assigned to variables in [`assets/css/style.scss`](assets/css/style.scss).
+
+| Variable | Stack | Role |
+| --- | --- | --- |
+| `$font-family-base` | `Montserrat, Helvetica, Arial, sans-serif, -apple-system` | Body text, navigation, buttons, and all headings inside article content |
+| `$font-family-heading` | `"Crimson Text", serif, -apple-system` | Display headings — global `h1`/`h2`, hero/intro headings, footer headings |
+
+**Base sizes** (set on `body` and in [`_sass/components/_type.scss`](_sass/components/_type.scss)):
+
+- Body: 16px, line-height 1.2 (1.3 at `md` and above)
+- Paragraphs: line-height 26px, color `$steel`
+- Global `h1`: 30px (32px at `md`+), Crimson Text
+- Global `h2`: 24px (26px at `md`+), Crimson Text
+- Global `h3`: 16px (20px at `md`+)
+- `.title` (page title): 48px (50px at `lg`+), color `$black`
+
+**Headings inside page/post content** ([`_sass/components/_content.scss`](_sass/components/_content.scss)) deliberately override the global rules and use Montserrat at normal weight:
+
+- `h1`: 34px, line-height 1.26
+- `h2`: 26px, line-height 1.4
+- `h3`: 20px, line-height 1.4
+- Body paragraphs and list items: line-height 1.56, color `$steel`
+
+**Hero/intro headings** ([`_sass/components/_intro.scss`](_sass/components/_intro.scss)) use Crimson Text at 700 weight, 36px scaling up to 52px on large screens.
+
+**Notes on fonts:**
+
+- Several alternate faces (Playfair Display, Libre Baskerville, Libre Caslon Display, Lora, Average Sans, Lato, Nunito Sans) are commented out in [`_layouts/default.html`](_layouts/default.html). They are kept for reference and are not loaded.
+- A self-hosted copy of Playfair Display exists at [`assets/fonts/playfair-display.woff2`](assets/fonts/) with an `@font-face` rule in [`_sass/components/_fonts.scss`](_sass/components/_fonts.scss). That partial's import is commented out in `style.scss`; uncomment it to self-host instead of using Google Fonts.
+
+### Logos & Marks
+
+Logo files live in [`images/logo/`](images/logo/). The header logo is configured in [`_config.yml`](_config.yml) under the `logo:` key (separate desktop and mobile entries with explicit dimensions).
+
+| File | Use |
+| --- | --- |
+| `NRPF_mandala_nobg_white.png` | Header logo, desktop (128px tall) and mobile (100×100px); transparent background, white mark |
+| `nrpf-monogram-logo.png` | Standard monogram |
+| `nrpf-monogram-blue-logo.png` | Monogram in NRPF blue |
+| `nrpf-monogram-clearblack-logo.png` | Monogram, transparent background, black |
+| `nrpf-monogram-clearwhite-logo.png` | Monogram, transparent background, white — for use on dark/blue backgrounds |
+| `nrpf-monogram-shadow-logo.png` | Monogram with drop shadow |
+| `nrpf-seal-2025.png`, `nrpf-seal-624x596.jpeg` | Official seal |
+
+Other brand assets:
+
+- **Favicon**: `images/favicon-32x32.svg` and `images/favicon.png`
+- **Default social sharing image**: `images/social/NRPF-mandala-title-white-blue.png` — used as the `image` value in press releases and any page without its own graphic
+
+### Buttons
+
+Two button styles are defined in [`_sass/components/_buttons.scss`](_sass/components/_buttons.scss). Both use uppercase text, 0.5px letter-spacing, a 6px border radius, and a lift-on-hover transition.
+
+- **`.button`** — standard action button. `$primary` background, white text, 12px/24px padding, 15px font at weight 600. Hover changes the background to `$nrpf-brown`.
+- **`.button-donate`** — donation call to action. `$nrpf-orange` background, `$black` text, 16px/40px padding, 1rem font at weight 700. Hover lightens the orange by 8%.
+
+In templates and includes, apply them as a normal `class` attribute on an `<a>` tag. In Markdown, use Kramdown's inline attribute syntax:
+
+```markdown
+[Donate Now](https://example.org/donate){:.button-donate}
+```
+
+The standard donate call to action on pages is rendered by the [`_includes/donate-box.html`](_includes/donate-box.html) include, which pulls its link and label from [`_data/donate.yml`](_data/donate.yml) unless overridden by `donate_button_link` / `donate_button_text` in page front matter.
+
+### Layout Breakpoints & Spacing
+
+Defined in [`_sass/_bootstrap-variables.scss`](_sass/_bootstrap-variables.scss).
+
+**Breakpoints** (used with the `media-breakpoint-up()` mixin):
+
+| Name | Min width | Container max width |
+| --- | --- | --- |
+| `xs` | 0 | — |
+| `sm` | 576px | 566px |
+| `md` | 768px | 740px |
+| `lg` | 992px | 960px |
+| `xl` | 1300px | 1140px |
+
+**Spacing scale:** the Bootstrap spacer utilities are remapped to a 10px scale — `1` = 10px, `2` = 20px, up through `10` = 100px. The grid gutter is 30px.
+
+### Where to Change Styles
+
+- **Colors, fonts, and global variables:** the top of [`assets/css/style.scss`](assets/css/style.scss)
+- **Breakpoints, containers, spacing:** [`_sass/_bootstrap-variables.scss`](_sass/_bootstrap-variables.scss)
+- **Global typography:** [`_sass/components/_type.scss`](_sass/components/_type.scss)
+- **Article/page body typography:** [`_sass/components/_content.scss`](_sass/components/_content.scss)
+- **Reusable components** (header, footer, menus, buttons, cards, podcast blocks): [`_sass/components/`](_sass/components/)
+- **Page-specific styles:** [`_sass/pages/`](_sass/pages/) — these are scoped to the body/post class set in front matter (`bodyClass` or `postClass`), e.g. `page-home`, `page-teams`, `page-program`, `page-grant`, `page-press-release`, `page-podcast`
+
+To add styles for a new page type, create a partial in `_sass/pages/`, add an `@import` line for it in `style.scss`, and set the matching `bodyClass` or `postClass` in the page's front matter.
+
+---
+
 ## Additional Resources
 
 ### Image Guidelines
@@ -705,4 +848,4 @@ For questions or issues:
 - Review Jekyll documentation at https://jekyllrb.com/docs/
 - Contact the web administrator
 
-**Last Updated:** 2025-10-22
+**Last Updated:** 2026-08-19
