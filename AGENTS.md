@@ -40,3 +40,10 @@ Python helper scripts use a pyenv virtualenv named `nrpf-env` (see `.python-vers
 
 - `_site/`, `.jekyll-cache/`, `vendor/bundle`, and `images/team/original/` are gitignored — never commit them.
 - Commit messages in this repo are short, lowercase, imperative ("close 2026 grants cfp").
+
+## Communication
+
+- Be concise. Don't restate what was done after each action; the user can read the diff and the tool output. In most cases, report only necessary information: the result, anything unexpected, decisions that need their input, or very high level summary.
+- In cases where more complex or ongoing decisions are underway, propose putting the details into a plan document or other reference, which can be used by all contributors to the project.
+- Skip preambles, recaps and closing summaries that repeat earlier messages.
+- Direct user to high-level and significant changes (not every detail!). Users are able to read and consider the changes themselves.
