@@ -4,7 +4,7 @@ Guidance for agents working in/with this repository.
 
 ## What this is
 
-The public website of the **National Recording Preservation Foundation** (recordingpreservation.org) — a Jekyll 4.4 static site deployed via Netlify. It began as the Serif theme from Zerostatic Themes and was substantially rewritten in 2024–2025.
+The public website of the **National Recording Preservation Foundation** (recordingpreservation.org) — a static site built with the Jekyll framework and deployed on GitHub Pages. It began as the Serif theme from Zerostatic Themes, which assumed a Netlify deployment, and was substantially rewritten in 2024–2025.
 
 **`SITE-DOCUMENTATION.md` is the canonical content guide.** It documents how to add news posts, podcast episodes, people, grants, programs, pages, and redirects, plus the branding/style reference (colors, fonts, logos, buttons, breakpoints). Read the relevant section before adding content, and update it when conventions change.
 
